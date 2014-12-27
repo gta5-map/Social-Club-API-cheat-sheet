@@ -17,8 +17,8 @@ So basically, you need to make three requests to pass the authentication:
 
 1. _GET_ "`http://socialclub.rockstargames.com/`" and search for "__RequestVerificationToken". Store it's value (something like `coX4ZFyy9nWwi123eZb1OmeJWLQrM7bcAl_nipsz1ih_-hn8123VnGt41F3GzuJgfFj9igjLEeZb9v-DGIjuzsMRP36e3v1238Z-i3KtVo1231IC0`). Also store cookies in a cookie jar.
 2. _POST_ the following data to "`https://socialclub.rockstargames.com/profile/signin`" (Don't forget to use the cookie file from the first request as well as store the new authentication cookie in it):
-  * `login="<SOCIALCLUB_USERNAME>"`	 
-  * `password="<SOCIALCLUB_PASS>"`	 
+  * `login="<SOCIALCLUB_USERNAME>"`  
+  * `password="<SOCIALCLUB_PASS>"`   
   * `__RequestVerificationToken="<STORED_RVT>"`
 3. Since now the cookie file has a authentication cookie, you can start parsing the informations you need.
 
@@ -38,7 +38,7 @@ Side note: Some of the requests have placeholder or variables inside. Here's a q
 
 #### Overview
 
-__Description__: Display general informations about your (or others, if you fill the _nickname_ parameter) online character: 
+_Description_: Display general informations about your (or others, if you fill the _nickname_ parameter) online character: 
 
 * rank
 * RP level
@@ -51,14 +51,14 @@ __Description__: Display general informations about your (or others, if you fill
 * favorite weapon 
 * recent activities
 
-__Request URL__:  
+_Request URL_:  
 `http://socialclub.rockstargames.com/games/gtav/career/overviewAjax?character=Freemode&nickname=<SOCIALCLUB_NAME>&slot=Freemode&gamerHandle=&gamerTag=&_=1419694640015`
 
-__Response format__: HTML
+_Response format_: HTML
 
 #### Statistics
 
-__Description__: More detailed statistics of general stuff such as: 
+_Description_: More detailed statistics of general stuff such as: 
 
 * career
 * skills
@@ -69,33 +69,33 @@ __Description__: More detailed statistics of general stuff such as:
 * combat
 * and weapons
 
-__Request URL__:  
+_Request URL_:  
 `http://socialclub.rockstargames.com/games/gtav/StatsAjax?character=Freemode&category=&nickname=<SOCIALCLUB_NAME>&slot=Freemode&gamerHandle=&gamerTag=&_=1419696816848`
 
-__Response format__: HTML
+_Response format_: HTML
 
 #### Weapons
 
 ##### General statistics
 
-__Description__:  Kill death ratio, heatshots, shots fired, drive-by kills and overall accuracy. For detailed informations per weapon checkout the detailed information requests below.
+_Description_:  Kill death ratio, heatshots, shots fired, drive-by kills and overall accuracy. For detailed informations per weapon checkout the detailed information requests below.
 
-__Request URL__:  
+_Request URL_:  
 `http://socialclub.rockstargames.com/gtav/WeaponsAjax?config=&nickname=<SOCIALCLUB_NAME>&slot=Freemode&gamerHandle=&gamerTag=&_=1419697004841`
 
-__Response format__: HTML (and JSON hidden in `<script>`-tag)
+_Response format_: HTML (and JSON hidden in `<script>`-tag)
 
 ##### Per weapon statistics
 
-__Description__:  Returns detailed information for the given weapon such as:
+_Description_:  Returns detailed information for the given weapon such as:
 
 * general informations: damage, fire rate, accuracy and range
 * player data: headshots, shots, hits, kills, deaths, body shots and held time 
 
-__Request URL__:  
+_Request URL_:  
 `http://socialclub.rockstargames.com/member/[SOCIALCLUB_NAME]/games/gtav/api/mp/[WEAPON_CATEGORY]/0/[WEAPON_NAME]?_=1419697066487`
 
-__Response format__: JSON
+_Response format_: JSON
 
 __Weapon category/name table__:  
 
@@ -140,41 +140,41 @@ Based on the table above, the request for the "Antique Cavalry Dagger" would be:
 
 ##### General informations
 
-__Description__:  Shows stats (name, primary color, secondary color, etc.) of the vehicles in your main (?) garage. Note: The info is hidden in a `<script></script>`-tag that stored the informations as JSON. If you need more informations you can also use the per-car requests.
+_Description_:  Shows stats (name, primary color, secondary color, etc.) of the vehicles in your main (?) garage. Note: The info is hidden in a `<script></script>`-tag that stored the informations as JSON. If you need more informations you can also use the per-car requests.
 
-__Request URL__:  
+_Request URL_:  
 `http://socialclub.rockstargames.com/gtav/GarageAjax?config=&nickname=<SOCIALCLUB_NAME>&slot=Freemode&gamerHandle=&gamerTag=&category=&_=1419698615779`
 
-__Response format__: HTML (and JSON hidden in `<script>`-tag)
+_Response format_: HTML (and JSON hidden in `<script>`-tag)
 
 ##### Detailed informations per car
 
-__Description__:  This will also show additional the specs of the car (acceleration, handling, braking, etc.) as well as the car lights (Xeon/Non-xeon), suspension and more. Make sure to replace "[0-9]" with a number between 0 and 9. At the moment I don't know how to access cars from the different garages.
+_Description_:  This will also show additional the specs of the car (acceleration, handling, braking, etc.) as well as the car lights (Xeon/Non-xeon), suspension and more. Make sure to replace "[0-9]" with a number between 0 and 9. At the moment I don't know how to access cars from the different garages.
 
-__Request URL__:  
+_Request URL_:  
 `http://socialclub.rockstargames.com/member/[SOCIALCLUB_NAME]/games/gtav/api/garage/gtaonline/[0-9]?_=1419699070436`
 
-__Response format__: JSON
+_Response format_: JSON
 
 #### Vehicles
 
 ##### General informations
 
-__Description__:  General informations about driven vehicles ingame: fastest speed, amount of stolen vehicles, farthest jump, and more.
+_Description_:  General informations about driven vehicles ingame: fastest speed, amount of stolen vehicles, farthest jump, and more.
 
-__Request URL__:  
+_Request URL_:  
 `http://socialclub.rockstargames.com/gtav/VehiclesAjax?config=&nickname=<SOCIALCLUB_NAME>&slot=Freemode&gamerHandle=&gamerTag=&category=&_=1419698615779`
 
-__Response format__: HTML (and JSON hidden in `<script>`-tag)
+_Response format_: HTML (and JSON hidden in `<script>`-tag)
 
 ##### Per vehicle
 
-__Description__:  This gives you general informations about all the vehicles in the GTA world. Speed, acceleration, amount of seats, if it's a moddable vehicle, if it's storable or sellable, etc.
+_Description_:  This gives you general informations about all the vehicles in the GTA world. Speed, acceleration, amount of seats, if it's a moddable vehicle, if it's storable or sellable, etc.
 
-__Request URL__:  
+_Request URL_:  
 `http://socialclub.rockstargames.com/member/[SOCIALCLUB_NAME]/games/gtav/api/gtaonline/[VEHICLE_CATEGORY]/[VEHICLE_NAME]?_=1419699368973`
 
-__Response format__: JSON
+_Response format_: JSON
 
 __Example__:
 
@@ -184,20 +184,20 @@ __Example__:
 
 #### Awards
 
-__Description__:  Gives you information about the earned awards and it's completion statuses.
+_Description_:  Gives you information about the earned awards and it's completion statuses.
 
-__Request URL__:  
+_Request URL_:  
 `http://socialclub.rockstargames.com/games/gtav/career/AwardsAjax?slot=Freemode&nickname=<SOCIALCLUB_NAME>&gamerHandle=&gamerTag=&category=&_=1419699840945`
 
-__Response format__: HTML
+_Response format_: HTML
 
 ### Private
 
 #### Minigames
 
-__Description__:  Returns informations about several minigames. Unfortunately you can't access the stats of other players, so all the requests below return your own (the account who authorized the requests) statistics.
+_Description_:  Returns informations about several minigames. Unfortunately you can't access the stats of other players, so all the requests below return your own (the account who authorized the requests) statistics.
 
-__Request URLs__:  
+_Request URLs_:  
 * Darts:  
   `http://socialclub.rockstargames.com/games/gtav/api/minigames/sport?minigame=darts&slot=Freemode&_=1419695379474`
 * Arm wrestling:  
@@ -209,17 +209,17 @@ __Request URLs__:
 * Tennis:  
   `http://socialclub.rockstargames.com/games/gtav/api/minigames/sport?minigame=tennis&slot=Freemode&type=null&_=1419704505656`
 
-__Response format__: JSON
+_Response format_: JSON
 
 #### Shooting range
 
-__Description__:  Show stats about shooting range challenges. Make sure to replace __[CHALLENGE_TYPE]__ with one of the available types: 
+_Description_:  Show stats about shooting range challenges. Make sure to replace __[CHALLENGE_TYPE]__ with one of the available types: 
 
 * random (Random Targets)
 * grid (Target Grid)
 * covered (Covered Targets)
 
-__Request URLs__:  
+_Request URLs_:  
 
 * Hand Guns:  
   `http://socialclub.rockstargames.com/games/gtav/api/minigames/challenges?minigame=shootingrange&slot=Freemode&challenge=[CHALLENGE_TYPE]&weapon=pistols&type=null&_=1419695671151`
