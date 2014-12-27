@@ -29,6 +29,7 @@ In the guide below I will try to describe and collect as many useful information
 - 3.2.1 Minigames
 - 3.2.2. Shooting range
 - 4. Crew statistics
+- 5. Snapmatic
 
 ## 1. Authentication
 
@@ -258,3 +259,5 @@ _Request URLs_:
   `http://socialclub.rockstargames.com/games/gtav/api/minigames/challenges?minigame=shootingrange&slot=Freemode&challenge=[CHALLENGE_TYPE]&weapon=heavies&type=null&_=1419695671151`
 
 ## 4. Crew statistics
+
+## 5. Snapmatic
