@@ -31,7 +31,7 @@ In the guide below I will try to describe and collect as many useful information
 - 4. Crew statistics
 - 5. Snapmatic
 
-## 1. Authentication
+## 2. Authentication
 
 Let's begin with the authentication.
 
