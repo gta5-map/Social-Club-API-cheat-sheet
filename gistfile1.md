@@ -9,26 +9,26 @@ In the guide below I will try to describe and collect as many useful information
 
 ## 1. Table Of Contents
 
-1. Table Of Contents
-2. Authentication
-3. Player statistics
-3.1. Public 
-3.1.1 Overview
-3.1.2. Statistics
-3.1.3. Weapons
-3.1.3.1. General statistics
-3.1.3.2. Per weapon statistics
-3.1.4. Garage
-3.1.4.1. General informations
-3.1.4.2 Detailed informations per car
-3.1.5. Vehicles
-3.1.5.1. General informations
-3.1.5.2. Per vehicle
-3.1.6. Awards
-3.2. Private
-3.2.1 Minigames
-3.2.2. Shooting range
-4. Crew statistics
+- 1. Table Of Contents
+- 2. Authentication
+- 3. Player statistics
+- 3.1. Public 
+- 3.1.1 Overview
+- 3.1.2. Statistics
+- 3.1.3. Weapons
+- 3.1.3.1. General statistics
+- 3.1.3.2. Per weapon statistics
+- 3.1.4. Garage
+- 3.1.4.1. General informations
+- 3.1.4.2 Detailed informations per car
+- 3.1.5. Vehicles
+- 3.1.5.1. General informations
+- 3.1.5.2. Per vehicle
+- 3.1.6. Awards
+- 3.2. Private
+- 3.2.1 Minigames
+- 3.2.2. Shooting range
+- 4. Crew statistics
 
 ## 1. Authentication
 
