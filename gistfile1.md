@@ -7,6 +7,29 @@ However, it's made for humans to view in the browser and if people want to build
 
 In the guide below I will try to describe and collect as many useful informations about the Social Club and it's "API" as possible.
 
+## 1. Table Of Contents
+
+1. Table Of Contents
+2. Authentication
+3. Player statistics
+3.1. Public 
+3.1.1 Overview
+3.1.2. Statistics
+3.1.3. Weapons
+3.1.3.1. General statistics
+3.1.3.2. Per weapon statistics
+3.1.4. Garage
+3.1.4.1. General informations
+3.1.4.2 Detailed informations per car
+3.1.5. Vehicles
+3.1.5.1. General informations
+3.1.5.2. Per vehicle
+3.1.6. Awards
+3.2. Private
+3.2.1 Minigames
+3.2.2. Shooting range
+4. Crew statistics
+
 ## 1. Authentication
 
 Let's begin with the authentication.
@@ -22,7 +45,7 @@ So basically, you need to make three requests to pass the authentication:
   * `__RequestVerificationToken="<STORED_RVT>"`
 3. Since now the cookie file has a authentication cookie, you can start parsing the informations you need.
 
-## 2. Player statistics
+## 3. Player statistics
 
 In this category you can find requests and informations about player statistics. I distinguish between public and private statistics:
 
@@ -34,9 +57,9 @@ Side note: Some of the requests have placeholder or variables inside. Here's a q
 * `[PLACEHOLDER]`: This placeholder needs to be replaced or set
 * `<PLACEHOLDER>`: Optional placeholder that can be left
 
-### 2.1. Public 
+### 3.1. Public 
 
-#### 2.1.1 Overview
+#### 3.1.1 Overview
 
 _Description_: Display general informations about your (or others, if you fill the _nickname_ parameter) online character: 
 
@@ -56,7 +79,7 @@ _Request URL_:
 
 _Response format_: HTML
 
-#### 2.1.2. Statistics
+#### 3.1.2. Statistics
 
 _Description_: More detailed statistics of general stuff such as: 
 
@@ -74,9 +97,9 @@ _Request URL_:
 
 _Response format_: HTML
 
-#### 2.1.3. Weapons
+#### 3.1.3. Weapons
 
-##### 2.1.3.1. General statistics
+##### 3.1.3.1. General statistics
 
 _Description_:  Kill death ratio, heatshots, shots fired, drive-by kills and overall accuracy. For detailed informations per weapon checkout the detailed information requests below.
 
@@ -85,7 +108,7 @@ _Request URL_:
 
 _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
-##### 2.1.3.2. Per weapon statistics
+##### 3.1.3.2. Per weapon statistics
 
 _Description_:  Returns detailed information for the given weapon such as:
 
@@ -136,9 +159,9 @@ Based on the table above, the request for the "Antique Cavalry Dagger" would be:
 
 `http://socialclub.rockstargames.com/member/<SOCIALCLUB_NAME>/games/gtav/api/mp/melee/0/antique-cavalry-dagger?_=1419697066487`
 
-#### 2.1.4. Garage
+#### 3.1.4. Garage
 
-##### 2.1.4.1. General informations
+##### 3.1.4.1. General informations
 
 _Description_:  Shows stats (name, primary color, secondary color, etc.) of the vehicles in your main (?) garage. Note: The info is hidden in a `<script></script>`-tag that stored the informations as JSON. If you need more informations you can also use the per-car requests.
 
@@ -147,7 +170,7 @@ _Request URL_:
 
 _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
-##### 2.1.4.2 Detailed informations per car
+##### 3.1.4.2 Detailed informations per car
 
 _Description_:  This will also show additional the specs of the car (acceleration, handling, braking, etc.) as well as the car lights (Xeon/Non-xeon), suspension and more. Make sure to replace "[0-9]" with a number between 0 and 9. At the moment I don't know how to access cars from the different garages.
 
@@ -156,9 +179,9 @@ _Request URL_:
 
 _Response format_: JSON
 
-#### 2.1.5. Vehicles
+#### 3.1.5. Vehicles
 
-##### 2.1.5.1. General informations
+##### 3.1.5.1. General informations
 
 _Description_:  General informations about driven vehicles ingame: fastest speed, amount of stolen vehicles, farthest jump, and more.
 
@@ -167,7 +190,7 @@ _Request URL_:
 
 _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
-##### 2.1.5.2. Per vehicle
+##### 3.1.5.2. Per vehicle
 
 _Description_:  This gives you general informations about all the vehicles in the GTA world. Speed, acceleration, amount of seats, if it's a moddable vehicle, if it's storable or sellable, etc.
 
@@ -182,7 +205,7 @@ __Example__:
 
 (For a full list of categories and names chekout social club and navigate to "Vehicles")
 
-#### 2.1.6. Awards
+#### 3.1.6. Awards
 
 _Description_:  Gives you information about the earned awards and it's completion statuses.
 
@@ -191,9 +214,9 @@ _Request URL_:
 
 _Response format_: HTML
 
-### 2.2. Private
+### 3.2. Private
 
-#### 2.2.1 Minigames
+#### 3.2.1 Minigames
 
 _Description_:  Returns informations about several minigames. Unfortunately you can't access the stats of other players, so all the requests below return your own (the account who authorized the requests) statistics.
 
@@ -211,7 +234,7 @@ _Request URLs_:
 
 _Response format_: JSON
 
-#### 2.2.2. Shooting range
+#### 3.2.2. Shooting range
 
 _Description_:  Show stats about shooting range challenges. Make sure to replace __[CHALLENGE_TYPE]__ with one of the available types: 
 
@@ -234,4 +257,4 @@ _Request URLs_:
 * Heavy:  
   `http://socialclub.rockstargames.com/games/gtav/api/minigames/challenges?minigame=shootingrange&slot=Freemode&challenge=[CHALLENGE_TYPE]&weapon=heavies&type=null&_=1419695671151`
 
-## 3. Crew statistics
+## 4. Crew statistics
