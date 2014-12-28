@@ -279,7 +279,7 @@ _Request URL_:
 
 _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
-_JSON element_: SCSettings.dataHead.pnls[0].tplc
+_JSON element_: `SCSettings.dataHead.pnls[0].tplc`
 
 #### 4.1.2. Emblems
 
@@ -290,7 +290,7 @@ _Request URL_:
 
 _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
-_JSON element_: SCSettings.dataBody.pnls[3].tplc
+_JSON element_: `SCSettings.dataBody.pnls[3].tplc`
 
 #### 4.1.3. Feuds
 
@@ -301,7 +301,7 @@ _Request URL_:
 
 _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
-_JSON element_: SCSettings.dataBody.pnls[2].tplc
+_JSON element_: `SCSettings.dataBody.pnls[2].tplc`
 
 #### 4.1.4. Crew feed
 
