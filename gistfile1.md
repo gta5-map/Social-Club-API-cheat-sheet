@@ -9,35 +9,35 @@ In the guide below I will try to describe and collect as many useful information
 
 ## 1. Table Of Contents
 
-- 1. Table Of Contents
-- 2. Authentication
-- 3. Player statistics
-- 3.1. Public 
-- 3.1.1 Overview
-- 3.1.2. Statistics
-- 3.1.3. Weapons
-- 3.1.3.1. General statistics
-- 3.1.3.2. Per weapon statistics
-- 3.1.4. Garage
-- 3.1.4.1. General informations
-- 3.1.4.2 Detailed informations per car
-- 3.1.5. Vehicles
-- 3.1.5.1. General informations
-- 3.1.5.2. Per vehicle
-- 3.1.6. Awards
-- 3.2. Private
-- 3.2.1 Minigames
-- 3.2.2. Shooting range
-- 4. Crew statistics
-- 4.1. Overview
-- 4.1.1. General informations
-- 4.1.2. Emblems
-- 4.1.3. Feuds
-- 4.1.4. Crew feed
-- 4.2. Members list
-- 4.3. Hierarchy
-- 4.4. Photos
-- 5. Snapmatic
+- [1. Table Of Contents](#1-table-of-contents)
+- [2. Authentication](#2-authentication)
+- [3. Player statistics](#3-player-statistics)
+- [3.1. Public](#31-public) 
+- [3.1.1 Overview](#311-overview)
+- [3.1.2. Statistics](#312-statistics)
+- [3.1.3. Weapons](#313-weapons)
+- [3.1.3.1. General statistics](#3131-general-statistics)
+- [3.1.3.2. Per weapon statistics](#3132-per-weapon-statistics)
+- [3.1.4. Garage](#314-garage)
+- [3.1.4.1. General informations](#3141-general-informations)
+- [3.1.4.2. Detailed informations per car](#3142-detailed-informations-per-car)
+- [3.1.5. Vehicles](#315-vehicles)
+- [3.1.5.1. General informations](#3151-general-informations)
+- [3.1.5.2. Per vehicle](#3152-per-vehicle)
+- [3.1.6. Awards](#316-awards)
+- [3.2. Private](#32-private)
+- [3.2.1. Minigames](#321-minigames)
+- [3.2.2. Shooting range](#322-shooting-range)
+- [4. Crew statistics](#4-crew-statistics)
+- [4.1. Overview](#41-overview)
+- [4.1.1. General informations](#411-general-informations)
+- [4.1.2. Emblems](#412-emblems)
+- [4.1.3. Feuds](#413-feuds)
+- [4.1.4. Crew feed](#414-crew-feed)
+- [4.2. Members list](#42-members-list)
+- [4.3. Hierarchy](#43-hierarchy)
+- [4.4. Photos](#44-photos)
+- [5. Snapmatic](#5-snapmatic)
 
 ## 2. Authentication
 
@@ -179,7 +179,7 @@ _Request URL_:
 
 _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
-##### 3.1.4.2 Detailed informations per car
+##### 3.1.4.2. Detailed informations per car
 
 _Description_:  This will also show additional the specs of the car (acceleration, handling, braking, etc.) as well as the car lights (Xeon/Non-xeon), suspension and more. Make sure to replace "[0-9]" with a number between 0 and 9. At the moment I don't know how to access cars from the different garages.
 
@@ -225,7 +225,7 @@ _Response format_: HTML
 
 ### 3.2. Private
 
-#### 3.2.1 Minigames
+#### 3.2.1. Minigames
 
 _Description_:  Returns informations about several minigames. Unfortunately you can't access the stats of other players, so all the requests below return your own (the account who authorized the requests) statistics.
 
