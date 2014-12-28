@@ -38,8 +38,11 @@ In the guide below I will try to describe and collect as many useful information
 - [4.1.4. Crew feed](#414-crew-feed)
 - [4.2. Members list](#42-members-list)
 - [4.3. Hierarchy](#43-hierarchy)
-- [4.4. Photos](#44-photos)
 - [5. Snapmatic](#5-snapmatic)
+- [5.1. Player](#51-player)
+- [5.2. Crew](#52-crew)
+- [5.3. "Most recent"](#53-most-recent)
+- [5.4. "My friends"](#54-my-friends)
 
 ## 2. General
 
@@ -339,16 +342,54 @@ _Request URL_:
 
 _Response format_: JSON
 
-### 4.4. Photos
+
+## 5. Snapmatic
+
+### 5.1. Player
+
+_Description_: Returns 20 photos of the given player. Make sure to increase `page` to browse through the pagination. 
+
+* `[X]` is a number starting from 1
+* `[SOCIALCLUB_NAME]` is the player you want to lookup
+
+_Request URL_:  
+`http://socialclub.rockstargames.com/member/[SOCIALCLUB_NAME]/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=[X]&_=1419780751971`
+
+_Response format_: JSON
+
+### 5.2. Crew
 
 _Description_: Returns 20 snapmatic photos. Make sure to increase `page` to browse through the pagination. 
 
 * `[CREW_NAME]` is the name of the crew  
 * `[X]` is a number starting from 1
+* `<SEARCH_TERM>` is an optional search term, leave empty if you don't want to filter
 
 _Request URL_:  
-`http://socialclub.rockstargames.com/crew/[CREW_NAME]/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=[X]&_=1419777877377`
+`http://socialclub.rockstargames.com/crew/[CREW_NAME]/games/gtav/snapmatic/ajax/search?SearchQuery=<SEARCH_TERM>&Filter=MostRecent&page=[X]&_=1419777877377`
 
 _Response format_: JSON
 
-## 5. Snapmatic
+### 5.3. "Most recent"
+
+_Description_: Returns 20 of the "most recent" snapmatic photos. Make sure to increase `page` to browse through the pagination. 
+
+* `[X]` is a number starting from 1
+* `<SEARCH_TERM>` is an optional search term, leave empty if you don't want to filter
+
+_Request URL_:  
+`http://socialclub.rockstargames.com/games/gtav/snapmatic/ajax/search?SearchQuery=<SEARCH_TERM>&Filter=MostRecent&page=[X]&_=1419780660083`
+
+_Response format_: JSON
+
+### 5.4. "My friends"
+
+_Description_: Returns 20 snapshots of the "My friends" category. Make sure to increase `page` to browse through the pagination. 
+
+* `[X]` is a number starting from 1
+* `<SEARCH_TERM>` is an optional search term, leave empty if you don't want to filter
+
+_Request URL_:  
+`http://socialclub.rockstargames.com/games/gtav/snapmatic/ajax/search?SearchQuery=<SEARCH_TERM>&Filter=myfriends&Page=[X]&_=1419780913185`
+
+_Response format_: JSON
