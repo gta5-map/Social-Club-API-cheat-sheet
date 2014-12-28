@@ -45,7 +45,7 @@ In the guide below I will try to describe and collect as many useful information
 
 ### 2.1. Informations
 
-Some of the requests have placeholder or variables inside. Here's a quick legend about them:
+Some of the requests below have placeholder or variables inside. Here's a quick legend about them:
 
 * `[PLACEHOLDER]`: This placeholder needs to be replaced or set
 * `<PLACEHOLDER>`: Optional placeholder that can be left
