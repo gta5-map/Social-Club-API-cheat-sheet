@@ -275,7 +275,7 @@ _Request URLs_:
 _Description_: Shows general informations about the crew, like the crew id which is importent for a bunch of other requests, crew tag, the crew logo, rank titles as well as the permissions. 
 
 _Request URL_:  
-http://socialclub.rockstargames.com/crew/[CREW_NAME]
+`http://socialclub.rockstargames.com/crew/[CREW_NAME]`
 
 _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
@@ -286,7 +286,7 @@ _JSON element_: SCSettings.dataHead.pnls[0].tplc
 _Description_: Returns the emblems and it's image location.
 
 _Request URL_:  
-http://socialclub.rockstargames.com/crew/[CREW_NAME]
+`http://socialclub.rockstargames.com/crew/[CREW_NAME]`
 
 _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
@@ -297,7 +297,7 @@ _JSON element_: SCSettings.dataBody.pnls[3].tplc
 _Description_: Returns the feud statistics
 
 _Request URL_:  
-http://socialclub.rockstargames.com/crew/[CREW_NAME]
+`http://socialclub.rockstargames.com/crew/[CREW_NAME]`
 
 _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
@@ -308,7 +308,7 @@ _JSON element_: SCSettings.dataBody.pnls[2].tplc
 _Description_: Get the latest crew feed activity. Note: Make sure to set `[CREW_ID]`. How to obtain the crew id is documented in [4.1.1. General informations](#411-general-informations).
 
 _Request URL_:  
-http://socialclub.rockstargames.com/reference/crewfeed/[CREW_ID]?_=1419776423036
+`http://socialclub.rockstargames.com/reference/crewfeed/[CREW_ID]?_=1419776423036`
 
 _Response format_: JSON
 
@@ -320,7 +320,7 @@ _Description_: Returns a part of the member list. You have to increment `pageNum
 `[X]` is a number starting from 0
 
 _Request URL_:  
-http://socialclub.rockstargames.com/crewsapi/GetMembersList?crewId=[CREW_ID]&pageNumber=[X]&_=1419777577112
+`http://socialclub.rockstargames.com/crewsapi/GetMembersList?crewId=[CREW_ID]&pageNumber=[X]&_=1419777577112`
 
 _Response format_: JSON
 
@@ -329,7 +329,7 @@ _Response format_: JSON
 _Description_: Returns the crew hierachy.
 
 _Request URL_:  
-http://socialclub.rockstargames.com/crewapi/[CREW_NAME]/hierarchy/1000/false?_=1419777491133
+`http://socialclub.rockstargames.com/crewapi/[CREW_NAME]/hierarchy/1000/false?_=1419777491133`
 
 _Response format_: JSON
 
@@ -341,7 +341,7 @@ _Description_: Returns 20 snapmatic photos. Make sure to increase `page` to brow
 `[X]` is a number starting from 1
 
 _Request URL_:  
-http://socialclub.rockstargames.com/crew/[CREW_NAME]/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=[X]&_=1419777877377
+`http://socialclub.rockstargames.com/crew/[CREW_NAME]/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=[X]&_=1419777877377`
 
 _Response format_: JSON
 
