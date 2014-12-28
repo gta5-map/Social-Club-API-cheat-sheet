@@ -1,16 +1,18 @@
 Rockstar / R* Social Club "API" cheat sheet
-===========================================
+=============================================
 
-In the guide below, you can find some useful informations how to obtain statistics of Social Club profiles, Rockstar's official platform for GTA Online statistics. Either how many times you blew up a police helicopter or how often you died through a jerry can – it's all tracked and viewable online on said platform.
+In the guide below, you can find some useful informations how to obtain public (other players) and own statistics of Social Club profiles, Rockstar's official platform for GTA Online statistics. Either how many times you blew up a police helicopter or how often you died through a jerry can – it's all tracked and viewable online on said platform. 
 
-However, it's made for humans to view in the browser and if people decide to build a script or bot to parse the informations, it is rather tricky to obtain the desired piece of information using cURL since the website is using a lot of JavaScript and AJAX to reload stuff in the background. 
+However, it's made for humans to view in the browser and if people want to build a script to parse the informations, it is rather tricky to obtain the desired piece of information using cURL since the website is using a lot of JavaScript and AJAX to reload stuff in the background. 
 
 In the guide below I will try to describe and collect as many useful informations about the Social Club and it's "API" as possible.
 
 ## 1. Table Of Contents
 
 - [1. Table Of Contents](#1-table-of-contents)
-- [2. Authentication](#2-authentication)
+- [2. General](#1-general)
+- [2.1. Informations](#21-informations)
+- [2.2. Authentication](#22-authentication)
 - [3. Player statistics](#3-player-statistics)
 - [3.1. Public](#31-public) 
 - [3.1.1 Overview](#311-overview)
@@ -39,9 +41,18 @@ In the guide below I will try to describe and collect as many useful information
 - [4.4. Photos](#44-photos)
 - [5. Snapmatic](#5-snapmatic)
 
-## 2. Authentication
+## 2. General
 
-Let's begin with the authentication.
+### 2.1. Informations
+
+Some of the requests have placeholder or variables inside. Here's a quick legend about them:
+
+* `[PLACEHOLDER]`: This placeholder needs to be replaced or set
+* `<PLACEHOLDER>`: Optional placeholder that can be left
+
+### 2.2. Authentication
+
+Now to the login/authentication process:
 
 If you take a look at the login/`<form>` element, you see a hidden `<input>` tag called "__RequestVerificationToken". This contains a token which is needed in the actual login request otherwise Rockstar refuses the authentication, even with proper credentials.
 
@@ -60,11 +71,6 @@ In this category you can find requests and informations about player statistics.
 
 * _Public_: informations of any/other player/s
 * _Private_: informations only about the player who authenticated the request
-
-Side note: Some of the requests have placeholder or variables inside. Here's a quick legend about them:
-
-* `[PLACEHOLDER]`: This placeholder needs to be replaced or set
-* `<PLACEHOLDER>`: Optional placeholder that can be left
 
 ### 3.1. Public 
 
