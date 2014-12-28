@@ -10,7 +10,7 @@ In the guide below I will try to describe and collect as many useful information
 ## 1. Table Of Contents
 
 - [1. Table Of Contents](#1-table-of-contents)
-- [2. General](#1-general)
+- [2. General](#2-general)
 - [2.1. Informations](#21-informations)
 - [2.2. Authentication](#22-authentication)
 - [3. Player statistics](#3-player-statistics)
