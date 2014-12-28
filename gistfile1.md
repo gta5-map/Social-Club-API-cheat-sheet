@@ -316,8 +316,8 @@ _Response format_: JSON
 
 _Description_: Returns a part of the member list. You have to increment `pageNumber` to browse through the pagination.
 
-`[CREW_ID]` can be found in [4.1.1. General informations](#411-general-informations)
-`[X]` is a number starting from 0
+* `[CREW_ID]` can be found in [4.1.1. General informations](#411-general-informations)
+* `[X]` is a number starting from 0
 
 _Request URL_:  
 `http://socialclub.rockstargames.com/crewsapi/GetMembersList?crewId=[CREW_ID]&pageNumber=[X]&_=1419777577112`
@@ -337,8 +337,8 @@ _Response format_: JSON
 
 _Description_: Returns 20 snapmatic photos. Make sure to increase `page` to browse through the pagination. 
 
-`[CREW_NAME]` is the name of the crew
-`[X]` is a number starting from 1
+* `[CREW_NAME]` is the name of the crew  
+* `[X]` is a number starting from 1
 
 _Request URL_:  
 `http://socialclub.rockstargames.com/crew/[CREW_NAME]/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=[X]&_=1419777877377`
