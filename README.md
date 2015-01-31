@@ -1,7 +1,7 @@
 Rockstar / R* Social Club "API" cheat sheet
 =============================================
 
-In the guide below, you can find some useful informations how to obtain public (other players) and own statistics of Social Club profiles, Rockstar's official platform for GTA Online statistics. Either how many times you blew up a police helicopter or how often you died through a jerry can – it's all tracked and viewable online on said platform. 
+In the guide below, you can find some useful informations how to obtain public statistics of Social Club profiles, Rockstar's official platform for GTA Online statistics. Either how many times you blew up a police helicopter or how often you died through a jerry can – it's all tracked and viewable online on said platform. 
 
 However, it's made for humans to view in the browser and if people want to build a script to parse the informations, it is rather tricky to obtain the desired piece of information using cURL since the website is using a lot of JavaScript and AJAX to reload stuff in the background. 
 
@@ -15,7 +15,7 @@ In the guide below I will try to describe and collect as many useful information
 - [2.2. Authentication](#22-authentication)
 - [3. Player statistics](#3-player-statistics)
 - [3.1. Public](#31-public) 
-- [3.1.1 Overview](#311-overview)
+- [3.1.1. Overview](#311-overview)
 - [3.1.2. Statistics](#312-statistics)
 - [3.1.3. Weapons](#313-weapons)
 - [3.1.3.1. General statistics](#3131-general-statistics)
@@ -59,7 +59,7 @@ Now to the login/authentication process:
 
 If you take a look at the login/`<form>` element, you see a hidden `<input>` tag called "__RequestVerificationToken". This contains a token which is needed in the actual login request otherwise Rockstar refuses the authentication, even with proper credentials.
 
-So basically, you need to make three requests to pass the authentication:
+So basically, you need to make at least three requests to get your hands on the desired piece of information:
 
 1. _GET_ "`http://socialclub.rockstargames.com/`" and search for "__RequestVerificationToken". Store it's value (something like `coX4ZFyy9nWwi123eZb1OmeJWLQrM7bcAl_nipsz1ih_-hn8123VnGt41F3GzuJgfFj9igjLEeZb9v-DGIjuzsMRP36e3v1238Z-i3KtVo1231IC0`). Also store cookies in a cookie jar.
 2. _POST_ the following data to "`https://socialclub.rockstargames.com/profile/signin`" (Don't forget to use the cookie file from the first request as well as store the new authentication cookie in it):
