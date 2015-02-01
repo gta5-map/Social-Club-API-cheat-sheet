@@ -13,6 +13,7 @@ In the guide below I will try to describe and collect as many useful information
 - [2. General](#2-general)
 - [2.1. Informations](#21-informations)
 - [2.2. Authentication](#22-authentication)
+- [2.3. Example parser application](#23-example-parser-application)
 - [3. Player statistics](#3-player-statistics)
 - [3.1. Public](#31-public) 
 - [3.1.1. Overview](#311-overview)
@@ -67,6 +68,12 @@ So basically, you need to make at least three requests to get your hands on the 
   * `password="<SOCIALCLUB_PASS>"`   
   * `__RequestVerificationToken="<STORED_RVT>"`
 3. Since now the cookie file has a authentication cookie, you can start parsing the informations you need.
+
+### 2.3. Example parser application
+
+I just pushed a example parser written in PHP to GitHub, so you can take a look how to actually set up the requests.
+
+You can find the repository here: [gta5-map/SocialClub-example-parser](https://github.com/gta5-map/SocialClub-example-parser) 
 
 ## 3. Player statistics
 
