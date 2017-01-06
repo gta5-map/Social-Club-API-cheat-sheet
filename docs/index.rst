@@ -1,16 +1,45 @@
-Markdown test
--------------
-
-Markdown files:
+Rockstar / R* Social Club "API" cheat sheet
+-------------------------------------------
 
 .. toctree::
-   :glob:
+   :caption: General
 
-   markdown
-
-RST files:
+   information
+   authentication
+   example-parser-application
 
 .. toctree::
-   :glob:
+   :caption: Public player stats
 
-   rst
+   player-overview
+   statistics
+   weapons
+   garage
+   vehicles
+   awards
+
+.. toctree::
+   :caption: Private player stats
+
+   minigames
+   shooting-range
+
+.. toctree::
+   :caption: Crew statistics
+
+   overview
+   members-list
+   hierarchy
+
+.. toctree::
+   :caption: Snapmatic
+
+   player
+   crew
+   most-recent
+   my-friends
+
+Indices and tables
+==================
+
+* :ref:`search`
