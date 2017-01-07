@@ -1,6 +1,6 @@
 # Authentication procedure
 
-If you take a look at the login/`<form>` element, you see a hidden `<input>` tag called "__RequestVerificationToken". This contains a token which is needed in the actual login request otherwise Rockstar refuses the authentication, even with proper credentials.
+If you take a look at the login / `<form>` element, you'll see a hidden `<input>` tag called "__RequestVerificationToken". This tag contains a token which is needed for the actual login request - otherwise Rockstar refuses the authentication, even with proper and valid credentials.
 
 So basically, you need to make at least three requests to get your hands on the desired piece of information:
 
