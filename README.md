@@ -1,17 +1,17 @@
 Rockstar / R* Social Club "API" cheat sheet
-=============================================
+==========================================
 
-In the guide below, you can find some useful informations how to obtain public statistics of Social Club profiles, Rockstar's official platform for GTA Online statistics. Either how many times you blew up a police helicopter or how often you died through a jerry can – it's all tracked and viewable online on said platform. 
+In the guide below, you can find some useful information how to obtain public statistics of Social Club profiles, Rockstar's official platform for GTA Online statistics. Either how many times you blew up a police helicopter or how often you died through a jerry can – it's all tracked and viewable online on said platform. 
 
-However, it's made for humans to view in the browser and if people want to build a script to parse the informations, it is rather tricky to obtain the desired piece of information using cURL since the website is using a lot of JavaScript and AJAX to reload stuff in the background. 
+Unfortunately, it's only made for humans to look at in the browser and if people want to build a script to parse the information, it is rather tricky to access and parse the desired piece of information using cURL since the website is using lots of JavaScript and AJAX to reload stuff in the background. 
 
-In the guide below I will try to describe and collect as many useful informations about the Social Club and it's "API" as possible.
+In the guide below I will try to describe and collect as many useful knowledge about the Social Club and it's "API" as possible.
 
 ## 1. Table Of Contents
 
 - [1. Table Of Contents](#1-table-of-contents)
 - [2. General](#2-general)
-- [2.1. Informations](#21-informations)
+- [2.1. Information](#21-information)
 - [2.2. Authentication](#22-authentication)
 - [2.3. Example parser application](#23-example-parser-application)
 - [3. Player statistics](#3-player-statistics)
@@ -22,10 +22,10 @@ In the guide below I will try to describe and collect as many useful information
 - [3.1.3.1. General statistics](#3131-general-statistics)
 - [3.1.3.2. Per weapon statistics](#3132-per-weapon-statistics)
 - [3.1.4. Garage](#314-garage)
-- [3.1.4.1. General informations](#3141-general-informations)
-- [3.1.4.2. Detailed informations per car](#3142-detailed-informations-per-car)
+- [3.1.4.1. General information](#3141-general-information)
+- [3.1.4.2. Detailed information per car](#3142-detailed-information-per-car)
 - [3.1.5. Vehicles](#315-vehicles)
-- [3.1.5.1. General informations](#3151-general-informations)
+- [3.1.5.1. General information](#3151-general-information)
 - [3.1.5.2. Per vehicle](#3152-per-vehicle)
 - [3.1.6. Awards](#316-awards)
 - [3.2. Private](#32-private)
@@ -33,7 +33,7 @@ In the guide below I will try to describe and collect as many useful information
 - [3.2.2. Shooting range](#322-shooting-range)
 - [4. Crew statistics](#4-crew-statistics)
 - [4.1. Overview](#41-overview)
-- [4.1.1. General informations](#411-general-informations)
+- [4.1.1. General information](#411-general-information)
 - [4.1.2. Emblems](#412-emblems)
 - [4.1.3. Feuds](#413-feuds)
 - [4.1.4. Crew feed](#414-crew-feed)
@@ -47,7 +47,7 @@ In the guide below I will try to describe and collect as many useful information
 
 ## 2. General
 
-### 2.1. Informations
+### 2.1. Information
 
 Some of the requests below have placeholder or variables inside. Here's a quick legend about them:
 
@@ -67,37 +67,37 @@ So basically, you need to make at least three requests to get your hands on the 
   * `login="<SOCIALCLUB_USERNAME>"`  
   * `password="<SOCIALCLUB_PASS>"`   
   * `__RequestVerificationToken="<STORED_RVT>"`
-3. Since now the cookie file has a authentication cookie, you can start parsing the informations you need.
+3. Since now the cookie file has a authentication cookie, you can start parsing the information you need.
 
 ### 2.3. Example parser application
 
-I just pushed a example parser written in PHP to GitHub, so you can take a look how to actually set up the requests.
+There's an example parser written in NodeJS available on GitHub, so you can check out how to craft the requests.
 
 You can find the repository here: [gta5-map/SocialClub-example-parser](https://github.com/gta5-map/SocialClub-example-parser) 
 
 ## 3. Player statistics
 
-In this category you can find requests and informations about player statistics. I distinguish between public and private statistics:
+In this category you can find requests and information about player statistics. I distinguish between public and private statistics:
 
-* _Public_: informations of any/other player/s
-* _Private_: informations only about the player who authenticated the request
+* _Public_: information of any/other player/s
+* _Private_: information only about the player who authenticated the request
 
-### 3.1. Public 
+### 3.1. Public
 
 #### 3.1.1 Overview
 
-_Description_: Display general informations about your (or others, if you fill the _nickname_ parameter) online character: 
+_Description_: Display general information about your (or others, if you fill the _nickname_ parameter) online character: 
 
-* rank
+* Rank
 * RP level
-* total playtime
-* current bank balance
-* active crew
-* competitive stats
-* cash earned
-* criminal records
-* favorite weapon 
-* recent activities
+* Total playtime
+* Current bank balance
+* Active crew
+* Competitive stats
+* Cash earned
+* Criminal records
+* Favorite weapon 
+* Recent activities
 
 _Request URL_:  
 `http://socialclub.rockstargames.com/games/gtav/career/overviewAjax?character=Freemode&nickname=<SOCIALCLUB_NAME>&slot=Freemode&gamerHandle=&gamerTag=&_=1419694640015`
@@ -108,13 +108,13 @@ _Response format_: HTML
 
 _Description_: More detailed statistics of general stuff such as: 
 
-* career
-* skills
-* general
-* crimes,
-* vehicles
-* cash
-* combat
+* Career
+* Skills
+* General
+* Crimes,
+* Vehicles
+* Cash
+* Combat
 * and weapons
 
 _Request URL_:  
@@ -126,7 +126,7 @@ _Response format_: HTML
 
 ##### 3.1.3.1. General statistics
 
-_Description_:  Kill death ratio, heatshots, shots fired, drive-by kills and overall accuracy. For detailed informations per weapon checkout the detailed information requests below.
+_Description_:  Kill death ratio, headshots, shots fired, drive-by kills and overall accuracy. For detailed information per weapon checkout the detailed information requests below.
 
 _Request URL_:  
 `http://socialclub.rockstargames.com/gtav/WeaponsAjax?config=&nickname=<SOCIALCLUB_NAME>&slot=Freemode&gamerHandle=&gamerTag=&_=1419697004841`
@@ -137,7 +137,7 @@ _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
 _Description_:  Returns detailed information for the given weapon such as:
 
-* general informations: damage, fire rate, accuracy and range
+* general information: damage, fire rate, accuracy and range
 * player data: headshots, shots, hits, kills, deaths, body shots and held time 
 
 _Request URL_:  
@@ -186,16 +186,16 @@ Based on the table above, the request for the "Antique Cavalry Dagger" would be:
 
 #### 3.1.4. Garage
 
-##### 3.1.4.1. General informations
+##### 3.1.4.1. General information
 
-_Description_:  Shows stats (name, primary color, secondary color, etc.) of the vehicles in your main (?) garage. Note: The info is hidden in a `<script></script>`-tag that stored the informations as JSON. If you need more informations you can also use the per-car requests.
+_Description_:  Shows stats (name, primary color, secondary color, etc.) of the vehicles in your main (?) garage. Note: The info is hidden in a `<script></script>`-tag that stored the information as JSON. If you need more information you can also use the per-car requests.
 
 _Request URL_:  
 `http://socialclub.rockstargames.com/gtav/GarageAjax?config=&nickname=<SOCIALCLUB_NAME>&slot=Freemode&gamerHandle=&gamerTag=&category=&_=1419698615779`
 
 _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
-##### 3.1.4.2. Detailed informations per car
+##### 3.1.4.2. Detailed information per car
 
 _Description_:  This will also show additional the specs of the car (acceleration, handling, braking, etc.) as well as the car lights (Xeon/Non-xeon), suspension and more. Make sure to replace "[0-9]" with a number between 0 and 9. At the moment I don't know how to access cars from the different garages.
 
@@ -206,9 +206,9 @@ _Response format_: JSON
 
 #### 3.1.5. Vehicles
 
-##### 3.1.5.1. General informations
+##### 3.1.5.1. General information
 
-_Description_:  General informations about driven vehicles ingame: fastest speed, amount of stolen vehicles, farthest jump, and more.
+_Description_:  General information about driven vehicles ingame: fastest speed, amount of stolen vehicles, farthest jump, and more.
 
 _Request URL_:  
 `http://socialclub.rockstargames.com/gtav/VehiclesAjax?config=&nickname=<SOCIALCLUB_NAME>&slot=Freemode&gamerHandle=&gamerTag=&category=&_=1419698615779`
@@ -217,7 +217,7 @@ _Response format_: HTML (and JSON hidden in `<script>`-tag)
 
 ##### 3.1.5.2. Per vehicle
 
-_Description_:  This gives you general informations about all the vehicles in the GTA world. Speed, acceleration, amount of seats, if it's a moddable vehicle, if it's storable or sellable, etc.
+_Description_:  This gives you general information about all the vehicles in the GTA world. Speed, acceleration, amount of seats, if it's a moddable vehicle, if it's storable or sellable, etc.
 
 _Request URL_:  
 `http://socialclub.rockstargames.com/member/[SOCIALCLUB_NAME]/games/gtav/api/gtaonline/[VEHICLE_CATEGORY]/[VEHICLE_NAME]?_=1419699368973`
@@ -243,7 +243,7 @@ _Response format_: HTML
 
 #### 3.2.1. Minigames
 
-_Description_:  Returns informations about several minigames. Unfortunately you can't access the stats of other players, so all the requests below return your own (the account who authorized the requests) statistics.
+_Description_:  Returns information about several minigames. Unfortunately you can't access the stats of other players, so all the requests below return your own (the account who authorized the requests) statistics.
 
 _Request URLs_:  
 * Darts:  
@@ -286,9 +286,9 @@ _Request URLs_:
 
 ### 4.1. Overview
 
-#### 4.1.1. General informations
+#### 4.1.1. General information
 
-_Description_: Shows general informations about the crew, like the crew id which is importent for a bunch of other requests, crew tag, the crew logo, rank titles as well as the permissions. 
+_Description_: Shows general information about the crew, like the crew id which is importent for a bunch of other requests, crew tag, the crew logo, rank titles as well as the permissions. 
 
 _Request URL_:  
 `http://socialclub.rockstargames.com/crew/[CREW_NAME]`
@@ -321,7 +321,7 @@ _JSON element_: `SCSettings.dataBody.pnls[2].tplc`
 
 #### 4.1.4. Crew feed
 
-_Description_: Get the latest crew feed activity. Note: Make sure to set `[CREW_ID]`. How to obtain the crew id is documented in [4.1.1. General informations](#411-general-informations).
+_Description_: Get the latest crew feed activity. Note: Make sure to set `[CREW_ID]`. How to obtain the crew id is documented in [4.1.1. General information](#411-general-information).
 
 _Request URL_:  
 `http://socialclub.rockstargames.com/reference/crewfeed/[CREW_ID]?_=1419776423036`
@@ -332,7 +332,7 @@ _Response format_: JSON
 
 _Description_: Returns a part of the member list. You have to increment `pageNumber` to browse through the pagination.
 
-* `[CREW_ID]` can be found in [4.1.1. General informations](#411-general-informations)
+* `[CREW_ID]` can be found in [4.1.1. General information](#411-general-information)
 * `[X]` is a number starting from 0
 
 _Request URL_:  
