@@ -27,6 +27,7 @@ In the guide below I will try to describe and collect as many useful knowledge a
 .. toctree::
    :caption: Private player stats
 
+   general
    minigames
    shooting-range
 
