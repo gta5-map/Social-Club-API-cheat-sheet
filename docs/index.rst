@@ -5,7 +5,7 @@ In the guide below, you can find some useful information how to obtain public st
 
 Unfortunately, it's only made for humans to look at in the browser and if people want to build a script to parse the information, it is rather tricky to access and parse the desired piece of information using cURL since the website is using lots of JavaScript and AJAX to reload stuff in the background.
 
-In the guide below I will try to describe and collect as many useful knowledge about the Social Club and it's "API" as possible.
+In this guide I will try to describe and collect as many useful knowledge about the Social Club and it's "API" as possible.
 
 __Disclaimer__: Using this guide might be a violation of Rockstar's Terms of Service. I take no responsibility for the way you use it. Any violation of the TOS resulting from using this cheat sheet is entirely the user's responsibility.
 
