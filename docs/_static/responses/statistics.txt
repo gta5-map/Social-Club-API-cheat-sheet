@@ -1,0 +1,1461 @@
+<script>
+    if(window.SCSettings){
+        window.SCSettings.platform = 12;
+        window.SCSettings.urlformat = '/games/gtav/(platform)/career/stats?nickname=RestlessNarwhal';
+        window.SCSettings.nickname = '';
+        window.SCSettings.category = '';
+    }
+</script>
+
+<div class="Freemode page-section bg-alpha clearfix">
+    <div class="full-width bg-grad">
+        <h2 class="categoryHeading">
+            GTA Online Career Stats
+        </h2>
+
+    </div>
+    <div class="gridRow">
+        <div class="spanSingleCol">
+            <ul id="statsCategories">
+
+                <li id="career_tab"  class="active" >
+                    <a class="changeCategory" href="#career" data-category="Career" data-toggle="tab">Career</a>
+                    <input type="hidden" class="translate category-title" value="GTA Online Career Stats" />
+                </li>
+
+                <li id="skills_tab" >
+                    <a class="changeCategory" href="#skills" data-category="Skills" data-toggle="tab">Skills</a>
+                    <input type="hidden" class="translate category-title" value="GTA Online Skills Stats" />
+                </li>
+
+                <li id="general_tab" >
+                    <a class="changeCategory" href="#general" data-category="General" data-toggle="tab">General</a>
+                    <input type="hidden" class="translate category-title" value="GTA Online General Stats" />
+                </li>
+
+                <li id="crimes_tab" >
+                    <a class="changeCategory" href="#crimes" data-category="Crimes" data-toggle="tab">Crimes</a>
+                    <input type="hidden" class="translate category-title" value="GTA Online Crimes Stats" />
+                </li>
+
+                <li id="vehicles_tab" >
+                    <a class="changeCategory" href="#vehicles" data-category="Vehicles" data-toggle="tab">Vehicles</a>
+                    <input type="hidden" class="translate category-title" value="GTA Online Vehicles Stats" />
+                </li>
+
+                <li id="cash_tab" >
+                    <a class="changeCategory" href="#cash" data-category="Cash" data-toggle="tab">Cash</a>
+                    <input type="hidden" class="translate category-title" value="GTA Online Cash Stats" />
+                </li>
+
+                <li id="combat_tab" >
+                    <a class="changeCategory" href="#combat" data-category="Combat" data-toggle="tab">Combat</a>
+                    <input type="hidden" class="translate category-title" value="GTA Online Combat Stats" />
+                </li>
+
+                <li id="weapons_tab" >
+                    <a class="changeCategory" href="#weapons" data-category="Weapons" data-toggle="tab">Weapons</a>
+                    <input type="hidden" class="translate category-title" value="GTA Online Weapons Stats" />
+                </li>
+
+            </ul>
+        </div>
+        <div class="spanDoubleCol">
+            <div class="tab-content">
+
+                    <div id="career" class="tab-pane  active">
+                        <table>
+                            <tbody>
+
+                                            <tr>
+                                                <td>Overall income</td>
+                                                <td>$171.9M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Overall expenses</td>
+                                                <td>$161.2M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Total players killed</td>
+                                                <td>8,278</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Total deaths by players</td>
+                                                <td>7,827</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Player vs Player Kill / Death ratio</td>
+                                                <td>1.06</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Distance traveled</td>
+                                                <td>21,925.89 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Favorite radio station</td>
+                                                <td>West Coast Classics</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time spent in GTA Online</td>
+                                                <td>75d 16h 5m 18s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time played in first person</td>
+                                                <td>3d 10h 6m 41s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time spent in Deathmatches</td>
+                                                <td>0d 5h 0m 6s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time spent in Races</td>
+                                                <td>1d 16h 29m 20s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time spent in the Creator</td>
+                                                <td>0d 0h 25m 58s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Deathmatches Published</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Races Published</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Captures Published</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Last Team Standings Published</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Community plays of your published content</td>
+                                                <td>3</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Thumbs up for your published content</td>
+                                                <td>1</td>
+                                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                    <div id="skills" class="tab-pane ">
+                        <table>
+                            <tbody>
+
+                                        <tr>
+                                            <td>
+                                                <div class="clearfix">
+                                                    <div class="left">Stamina</div>
+                                                    <div class="right">
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="clearfix">
+                                                    <div class="left">Shooting</div>
+                                                    <div class="right">
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="clearfix">
+                                                    <div class="left">Strength</div>
+                                                    <div class="right">
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:90%">90%</span>
+                                                            </div>
+
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="clearfix">
+                                                    <div class="left">Stealth</div>
+                                                    <div class="right">
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="clearfix">
+                                                    <div class="left">Flying</div>
+                                                    <div class="right">
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="clearfix">
+                                                    <div class="left">Driving</div>
+                                                    <div class="right">
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="clearfix">
+                                                    <div class="left">Lung Capacity</div>
+                                                    <div class="right">
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="clearfix">
+                                                    <div class="left">Mental State</div>
+                                                    <div class="right">
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:100%">100%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:10%">10%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:%">%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:%">%</span>
+                                                            </div>
+
+                                                            <div class="progress-bar">
+                                                                <span style="width:%">%</span>
+                                                            </div>
+
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                    <div id="general" class="tab-pane ">
+                        <table>
+                            <tbody>
+
+                                            <tr>
+                                                <td>Time played as character</td>
+                                                <td>74d 13h 41m 12s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Character created</td>
+                                                <td>Apr 24 2014</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Last ranked up</td>
+                                                <td>Jan 15 2017</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Longest single game session</td>
+                                                <td>0d 12h 40m 6s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Average time per session</td>
+                                                <td>0d 0h 40m 16s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Total deaths</td>
+                                                <td>15K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Deaths by explosion</td>
+                                                <td>3,810</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Deaths by falling</td>
+                                                <td>639</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Deaths by fire</td>
+                                                <td>22</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Deaths by traffic</td>
+                                                <td>996</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Deaths by drowning</td>
+                                                <td>17</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time swimming</td>
+                                                <td>0d 3h 21m 47s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Distance traveled swimming</td>
+                                                <td>24.63 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time underwater</td>
+                                                <td>0d 1h 19m 57s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time walking</td>
+                                                <td>4d 13h 49m 21s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Distance traveled walking</td>
+                                                <td>454.06 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Distance traveled running</td>
+                                                <td>2,116.62 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Farthest free-fall survived</td>
+                                                <td>2,157.53 ft</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time in cover</td>
+                                                <td>1d 21h 56m 56s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Photos taken</td>
+                                                <td>228</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Private dances</td>
+                                                <td>9</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Sex acts purchased</td>
+                                                <td>1</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Bounties placed on others</td>
+                                                <td>38</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Bounties placed on you</td>
+                                                <td>581</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Highest Survival wave reached</td>
+                                                <td>10</td>
+                                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                    <div id="crimes" class="tab-pane ">
+                        <table>
+                            <tbody>
+
+                                            <tr>
+                                                <td>Cops killed</td>
+                                                <td>18.4K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>NOOSE killed</td>
+                                                <td>7,196</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Times Wanted</td>
+                                                <td>12.5K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Wanted stars attained</td>
+                                                <td>28.5K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Wanted stars evaded</td>
+                                                <td>10.6K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time spent with a Wanted Level</td>
+                                                <td>4d 13h 16m 38s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Last Wanted Level duration</td>
+                                                <td>0d 0h 0m 42s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Longest Wanted Level duration</td>
+                                                <td>0d 0h 24m 53s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time spent with a 5 star Wanted Level</td>
+                                                <td>0d 16h 42m 7s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Drive-by kills as driver</td>
+                                                <td>1,497</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Drive-by kills as passenger</td>
+                                                <td>1,846</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Tires shot out</td>
+                                                <td>37.4K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Vehicular kills</td>
+                                                <td>2,411</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Cars stolen</td>
+                                                <td>3,302</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Motorcycles stolen</td>
+                                                <td>116</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Helicopters stolen</td>
+                                                <td>537</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Planes stolen</td>
+                                                <td>566</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Boats stolen</td>
+                                                <td>68</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>ATVs stolen</td>
+                                                <td>24</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Bicycles stolen</td>
+                                                <td>17</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Cop vehicles stolen</td>
+                                                <td>319</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Store Hold Ups</td>
+                                                <td>111</td>
+                                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                    <div id="vehicles" class="tab-pane ">
+                        <table>
+                            <tbody>
+
+                                            <tr>
+                                                <td>Time driving cars</td>
+                                                <td>16d 14h 52m 31s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Distance traveled in cars</td>
+                                                <td>20,981.22 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time riding motorcycles</td>
+                                                <td>2d 9h 24m 27s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Distance traveled on motorcycles</td>
+                                                <td>3,566.66 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time flying helicopters</td>
+                                                <td>2d 3h 35m 43s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Distance traveled in helicopters</td>
+                                                <td>4,784.66 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time flying planes</td>
+                                                <td>1d 9h 12m 30s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Distance traveled in planes</td>
+                                                <td>4,267.25 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time sailing boats</td>
+                                                <td>0d 5h 11m 35s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Distance traveled in boats</td>
+                                                <td>299.60 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time riding ATVs</td>
+                                                <td>0d 1h 27m 27s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Distance traveled on ATVs</td>
+                                                <td>62.90 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Time riding bicycles</td>
+                                                <td>0d 3h 2m 15s</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Distance traveled on bicycles</td>
+                                                <td>65.68 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Highest speed in a road vehicle</td>
+                                                <td>311.65 mph</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Road vehicle driven fastest</td>
+                                                <td>9F</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Farthest stoppie</td>
+                                                <td>177.60 ft</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Farthest wheelie</td>
+                                                <td>13,863.90 ft</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Farthest driven without crashing</td>
+                                                <td>83.28 miles</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Car crashes</td>
+                                                <td>79.6K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Motorcycle crashes</td>
+                                                <td>6,478</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>ATV crashes</td>
+                                                <td>209</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Bailed from a moving vehicle</td>
+                                                <td>2,173</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Farthest vehicle jump</td>
+                                                <td>4,156.24 ft</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Highest vehicle jump</td>
+                                                <td>4,152.89 ft</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Most flips in one vehicle jump</td>
+                                                <td>8</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Most spins in one vehicle jump</td>
+                                                <td>13</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Unique Stunt Jumps found</td>
+                                                <td>64 / 50</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Unique Stunt Jumps completed</td>
+                                                <td>27 / 50</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Near misses</td>
+                                                <td>56.5K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Cop cars blown up</td>
+                                                <td>6,071</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Cars blown up</td>
+                                                <td>12.4K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Motorcycles blown up</td>
+                                                <td>193</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Helicopters blown up</td>
+                                                <td>1,492</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Planes blown up</td>
+                                                <td>323</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Boats blown up</td>
+                                                <td>101</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>ATVs blown up</td>
+                                                <td>6</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Vehicles repaired</td>
+                                                <td>992</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Vehicles resprayed</td>
+                                                <td>413</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Cars exported</td>
+                                                <td>5</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Highest Hydraulic Jump</td>
+                                                <td>8.93 ft</td>
+                                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                    <div id="cash" class="tab-pane ">
+                        <table>
+                            <tbody>
+
+                                            <tr>
+                                                <td>Spent on weapons & armor</td>
+                                                <td>$20.1M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Spent on vehicles & maintenance</td>
+                                                <td>$93.1M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Spent on style & entertainment</td>
+                                                <td>$3M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Spent on property & utilities</td>
+                                                <td>$28.2M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Spent on Job & Activity entry fees</td>
+                                                <td>$258.3K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Spent on betting</td>
+                                                <td>$1.2M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Spent on contact services</td>
+                                                <td>$1.7M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Spent on healthcare</td>
+                                                <td>$3.2M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Dropped or stolen</td>
+                                                <td>$2.5M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Given to others</td>
+                                                <td>$0</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Earned from Jobs</td>
+                                                <td>$26.4M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Earned from selling vehicles</td>
+                                                <td>$125.6M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Earned from betting</td>
+                                                <td>$469.5K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Earned from Good Sport reward</td>
+                                                <td>$726K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Picked up</td>
+                                                <td>$268K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Received from others</td>
+                                                <td>$0</td>
+                                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                    <div id="combat" class="tab-pane ">
+                        <table>
+                            <tbody>
+
+                                            <tr>
+                                                <td>Shots</td>
+                                                <td>1.1M</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Hits</td>
+                                                <td>208.3K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Accuracy</td>
+                                                <td>19.30%</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Kills</td>
+                                                <td>51.8K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Headshot kills</td>
+                                                <td>10.9K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Armed kills</td>
+                                                <td>35.1K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Free Aim kills</td>
+                                                <td>14K</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Stealth kills</td>
+                                                <td>5</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Counter attacks</td>
+                                                <td>4</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Player kills</td>
+                                                <td>8,240</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Player headshot kills</td>
+                                                <td>1,749</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Survival kills</td>
+                                                <td>942</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Gang Attack kills</td>
+                                                <td>778</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Highest killstreak in Deathmatch</td>
+                                                <td>6</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Archenemy</td>
+                                                <td><a href="/member/Mrlex125">Mrlex125</a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Times killed by Archenemy</td>
+                                                <td>34</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Victim</td>
+                                                <td><a href="/member/DragandDriftFun">DragandDriftFun</a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Victim kills</td>
+                                                <td>29</td>
+                                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                    <div id="weapons" class="tab-pane ">
+                        <table>
+                            <tbody>
+
+                                            <tr>
+                                                <td>Pistol kills</td>
+                                                <td>242</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Combat Pistol kills</td>
+                                                <td>38</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>AP Pistol kills</td>
+                                                <td>1,160</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Pistol .50 kills</td>
+                                                <td>27</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>SNS Pistol kills</td>
+                                                <td>38</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Heavy Pistol kills</td>
+                                                <td>53</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Vintage Pistol kills</td>
+                                                <td>14</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Marksman Pistol kills</td>
+                                                <td>6</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Heavy Revolver kills</td>
+                                                <td>41</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Flare Gun kills</td>
+                                                <td>40</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Micro SMG kills</td>
+                                                <td>1,990</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>SMG kills</td>
+                                                <td>65</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Assault SMG kills</td>
+                                                <td>16</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Gusenberg Sweeper kills</td>
+                                                <td>1</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Machine Pistol kills</td>
+                                                <td>54</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Double Barrel Shotgun kills</td>
+                                                <td>4</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Compact Rifle kills</td>
+                                                <td>84</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Pool Cue kills</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Pipe Wrench kills</td>
+                                                <td>2</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Battle Axe kills</td>
+                                                <td>6</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Sweeper Shotgun kills</td>
+                                                <td>31</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Mini SMG kills</td>
+                                                <td>16</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Compact Grenade Launcher kills</td>
+                                                <td>95</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Assault Rifle kills</td>
+                                                <td>1,718</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Carbine Rifle kills</td>
+                                                <td>1,206</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Advanced Rifle kills</td>
+                                                <td>7,502</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Bullpup Rifle kills</td>
+                                                <td>331</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Special Carbine kills</td>
+                                                <td>1,042</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Musket kills</td>
+                                                <td>21</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Marksman Rifle kills</td>
+                                                <td>730</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>MG kills</td>
+                                                <td>552</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Combat MG kills</td>
+                                                <td>2,840</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Pump Shotgun kills</td>
+                                                <td>44</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Sawed-Off Shotgun kills</td>
+                                                <td>34</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Assault Shotgun kills</td>
+                                                <td>1,940</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Bullpup Shotgun kills</td>
+                                                <td>3</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Heavy Shotgun kills</td>
+                                                <td>47</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Sniper Rifle kills</td>
+                                                <td>409</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Heavy Sniper kills</td>
+                                                <td>2,829</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Grenade Launcher kills</td>
+                                                <td>1,497</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>RPG kills</td>
+                                                <td>3,174</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Firework Launcher kills</td>
+                                                <td>36</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Homing Launcher kills</td>
+                                                <td>655</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Minigun kills</td>
+                                                <td>479</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Grenade kills</td>
+                                                <td>232</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Tear Gas kills</td>
+                                                <td>29</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Sticky Bomb kills</td>
+                                                <td>3,791</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Proximity Mine kills</td>
+                                                <td>117</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Molotov kills</td>
+                                                <td>7</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Knife kills</td>
+                                                <td>22</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Nightstick kills</td>
+                                                <td>1</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Crowbar kills</td>
+                                                <td>1</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Baseball Bat kills</td>
+                                                <td>12</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Golf Club kills</td>
+                                                <td>5</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Hammer kills</td>
+                                                <td>8</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Unarmed kills</td>
+                                                <td>517</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Bottle kills</td>
+                                                <td>4</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Antique Cavalry Dagger kills</td>
+                                                <td>3</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Knuckle Dusters kills</td>
+                                                <td>6</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Flashlight kills</td>
+                                                <td>4</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Machete kills</td>
+                                                <td>19</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Switchblade kills</td>
+                                                <td>7</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Rhino Gun kills</td>
+                                                <td>5,748</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Buzzard Minigun kills</td>
+                                                <td>2</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Buzzard Rocket kills</td>
+                                                <td>2,484</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Lazer Cannon kills</td>
+                                                <td>15</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Lazer Missile kills</td>
+                                                <td>415</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Annihilator Minigun kills</td>
+                                                <td>1</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Hydra Missile kills</td>
+                                                <td>112</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Hydra Cannon kills</td>
+                                                <td>45</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Insurgent Machine Gun kills</td>
+                                                <td>222</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Savage Missile kills</td>
+                                                <td>125</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Savage Cannon kills</td>
+                                                <td>23</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Technical Machine Gun kills</td>
+                                                <td>58</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Valkyrie Cannon kills</td>
+                                                <td>84</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Valkyrie Machine Gun kills</td>
+                                                <td>7</td>
+                                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
