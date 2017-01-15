@@ -23,7 +23,7 @@ Overview
     GET /games/gtav/career/overviewAjax?nickname=RestlessNarwhal&slot=Freemode HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** ` (full) <_static/responses/player-overview.txt>`_:
+  **Example response** `(full) <_static/responses/player-overview.txt>`_:
 
   .. include:: _static/responses/player-overview.txt
     :literal:
