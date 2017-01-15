@@ -1,3 +1,4 @@
-sphinx-rtd-theme
-sphinx
 recommonmark
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-httpdomain
