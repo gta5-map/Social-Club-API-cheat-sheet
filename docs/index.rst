@@ -12,7 +12,6 @@ In this guide I will try to describe and collect as many useful knowledge about 
 .. toctree::
    :caption: General
 
-   information
    authentication
    example-parser-application
 
