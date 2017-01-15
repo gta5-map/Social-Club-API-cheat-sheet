@@ -1,0 +1,546 @@
+<script>
+if(window.SCSettings) {
+    window.SCSettings.platform = 12;
+    window.SCSettings.urlformat = '/games/gtav/(platform)/career/overview';
+    window.SCSettings.nickname = '';
+}
+</script>
+
+<div id="page-header" class="clearfix">
+
+<div id="freemodeRank" class="page-section clearfix">
+    <div class="rankHex right-grad bronze">
+        <h3 style="font-size:54px">283</h3>
+        <p style="text-align:center;"></p>
+    </div>
+    <div class="rankXP">
+        <div class="clearfix">
+            <h3 class="left">7.7M<span> RP</span></h3>
+        </div>
+        <div class="rankBar">
+            <h4>Play Time: 74d 13h 41m</h4>
+
+
+
+            <div class="clearfix">
+
+                    <div class="progress-bar">
+                        <span style="width:20%">20%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span style="width:%">%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span style="width:%">%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span style="width:%">%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span style="width:%">%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span style="width:%">%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span style="width:%">%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span style="width:%">%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span style="width:%">%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span style="width:%">%</span>
+                    </div>
+
+            </div>
+
+            <div class="clearfix">
+                <h4 style="text-align:center;">7.7M / 7.7M</h4>
+            </div>
+        </div>
+    </div>
+    <div class="rankStats">
+        <p><span id="cash-title">cash</span><span id="cash-value">$125,828</span></p>
+        <p><span id="bank-title">bank</span><span id="bank-value">$10,043,788</span></p>
+
+        <div class="crewCard lightCard">
+            <div class="clearfix">
+                <img class="avatar" src="https://prod.cloud.rockstargames.com/crews/sc/2230/20242331/publish/emblem/emblem_64.png" alt="" />
+                <div class="left">
+                    <h3><a href="/crew/rebl_xb1">REBL XB1</a></h3>
+                    <div class="crewTag private">
+                        <span>
+                            REBL
+                            <span class="crewColor" style="background:#0047AB"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div class="clearfix">
+    <div id="freemodeStats2" class="page-section clearfix Freemode">
+        <div class="bg-grad full-width">
+            <h2>Competitive Stats</h2>
+        </div>
+        <div>
+            <div id="competitive-stats" class="clearfix">
+                <div class="compType1">
+                    <div class="compTypeIcon active">
+                        <p data-win-text="Wins" data-loss-text="Losses" data-extra-text="Race Time" data-win="77" data-loss="233" data-extra="40h 29m 20s" data-name="Races" data-icon="gtavicon-race"><i class="gtavicon-race"></i></p>
+                    </div>
+                    <div class="compTypeIcon">
+                        <p data-win-text="Wins" data-loss-text="Losses" data-extra-text="Deathmatch Time" data-win="6" data-loss="19" data-extra="5h 6s" data-name="Deathmatches" data-icon="gtavicon-icon_skull_crossbones"><i class="gtavicon-icon_skull_crossbones"></i></p>
+                    </div>
+                    <div class="compTypeIcon">
+                        <p data-win-text="Wins" data-loss-text="Losses" data-extra-text="Perfect Landings" data-win="16" data-loss="16" data-extra="27" data-name="Parachuting" data-icon="gtavicon-parachuting"><i class="gtavicon-parachuting"></i></p>
+                    </div>
+                </div>
+
+                <div class="competitive-chartWrapper">
+                    <div id="competitive-chart">
+                        <div id="competitivecanvas"></div>
+                    </div>
+                    <div id="competitive-center">
+                        <i class="gtavicon-race"></i><p>Races</p>
+                    </div>
+                </div>
+
+                <div class="compType2">
+                    <div class="compTypeIcon">
+                        <p data-win-text="Wins" data-loss-text="Losses" data-extra-text="6 Dart Checkouts" data-win="0" data-loss="0" data-extra="0" data-name="Darts" data-icon="gtavicon-icon_target"><i class="gtavicon-icon_target"></i></p>
+                    </div>
+                    <div class="compTypeIcon">
+                        <p data-win-text="Wins" data-loss-text="Losses" data-extra-text="Aces" data-win="0" data-loss="3" data-extra="3" data-name="Tennis" data-icon="gtavicon-tennis"><i class="gtavicon-tennis"></i></p>
+                    </div>
+                    <div class="compTypeIcon">
+                        <p data-win-text="Wins" data-loss-text="Losses" data-extra-text="Hole in 1" data-win="1" data-loss="0" data-extra="No" data-name="Golf" data-icon="gtavicon-golf"><i class="gtavicon-golf"></i></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="competitiveResults" class="clearfix">
+                <div id="competitive-win"><h5>Wins</h5><p>77</p></div>
+                <div id="competitive-loss"><h5>Losses</h5><p>233</p></div>
+                <div id="competitive-extra"><h5>Race Time</h5><p>40h 29m 20s</p></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="freemodeStats3" class="page-section clearfix Freemode">
+        <div class="bg-grad full-width">
+            <h2 data-sl-variant="5">Cash Earned</h2>
+        </div>
+        <div>
+            <div id="cash-stats" class="clearfix">
+                <div id="cashLeft">
+                    <div class="cash-val" data-name="Jobs" data-cash="$26.4M" data-pct="17.16"><h5 style="color:#f3903b;"><span>Jobs</span></h5><p>$26.4M</p></div>
+                    <div class="cash-val" data-name="Shared" data-cash="$225.6K" data-pct="0.15"><h5 style="color:#62b1dc;"><span>Shared</span></h5><p>$225.6K</p></div>
+                    <div class="cash-val" data-name="Other" data-cash="$726K" data-pct="0.47"><h5 style="color:#679968;"><span>Other</span></h5><p>$726K</p></div>
+                </div>
+
+                <div id="cash-cartWrapper">
+
+                    <div id="cash-chart">
+              <div id="cashcanvas"></div>
+                    </div>
+                    <div id="cash-center">
+                        <h4>Jobs</h4><p>17.16%</p>
+                    </div>
+
+                </div>
+
+                <div id="cashRight">
+                    <div class="cash-val" data-name="Betting" data-cash="$469.5K" data-pct="0.31"><h5 style="color:#f4c34a;"><span>Betting</span></h5><p>$469.5K</p></div>
+                    <div class="cash-val" data-name="Car Sales" data-cash="$125.6M" data-pct="81.74"><h5 style="color:#b65657;"><span>Car Sales</span></h5><p>$125.6M</p></div>
+                    <div class="cash-val" data-name="Picked Up" data-cash="$268K" data-pct="0.17"><h5 style="color:#CB3694;"><span>Picked Up</span></h5><p>$268K</p></div>
+                </div>
+            </div>
+
+            <div id="cashBreakdown" class="clearfix">
+                <div id="cashEarned"><h5>Total Earned</h5><p>$171.9M</p></div>
+                <div id="cashSpent"><h5>Total Spent</h5> <p>$161.2M</p></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="statBreakdown" class="Freemode page-section bg-alpha clearfix">
+    <div class="full-width bg-grad">
+        <h2>Criminal Record</h2>
+    </div>
+    <div class="gridRow">
+        <div class="stats-col span2col">
+            <ul class="Freemode">
+
+                <li>
+                    <h5>Stamina</h5>
+                    <div class="clearfix">
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                    </div>
+                </li>
+
+                <li>
+                    <h5>Stealth</h5>
+                    <div class="clearfix">
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                    </div>
+                </li>
+
+                <li>
+                    <h5>Lung Capacity</h5>
+                    <div class="clearfix">
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                    </div>
+                </li>
+
+                <li>
+                    <h5>Flying</h5>
+                    <div class="clearfix">
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                    </div>
+                </li>
+
+                <li>
+                    <h5>Shooting</h5>
+                    <div class="clearfix">
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                    </div>
+                </li>
+
+                <li>
+                    <h5>Strength</h5>
+                    <div class="clearfix">
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:90%">90%</span>
+                            </div>
+
+                    </div>
+                </li>
+
+                <li>
+                    <h5>Driving</h5>
+                    <div class="clearfix">
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                    </div>
+                </li>
+
+                <li>
+                    <h5>Mental State</h5>
+                    <div class="clearfix">
+
+                            <div class="progress-bar">
+                                <span style="width:100%">100%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:10%">10%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:%">%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:%">%</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <span style="width:%">%</span>
+                            </div>
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <ul class="span4col">
+            <li><h5>Cops killed</h5><p>18.4K</p></li>
+            <li><h5>Wanted stars attained</h5><p>28.5K</p></li>
+            <li><h5>Time Wanted</h5><p>4d 13h 16m</p></li>
+        </ul>
+        <ul class="span4col">
+            <li><h5>Vehicles Stolen</h5><p>4,631</p></li>
+            <li><h5>Cars Exported</h5><p>5</p></li>
+            <li><h5>Store Hold Ups</h5><p>111</p></li>
+        </ul>
+    </div>
+</div>
+
+<div class="clearfix">
+
+
+    <div id="faveWeaponWrapper" class="page-section clearfix Freemode">
+        <div class="bg-grad full-width">
+            <h2>Favorite Weapon</h2>
+        </div>
+
+
+
+            <div class="imageHolder">
+                <img width="250" alt="Advanced Rifle" src="https://cdn.sc.rockstargames.com/images/games/GTAV/weapons/314x120_colour/W_AR_AdvancedRifle.png"/>
+
+                <img width="250" alt="Advanced Rifle Mag" src="https://cdn.sc.rockstargames.com/images/games/GTAV/weapons/314x120_colour/W_AR_AdvancedRifle_Mag1.png"/>
+
+                <h4>Advanced Rifle</h4>
+            </div>
+
+            <div class="weaponStats">
+  <table>
+    <tbody>
+        <tr>
+          <td>
+            Damage
+            <div class="progress-bar">
+              <span style="width:34%">70%</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Fire Rate
+            <div class="progress-bar">
+              <span style="width:70%">70%</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Accuracy
+            <div class="progress-bar">
+              <span style="width:50%">50%</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Range
+            <div class="progress-bar">
+              <span style="width:45%">45%</span>
+            </div>
+          </td>
+        </tr>
+        <tr class="last">
+          <td>
+            Clip Size
+            <div class="progress-bar">
+              <span style="width:40%">40%</span>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+  </table>
+    </div>
+            <div class="textSection">
+        <ul class="clearfix">
+            <li>
+                <h5>Kills</h5>
+                <p>7502</p>
+            </li>
+            <li>
+                <h5>Headshots</h5>
+                <p>3888</p>
+            </li>
+
+            <li>
+                <h5>Accuracy</h5>
+                <p>27.47%</p>
+            </li>
+
+            <li>
+                <h5>Time held</h5>
+                <p>51:37:53</p>
+            </li>
+        </ul>
+    </div>
+
+
+    </div>
+</div>
+
+
+    <!-- Recent activity - only shown if they have stats -->
+    <div id="recentActivity" class="page-section Freemode">
+        <div class="bg-grad full-width">
+            <h2>Recent Activity</h2>
+        </div>
+        <div class="clearfix">
+            <ul class="gridRow">
+
+                                <li class="span5col bg-grad Platinum" data-type="award" data-name="The Widow Maker" data-award="Platinum" data-awardtxt="The Widow Maker" data-comment="The Widow Maker" data-onetime="False" data-curValue="8240" data-nextValue="" data-nextAward="" >
+                                <img src="https://cdn.sc.rockstargames.com/images/games/GTAV/multiplayer/award/platinum/OverallKills.png" alt="The Widow Maker" />
+                                </li>
+                                <li class="span5col bg-grad Platinum" data-type="award" data-name="Scoping Out" data-award="Platinum" data-awardtxt="Scoping Out" data-comment="Scoping Out" data-onetime="False" data-curValue="2636" data-nextValue="" data-nextAward="" >
+                                <img src="https://cdn.sc.rockstargames.com/images/games/GTAV/multiplayer/award/platinum/KillSniperrifle.png" alt="Scoping Out" />
+                                </li>
+                                <li class="span5col bg-grad Platinum" data-type="award" data-name="Vehicle Thief" data-award="Platinum" data-awardtxt="Vehicle Thief" data-comment="Vehicle Thief" data-onetime="False" data-curValue="4631" data-nextValue="" data-nextAward="" >
+                                <img src="https://cdn.sc.rockstargames.com/images/games/GTAV/multiplayer/award/platinum/JackVehicles.png" alt="Vehicle Thief" />
+                                </li>
+                                <li class="span5col bg-grad Platinum" data-type="award" data-name="Airborne" data-award="Platinum" data-awardtxt="Airborne" data-comment="Airborne" data-onetime="False" data-curValue="1323" data-nextValue="" data-nextAward="" >
+                                <img src="https://cdn.sc.rockstargames.com/images/games/GTAV/multiplayer/award/platinum/Jump40m.png" alt="Airborne" />
+                                </li>
+                                <li class="span5col bg-grad Platinum" data-type="award" data-name="Head Banger" data-award="Platinum" data-awardtxt="Head Banger" data-comment="Head Banger" data-onetime="False" data-curValue="1749" data-nextValue="" data-nextAward="" >
+                                <img src="https://cdn.sc.rockstargames.com/images/games/GTAV/multiplayer/award/platinum/Headshots.png" alt="Head Banger" />
+                                </li>
+            </ul>
+        </div>
+    </div>
+</div>
