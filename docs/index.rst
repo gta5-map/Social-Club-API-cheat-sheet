@@ -7,7 +7,7 @@ Unfortunately, it's only made for humans to look at in the browser and if people
 
 In this guide I will try to describe and collect as many useful knowledge about the Social Club and it's "API" as possible.
 
-__Disclaimer__: Using this guide might be a violation of Rockstar's [Terms of Service](http://www.rockstargames.com/legal). I take no responsibility for the way you use it. Any violation of the [TOS](http://www.rockstargames.com/legal) resulting from using this cheat sheet is entirely the user's responsibility.
+**Disclaimer**: Using this guide might be a violation of Rockstar's `Terms of Service <http://www.rockstargames.com/legal>`_. I take no responsibility for the way you use it. Any violation of the `TOS <http://www.rockstargames.com/legal>`_ resulting from using this cheat sheet is entirely the user's responsibility.
 
 .. toctree::
    :caption: General
