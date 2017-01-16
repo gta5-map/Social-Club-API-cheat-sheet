@@ -1,0 +1,67 @@
+{
+  "sl_translate": "itemData,AmmoType,Name,Desc,attachments",
+  "itemData": {
+    "damagePercent": 26,
+    "fireratePercent": 40,
+    "accuracyPercent": 40,
+    "ammoPercent": 10,
+    "rangePercent": 25,
+    "type": "gun",
+    "hasAttachments": true,
+    "attachmentsCount": 4,
+    "attachments": [
+      {
+        "Name": "Default Clip",
+        "Image": "W_PI_Pistol_Mag1",
+        "IsPurchased": true,
+        "IsUnlocked": true,
+        "UnlockRank": 1,
+        "Id": "W_PI_PISTOL_MAG1"
+      },
+      {
+        "Name": "Extended Clip",
+        "Image": "W_PI_Pistol_Mag2",
+        "IsPurchased": true,
+        "IsUnlocked": true,
+        "UnlockRank": 3,
+        "Id": "W_PI_PISTOL_MAG2"
+      },
+      {
+        "Name": "Flashlight",
+        "Image": "W_PI_Pistol_Flash",
+        "IsPurchased": true,
+        "IsUnlocked": true,
+        "UnlockRank": 4,
+        "Id": "W_PI_PISTOL_FLASH"
+      },
+      {
+        "Name": "Suppressor",
+        "Image": "W_PI_Pistol_Supp",
+        "IsPurchased": true,
+        "IsUnlocked": true,
+        "UnlockRank": 5,
+        "Id": "W_PI_PISTOL_SUPP"
+      }
+    ],
+    "mode": "mp",
+    "Desc": "Standard handgun. A .45 caliber combat pistol with a magazine capacity of 12 rounds that can be extended to 16.",
+    "IsUnlocked": true,
+    "IsPurchased": true,
+    "Image": "W_PI_Pistol.png"
+  },
+  "playerData": {
+    "headShots": 114,
+    "Shots": 5990,
+    "Hits": 1472,
+    "Kills": 242,
+    "PlayerKills": 26,
+    "Deaths": 1428,
+    "BodyShots": 1358,
+    "KDR": "0.17",
+    "HeldTime": "06:53:08",
+    "Accuracy": 24.57,
+    "type": "gun",
+    "mode": "mp",
+    "AmmoType": "Shots Fired"
+  }
+}
