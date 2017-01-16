@@ -13,7 +13,7 @@ In this guide I will try to describe and collect as many useful knowledge about 
    :caption: General
 
    authentication
-   example-parser-application
+   examples
 
 .. toctree::
    :caption: Public player stats
