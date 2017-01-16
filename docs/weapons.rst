@@ -12,7 +12,7 @@ General statistics
 
   .. sourcecode:: http
 
-    GET /gtav/WeaponsAjax?nickname=RestlessNarwhal&slot=Freemode HTTP/1.1
+    GET /gtav/WeaponsAjax HTTP/1.1
     Host: socialclub.rockstargames.com
 
   **Example response** `(full) <_static/responses/weapons_general.txt>`_:
