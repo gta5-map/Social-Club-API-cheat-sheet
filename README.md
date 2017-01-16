@@ -6,6 +6,8 @@ Unfortunately, it's only made for humans to look at in the browser and if people
 
 In [this guide](http://rockstar-api.rtfd.io) I will try to describe and collect as many useful knowledge about the Social Club and it's "API" as possible.
 
+__Disclaimer__: Using this guide might be a violation of Rockstar's Terms of Service. I take no responsibility for the way you use it. Any violation of the TOS resulting from using this cheat sheet is entirely the user's responsibility.
+
 ## Installation
 
 1. Clone this repository:
