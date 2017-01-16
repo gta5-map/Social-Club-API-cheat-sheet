@@ -1,4 +1,3 @@
-
 <script>
     var settings = window.SCSettings;
     if (settings != undefined) {
