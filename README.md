@@ -17,7 +17,7 @@ In [this guide](http://rockstar-api.rtfd.io) I will try to describe and collect 
 2. Make sure you've installed all requirements:
 
     ```
-    pip install -r requirements.txt
+    pip install -r docs/requirements.txt
     ```
 
 3. Build the docs/HTML using `make`:
