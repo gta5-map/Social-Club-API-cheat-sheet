@@ -33,7 +33,7 @@ Detailed information per car
 
 .. http:get:: /member/(socialclub_name)/games/gtav/api/garage/gtaonline/(car_id)
 
-  This will also show additional the specs of the car (acceleration, handling, braking, etc.) as well as the car lights (Xeon/Non-xeon), suspension and more. Make sure to replace "[0-9]" with a number between 0 and 9. At the moment I don't know how to access cars from the different garages.
+  This will also show additional specs of the car (acceleration, handling, braking, etc.) as well as the mod information about lights (xeon/non-xeon), suspension and more. Make sure to replace "[0-9]" with a number between 0 and 9. The numbers represent the order of the previously used cars (like the iFruit app).
 
   **Example request**:
 
@@ -50,4 +50,4 @@ Detailed information per car
     :end-line: 30
 
   :query socialclub_name: your Social Club account username
-  :query car_id: name of the weapon, see list below
+  :query car_id: id of the car, can be ``0-9``
