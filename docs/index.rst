@@ -1,5 +1,5 @@
 Rockstar / R* Social Club "API" cheat sheet
--------------------------------------------
+===========================================
 
 In the guide below, you can find some useful information how to obtain public statistics of Social Club profiles, Rockstar's official platform for GTA Online statistics. Either how many times you blew up a police helicopter or how often you died through a jerry can – it's all tracked and viewable online on said platform.
 
