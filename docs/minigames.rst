@@ -24,6 +24,8 @@ Darts
     :code: json
     :end-line: 30
 
+  :query slot: needs to be ``Freeroam``
+
 Arm wrestling
 -------------
 
@@ -42,6 +44,8 @@ Arm wrestling
     :literal:
     :code: json
     :end-line: 30
+
+  :query slot: needs to be ``Freeroam``
 
 Flight school
 -------------
@@ -62,6 +66,8 @@ Flight school
     :code: json
     :end-line: 30
 
+  :query slot: needs to be ``Freeroam``
+
 Golf
 ----
 
@@ -81,6 +87,7 @@ Golf
     :code: json
     :end-line: 30
 
+  :query slot: needs to be ``Freeroam``
 
 Tennis
 ------
@@ -100,3 +107,5 @@ Tennis
     :literal:
     :code: json
     :end-line: 30
+
+  :query slot: needs to be ``Freeroam``
