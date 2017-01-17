@@ -81,24 +81,6 @@ Golf
     :code: json
     :end-line: 30
 
-Tennis
-------
-
-.. http:get:: /games/gtav/api/minigames/sport?minigame=shootingrange&slot=Freemode
-
-  **Example request**:
-
-  .. sourcecode:: http
-
-    GET /games/gtav/api/minigames/sport?minigame=shootingrange&slot=Freemode HTTP/1.1
-    Host: socialclub.rockstargames.com
-
-  **Example response** `(full) <_static/responses/minigames_shootingrange.txt>`_:
-
-  .. include:: _static/responses/minigames_shootingrange.txt
-    :literal:
-    :code: json
-    :end-line: 30
 
 Tennis
 ------
