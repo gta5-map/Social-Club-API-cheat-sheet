@@ -1,0 +1,9 @@
+{
+  "Total": 0,
+  "CrewInvitesCount": 0,
+  "FriendInvitesCount": 0,
+  "PrivateMessageUnreadCount": 0,
+  "NotificationUnreadCount": 0,
+  "sl_translate": "ErrorText,MessageText",
+  "Status": true
+}
