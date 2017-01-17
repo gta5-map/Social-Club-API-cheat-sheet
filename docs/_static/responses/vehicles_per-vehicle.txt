@@ -1,0 +1,23 @@
+{
+  "vehicleData": {
+    "speedPercent": 83.165451,
+    "accelerationPercent": 82.500008,
+    "brakingPercent": 33.333336,
+    "handlingPercent": 77.272728,
+    "description": null,
+    "image": null,
+    "name": "9F",
+    "manufacturer": "Obey",
+    "type": "CAR",
+    "Seats": 2,
+    "Personal": true,
+    "Moddable": true,
+    "SuperModdable": false,
+    "Premium": true,
+    "ForSale": true,
+    "Cost": "$120K",
+    "Website": "www.legendarymotorsport.net",
+    "Sellable": true,
+    "SellPrice": "$12K"
+  }
+}

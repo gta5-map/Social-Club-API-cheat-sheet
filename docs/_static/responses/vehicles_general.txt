@@ -1,0 +1,204 @@
+<script>
+    var settings = window.SCSettings;
+    if (settings != undefined) {
+        settings.category = 'sports';
+        settings.platform = 12;
+        settings.urlformat = '/games/gtav/(platform)/career/vehicles';
+        settings.VehiclesJson =  /*<sl:translate_json>*/{"sl_translate":"VehicleCollections,Vehicles,Name,Conditional","sl_variant":"Conditional:gtavdlcname","VehicleCollections":[{"Name":"Boats","Url":"boats"},{"Name":"Commercial","Url":"commercial"},{"Name":"Compacts","Url":"compacts"},{"Name":"Coupes","Url":"coupes"},{"Name":"Cycles","Url":"cycles"},{"Name":"Emergency","Url":"emergency"},{"Name":"Helicopters","Url":"helicopters"},{"Name":"Industrial","Url":"industrial"},{"Name":"Military","Url":"military"},{"Name":"Motorcycles","Url":"motorcycles"},{"Name":"Muscle","Url":"muscle"},{"Name":"Off-Road","Url":"off-road"},{"Name":"Planes","Url":"planes"},{"Name":"Sedans","Url":"sedans"},{"Name":"Service","Url":"service"},{"Name":"Sports","Url":"sports","TotalVehicles":45,"Vehicles":[{"Name":"Obey 9F","Url":"9f","Type":"CAR","Speed":83.165451,"Acceleration":82.500008,"Braking":33.333336,"Handling":77.272728,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$120K","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$12K"},{"Name":"Obey 9F Cabrio","Url":"9f-cabrio","Type":"CAR","Speed":83.165451,"Acceleration":82.500008,"Braking":33.333336,"Handling":77.272728,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$130K","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$13K"},{"Name":"Albany Alpha","Url":"alpha","Type":"CAR","Conditional":"Business Update","Speed":83.165451,"Acceleration":85,"Braking":33.333336,"Handling":77.272728,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$150K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$15K"},{"Name":"Bravado Banshee","Url":"banshee","Type":"CAR","Speed":79.409599,"Acceleration":85,"Braking":33.333336,"Handling":73.333336,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net, www.bennysoriginalmotorworks.com","Cost":"$105K","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":true,"Sellable":true,"SellPrice":"$10.5K"},{"Name":"Bravado Banshee Topless","Url":"banshee2","Type":"CAR","Conditional":"High Life Update","Speed":79.409599,"Acceleration":85,"Braking":33.333336,"Handling":73.333336,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$126K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":true,"Sellable":true,"SellPrice":"$12.6K"},{"Name":"Grotti Bestia GTS","Url":"bestiagts","Type":"CAR","Conditional":"Further Adventures in Finance and Felony","Speed":83.165451,"Acceleration":79.999992,"Braking":33.333336,"Handling":73.333336,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.com","Cost":"$610K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$61K"},{"Name":"Dinka Blista Compact","Url":"blista-compact","Type":"CAR","Conditional":"Exclusive Content","Speed":70.824776,"Acceleration":57.5,"Braking":18.333334,"Handling":63.636364,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"FREE*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$0"},{"Name":"Bravado Buffalo","Url":"buffalo","Type":"CAR","Speed":77.799942,"Acceleration":67.5,"Braking":29.999998,"Handling":74.242424,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$35K","Seats":4,"Personal":true,"Premium":false,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$3,500"},{"Name":"Bravado Buffalo S","Url":"buffalo2","Type":"CAR","Speed":77.799942,"Acceleration":72.5,"Braking":29.999998,"Handling":74.242424,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$96K","Seats":4,"Personal":true,"Premium":false,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$9,600"},{"Name":"Grotti Carbonizzare","Url":"carbonizzare","Type":"CAR","Speed":84.775108,"Acceleration":87.5,"Braking":26.666668,"Handling":72.121216,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$195K","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$19.5K"},{"Name":"Pfister Comet","Url":"comet-mp","Type":"CAR","Speed":81.555809,"Acceleration":85,"Braking":26.666668,"Handling":78.787872,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.bennysoriginalmotorworks.com","Cost":"$100K","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":true,"Sellable":true,"SellPrice":"$10K"},{"Name":"Pfister Comet Retro Custom","Url":"comet-retro-custom","Type":"CAR","Conditional":"Import/Export","Speed":81.555809,"Acceleration":85,"Braking":26.666668,"Handling":90.045456,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":true,"ForSale":false,"Cost":"$645K*","Seats":2,"Personal":true,"Premium":false,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$64.5K"},{"Name":"Invetero Coquette","Url":"coquette","Type":"CAR","Speed":81.555809,"Acceleration":82.500008,"Braking":26.666668,"Handling":77.272728,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$138K","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$13.8K"},{"Name":"Invetero Coquette","Url":"coquette2","Type":"CAR","Conditional":"High Life Update","Speed":81.555809,"Acceleration":82.500008,"Braking":26.666668,"Handling":77.272728,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$159K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$15.9K"},{"Name":"Declasse Drift Tampa","Url":"drift-tampa","Type":"CAR","Conditional":"Cunning Stunts","Speed":80.48,"Acceleration":82.5,"Braking":16.67,"Handling":68.18,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$995K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$99.5K"},{"Name":"Annis Elegy Retro Custom","Url":"elegy-retro-custom","Type":"CAR","Conditional":"Import/Export","Speed":79.409599,"Acceleration":82.500008,"Braking":33.333336,"Handling":81.818184,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":false,"Cost":"$575K*","Seats":2,"Personal":true,"Premium":false,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$57.5K"},{"Name":"Annis Elegy RH8","Url":"elegy-rh8-mp","Type":"CAR","Conditional":"Social Club","Speed":81.555809,"Acceleration":82.500008,"Braking":16.666668,"Handling":81.818184,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net, www.bennysoriginalmotorworks.com","Cost":"FREE*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":true,"Sellable":true,"SellPrice":"$0"},{"Name":"Benefactor Feltzer","Url":"feltzer","Type":"CAR","Speed":82.092354,"Acceleration":85,"Braking":26.666668,"Handling":80.30304,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$145K","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$14.5K"},{"Name":"Lampadati Furore GT","Url":"furoregt","Type":"CAR","Conditional":"Last Team Standing Update","Speed":81.555809,"Acceleration":83.75,"Braking":26.666668,"Handling":77.575752,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$448K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$44.8K"},{"Name":"Schyster Fusilade","Url":"fusilade","Type":"CAR","Speed":79.946152,"Acceleration":79.999992,"Braking":29.999998,"Handling":74.242424,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$36K","Seats":2,"Personal":true,"Premium":false,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$3,600"},{"Name":"Karin Futo","Url":"futo","Type":"CAR","Speed":72.434425,"Acceleration":72.5,"Braking":16.666668,"Handling":62.121212,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":false,"Cost":"$9,000","Seats":2,"Personal":true,"Premium":false,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$900"},{"Name":"Dinka Jester","Url":"jester","Type":"CAR","Conditional":"Business Update","Speed":84.775108,"Acceleration":75,"Braking":31.666666,"Handling":77.272728,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$240K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$24K"},{"Name":"Dinka Jester (Racecar)","Url":"jester2","Type":"CAR","Conditional":"Festive Surprise","Speed":84.775108,"Acceleration":77.5,"Braking":31.666666,"Handling":77.878784,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$350K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$35K"},{"Name":"Hijak Khamelion","Url":"khamelion","Type":"CAR","Speed":75.11718,"Acceleration":37.5,"Braking":29.999998,"Handling":78.787872,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"FREE","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$0"},{"Name":"Karin Kuruma","Url":"kuruma","Type":"CAR","Conditional":"Heists","Speed":78.873047,"Acceleration":77.5,"Braking":16.666668,"Handling":74.242424,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$74K*","Seats":4,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$7,400"},{"Name":"Karin Kuruma (Armored)","Url":"kuruma2","Type":"CAR","Conditional":"Heists","Speed":78.873047,"Acceleration":77.5,"Braking":16.666668,"Handling":74.242424,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$74K*","Seats":4,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$7,400"},{"Name":"Ocelot Lynx","Url":"lynx","Type":"CAR","Conditional":"Cunning Stunts","Speed":84.24,"Acceleration":78.75,"Braking":33.33,"Handling":77.58,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$1.7M*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$173.5K"},{"Name":"Dewbauchee Massacro","Url":"massacro","Type":"CAR","Conditional":"High Life Update","Speed":82.092354,"Acceleration":90.25,"Braking":29.999998,"Handling":74.242424,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$275K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$27.5K"},{"Name":"Dewbauchee Massacro (Racecar)","Url":"massacro2","Type":"CAR","Conditional":"Festive Surprise","Speed":83.809319,"Acceleration":91,"Braking":29.999998,"Handling":73.636368,"TopSpeed":false,"TopAcceleration":true,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$385K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$38.5K"},{"Name":"Obey Omnis","Url":"omnis","Type":"CAR","Conditional":"Cunning Stunts","Speed":81.56,"Acceleration":76.25,"Braking":33.33,"Handling":64.85,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$701K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$70.1K"},{"Name":"Maibatsu Penumbra","Url":"penumbra","Type":"CAR","Speed":75.11718,"Acceleration":55,"Braking":26.666668,"Handling":68.181816,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$24K","Seats":2,"Personal":true,"Premium":false,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$2,400"},{"Name":"Dewbauchee Rapid GT","Url":"rapid-gt","Type":"CAR","Speed":81.555809,"Acceleration":90,"Braking":33.333336,"Handling":74.242424,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$132K","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$13.2K"},{"Name":"Dewbauchee Rapid GT","Url":"rapid-gt2","Type":"CAR","Speed":81.555809,"Acceleration":90,"Braking":33.333336,"Handling":74.242424,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$140K","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$14K"},{"Name":"BF Raptor","Url":"raptor","Type":"CAR","Conditional":"Bikers","Speed":75.11718,"Acceleration":73.749992,"Braking":40,"Handling":78.787872,"TopSpeed":false,"TopAcceleration":false,"TopBraking":true,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$648K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$64.8K"},{"Name":"Benefactor Schafter LWB","Url":"schafter4","Type":"CAR","Conditional":"Executives and Other Criminals","Speed":76.190292,"Acceleration":50,"Braking":28.333334,"Handling":77.272728,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$95K*","Seats":4,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$9,500"},{"Name":"Benefactor Schafter V12","Url":"schafter3","Type":"CAR","Conditional":"Executives and Other Criminals","Speed":80.482697,"Acceleration":75,"Braking":31.666666,"Handling":77.272728,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$95K*","Seats":4,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$9,500"},{"Name":"Benefactor Schwartzer","Url":"schwartzer","Type":"CAR","Speed":78.873047,"Acceleration":72.5,"Braking":29.999998,"Handling":69.696968,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$80K","Seats":2,"Personal":true,"Premium":false,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$8,000"},{"Name":"Dewbauchee Seven-70","Url":"seven70","Type":"CAR","Conditional":"Further Adventures in Finance and Felony","Speed":85.311661,"Acceleration":83.75,"Braking":33.333336,"Handling":77.575752,"TopSpeed":true,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.com","Cost":"$695K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$69.5K"},{"Name":"Dewbauchee Specter","Url":"specter","Type":"CAR","Conditional":"Import/Export","Speed":83.165451,"Acceleration":79.999992,"Braking":33.333336,"Handling":79.393936,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.bennysoriginalmotorworks.com","Cost":"$874K*","Seats":2,"Personal":true,"Premium":false,"Moddable":true,"SuperModdable":true,"Sellable":true,"SellPrice":"$87.4K"},{"Name":"Dewbauchee Specter Custom","Url":"specter-custom","Type":"CAR","Conditional":"Import/Export","Speed":83.272758,"Acceleration":82.500008,"Braking":36.666668,"Handling":85.864777,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":false,"Cost":"$395K*","Seats":2,"Personal":true,"Premium":false,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$39.5K"},{"Name":"Bravado Sprunk Buffalo","Url":"buffalo-sprunk-mp","Type":"CAR","Conditional":"Cunning Stunts","Speed":78.873047,"Acceleration":77.5,"Braking":33.333336,"Handling":74.242424,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$535K*","Seats":4,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$53.5K"},{"Name":"Karin Sultan","Url":"sultan","Type":"CAR","Speed":77.799942,"Acceleration":65,"Braking":13.333334,"Handling":71.21212,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.bennysoriginalmotorworks.com","Cost":"$12K","Seats":4,"Personal":true,"Premium":false,"Moddable":true,"SuperModdable":true,"Sellable":true,"SellPrice":"$1,200"},{"Name":"Benefactor Surano","Url":"surano","Type":"CAR","Speed":83.165451,"Acceleration":85,"Braking":33.333336,"Handling":77.272728,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$110K","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$11K"},{"Name":"Lampadati Tropos Rallye","Url":"tropos","Type":"CAR","Conditional":"Cunning Stunts","Speed":81.56,"Acceleration":56.25,"Braking":23.33,"Handling":62.12,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.southernsanandreassuperautos.com","Cost":"$816K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$81.6K"},{"Name":"Bravado Verlierer","Url":"verlierer","Type":"CAR","Conditional":"Executives and Other Criminals","Speed":80.482697,"Acceleration":83.75,"Braking":33.333336,"Handling":73.636368,"TopSpeed":false,"TopAcceleration":false,"TopBraking":false,"TopHandling":false,"ForSale":true,"Website":"www.legendarymotorsport.net","Cost":"$95K*","Seats":2,"Personal":true,"Premium":true,"Moddable":true,"SuperModdable":false,"Sellable":true,"SellPrice":"$9,500"}]},{"Name":"Sports Classics","Url":"sports-classics"},{"Name":"Super","Url":"super"},{"Name":"SUVs","Url":"suvs"},{"Name":"Utility","Url":"utility"},{"Name":"Vans","Url":"vans"}],"Mode":"mp"} /*</sl:translate_json>*/;
+        settings.nickname = '';
+        settings.needleDeg = '180deg';
+    }
+</script>
+
+<div id="sectionVehicles" class="Freemode clearfix">
+
+  <div id="summaryStats" class="page-section clearfix">
+        <table class="vehicle-data-table">
+            <tbody>
+        <tr>
+          <td class="max-speed" rowspan="2">
+            <h5>Fastest Speed</h5>
+            <div id="vehicle-dial"><div class="needle" style="-webkit-transform: rotate(0deg); -webkit-transition: all 2s ease-out; transition: all 2s ease-out;"></div></div>
+            <p>9F<br><span>311.65 mph</span></p>
+          </td>
+          <td><h5>Vehicles Stolen</h5><span class="value1">4,630</span></td>
+          <td><h5>Vehicles Destroyed</h5><span class="value1">14.5K</span></td>
+          <td><h5>Farthest Jump</h5><span class="value1">4,156.24 ft</span></td>
+          <td class="last"><h5>Time Flying</h5><span class="value1">84:48:14</span></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="value2"><i class="gtavicon-shortcut"></i> 56545 Near Misses</td>
+          <td colspan="2" class="value2 last"><i class="gtavicon-car_crashes"></i> 86.3K Crashes</td>
+        </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="vehiclesWrapper" class="page-section clearfix">
+
+    <div class="full-width bg-grad clearfix">
+
+        <div class="vehicles-header"  style="width: 100%;" >
+          <h2 class="left" id="veh-name"></h2><h2 id="veh-class" class="left">Sports</h2>
+            </div>
+
+            <select id="mobileVehicleDropdown">
+
+                    <option data-url="boats" value="Boats" >Boats</option>
+
+                    <option data-url="commercial" value="Commercial" >Commercial</option>
+
+                    <option data-url="compacts" value="Compacts" >Compacts</option>
+
+                    <option data-url="coupes" value="Coupes" >Coupes</option>
+
+                    <option data-url="cycles" value="Cycles" >Cycles</option>
+
+                    <option data-url="emergency" value="Emergency" >Emergency</option>
+
+                    <option data-url="helicopters" value="Helicopters" >Helicopters</option>
+
+                    <option data-url="industrial" value="Industrial" >Industrial</option>
+
+                    <option data-url="military" value="Military" >Military</option>
+
+                    <option data-url="motorcycles" value="Motorcycles" >Motorcycles</option>
+
+                    <option data-url="muscle" value="Muscle" >Muscle</option>
+
+                    <option data-url="off-road" value="Off-Road" >Off-Road</option>
+
+                    <option data-url="planes" value="Planes" >Planes</option>
+
+                    <option data-url="sedans" value="Sedans" >Sedans</option>
+
+                    <option data-url="service" value="Service" >Service</option>
+
+                    <option data-url="sports" value="Sports"  selected >Sports</option>
+
+                    <option data-url="sports-classics" value="Sports Classics" >Sports Classics</option>
+
+                    <option data-url="super" value="Super" >Super</option>
+
+                    <option data-url="suvs" value="SUVs" >SUVs</option>
+
+                    <option data-url="utility" value="Utility" >Utility</option>
+
+                    <option data-url="vans" value="Vans" >Vans</option>
+
+            </select>
+
+      <ul id="vehicleDropdown" data-dropdown="dropdown" class="nav secondary-nav right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" href="#">Sports<i class="gtavicon-arrows"></i></a>
+
+                    <ul id="vehicleSelector" class="dropdown-menu">
+                        <table>
+                            <tr>
+
+                                            <td>
+                                                <ul>
+
+                                        <li><a href="#" data-url="boats">Boats</a></li>
+
+                                        <li><a href="#" data-url="commercial">Commercial</a></li>
+
+                                        <li><a href="#" data-url="compacts">Compacts</a></li>
+
+                                        <li><a href="#" data-url="coupes">Coupes</a></li>
+
+                                        <li><a href="#" data-url="cycles">Cycles</a></li>
+
+                                        <li><a href="#" data-url="emergency">Emergency</a></li>
+
+                                                </ul>
+                                            </td>
+
+                                            <td>
+                                                <ul>
+
+                                        <li><a href="#" data-url="helicopters">Helicopters</a></li>
+
+                                        <li><a href="#" data-url="industrial">Industrial</a></li>
+
+                                        <li><a href="#" data-url="military">Military</a></li>
+
+                                        <li><a href="#" data-url="motorcycles">Motorcycles</a></li>
+
+                                        <li><a href="#" data-url="muscle">Muscle</a></li>
+
+                                        <li><a href="#" data-url="off-road">Off-Road</a></li>
+
+                                                </ul>
+                                            </td>
+
+                                            <td>
+                                                <ul>
+
+                                        <li><a href="#" data-url="planes">Planes</a></li>
+
+                                        <li><a href="#" data-url="sedans">Sedans</a></li>
+
+                                        <li><a href="#" data-url="service">Service</a></li>
+
+                                        <li class="active"><a href="#" data-url="sports">Sports</a></li>
+
+                                        <li><a href="#" data-url="sports-classics">Sports Classics</a></li>
+
+                                        <li><a href="#" data-url="super">Super</a></li>
+
+                                                </ul>
+                                            </td>
+
+                                            <td>
+                                                <ul>
+
+                                        <li><a href="#" data-url="suvs">SUVs</a></li>
+
+                                        <li><a href="#" data-url="utility">Utility</a></li>
+
+                                        <li><a href="#" data-url="vans">Vans</a></li>
+
+                                                </ul>
+                                            </td>
+
+                            </tr>
+                        </table>
+                    </ul>
+
+          </li>
+      </ul>
+
+
+            <div id="plate" class="plate0">
+                <span>FRDMN</span>
+            </div>
+
+
+            <div id="toggleVehicle">
+                <div class="toggleAll">
+                    <p class="toggle-all-stats">toggle stats</p>
+
+                    <div class="toggle">
+              <span class="toggle-handling active" title="Show Vehicle Handling" rel="twipsy">
+                <i class="gtavicon-maxspeed"></i>
+              </span>
+              <span class="toggle-details" title="Show Vehicle Details" rel="twipsy">
+                <i class="gtavicon-car_chosen"></i>
+              </span>
+            </div>
+
+                </div>
+            </div>
+
+    </div>
+
+    <span class="spinner"></span>
+
+  </div>
+
+    <div class="content">
+        <div id="vehicle-container"></div>
+    <div class="panel-load"></div>
+    </div>
+</div>
