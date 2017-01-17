@@ -1,0 +1,3485 @@
+{
+  "sl_translate": "NameLocalised,DisplayName,Description,Value",
+  "sl_path_variant": "Minigames/MinigameGroup/1/Minigames/0/Challenges/0/Challenge/6/DisplayName|fsShootingRange",
+  "Leaderboard": {
+    "Id": 193,
+    "Name": "golf",
+    "DisplayName": "Golf",
+    "GroupName": "sport",
+    "StatGroups": [
+      {
+        "Stats": [
+          {
+            "Name": "HOLE_1_DRIVE",
+            "Value": "214.00 yd",
+            "NameLocalised": "Drive Distance"
+          },
+          {
+            "Name": "HOLE_1_PUTT",
+            "Value": "10.00 ft",
+            "NameLocalised": "Putt Distance"
+          },
+          {
+            "Name": "HOLE_1_SHOTS",
+            "Value": "7",
+            "NameLocalised": "Number of shots"
+          }
+        ]
+      },
+      {
+        "Stats": [
+          {
+            "Name": "HOLE_2_DRIVE",
+            "Value": "N/A",
+            "NameLocalised": "Drive Distance"
+          },
+          {
+            "Name": "HOLE_2_PUTT",
+            "Value": "10.00 ft",
+            "NameLocalised": "Putt Distance"
+          },
+          {
+            "Name": "HOLE_2_SHOTS",
+            "Value": "0",
+            "NameLocalised": "Number of shots"
+          }
+        ]
+      },
+      {
+        "Stats": [
+          {
+            "Name": "HOLE_3_DRIVE",
+            "Value": "1.00 ft",
+            "NameLocalised": "Distance to Pin"
+          },
+          {
+            "Name": "HOLE_3_PUTT",
+            "Value": "1.00 ft",
+            "NameLocalised": "Putt Distance"
+          },
+          {
+            "Name": "HOLE_3_SHOTS",
+            "Value": "0",
+            "NameLocalised": "Number of shots"
+          }
+        ]
+      },
+      {
+        "Stats": [
+          {
+            "Name": "HOLE_4_DRIVE",
+            "Value": "234.00 yd",
+            "NameLocalised": "Drive Distance"
+          },
+          {
+            "Name": "HOLE_4_PUTT",
+            "Value": "2.00 ft",
+            "NameLocalised": "Putt Distance"
+          },
+          {
+            "Name": "HOLE_4_SHOTS",
+            "Value": "0",
+            "NameLocalised": "Number of shots"
+          }
+        ]
+      },
+      {
+        "Stats": [
+          {
+            "Name": "HOLE_5_DRIVE",
+            "Value": "256.00 yd",
+            "NameLocalised": "Drive Distance"
+          },
+          {
+            "Name": "HOLE_5_PUTT",
+            "Value": "1.00 ft",
+            "NameLocalised": "Putt Distance"
+          },
+          {
+            "Name": "HOLE_5_SHOTS",
+            "Value": "0",
+            "NameLocalised": "Number of shots"
+          }
+        ]
+      },
+      {
+        "Stats": [
+          {
+            "Name": "HOLE_6_DRIVE",
+            "Value": "0.00 ft",
+            "NameLocalised": "Distance to Pin"
+          },
+          {
+            "Name": "HOLE_6_PUTT",
+            "Value": "8.00 ft",
+            "NameLocalised": "Putt Distance"
+          },
+          {
+            "Name": "HOLE_6_SHOTS",
+            "Value": "0",
+            "NameLocalised": "Number of shots"
+          }
+        ]
+      },
+      {
+        "Stats": [
+          {
+            "Name": "HOLE_7_DRIVE",
+            "Value": "213.00 yd",
+            "NameLocalised": "Drive Distance"
+          },
+          {
+            "Name": "HOLE_7_PUTT",
+            "Value": "1.00 ft",
+            "NameLocalised": "Putt Distance"
+          },
+          {
+            "Name": "HOLE_7_SHOTS",
+            "Value": "0",
+            "NameLocalised": "Number of shots"
+          }
+        ]
+      },
+      {
+        "Stats": [
+          {
+            "Name": "HOLE_8_DRIVE",
+            "Value": "245.00 yd",
+            "NameLocalised": "Drive Distance"
+          },
+          {
+            "Name": "HOLE_8_PUTT",
+            "Value": "2.00 ft",
+            "NameLocalised": "Putt Distance"
+          },
+          {
+            "Name": "HOLE_8_SHOTS",
+            "Value": "0",
+            "NameLocalised": "Number of shots"
+          }
+        ]
+      },
+      {
+        "Stats": [
+          {
+            "Name": "HOLE_9_DRIVE",
+            "Value": "241.00 yd",
+            "NameLocalised": "Drive Distance"
+          },
+          {
+            "Name": "HOLE_9_PUTT",
+            "Value": "11.00 ft",
+            "NameLocalised": "Putt Distance"
+          },
+          {
+            "Name": "HOLE_9_SHOTS",
+            "Value": "0",
+            "NameLocalised": "Number of shots"
+          }
+        ]
+      }
+    ],
+    "HasMedals": true,
+    "Medals": {}
+  },
+  "lb": {
+    "Columns": {
+      "BEST_ROUND": {
+        "DisplayName": "Best Round",
+        "Visible": true
+      },
+      "LONGEST_DRIVE": {
+        "DisplayName": "Longest Drive",
+        "Visible": true
+      },
+      "GAMES_PLAYED": {
+        "DisplayName": "Games Played",
+        "Visible": true
+      },
+      "HOLE_1_DRIVE": {
+        "DisplayName": "Hole 1 Drive",
+        "Visible": false
+      },
+      "HOLE_1_PUTT": {
+        "DisplayName": "Hole 1 Putt",
+        "Visible": false
+      },
+      "HOLE_1_SHOTS": {
+        "DisplayName": "Hole 1 Shots",
+        "Visible": false
+      },
+      "HOLE_2_DRIVE": {
+        "DisplayName": "Hole 2 Drive",
+        "Visible": false
+      },
+      "HOLE_2_PUTT": {
+        "DisplayName": "Hole 2 Putt",
+        "Visible": false
+      },
+      "HOLE_2_SHOTS": {
+        "DisplayName": "Hole 2 Shots",
+        "Visible": false
+      },
+      "HOLE_3_DRIVE": {
+        "DisplayName": "Hole 3 Drive",
+        "Visible": false
+      },
+      "HOLE_3_PUTT": {
+        "DisplayName": "Hole 3 Putt",
+        "Visible": false
+      },
+      "HOLE_3_SHOTS": {
+        "DisplayName": "Hole 3 Shots",
+        "Visible": false
+      },
+      "HOLE_4_DRIVE": {
+        "DisplayName": "Hole 4 Drive",
+        "Visible": false
+      },
+      "HOLE_4_PUTT": {
+        "DisplayName": "Hole 4 Putt",
+        "Visible": false
+      },
+      "HOLE_4_SHOTS": {
+        "DisplayName": "Hole 4 Shots",
+        "Visible": false
+      },
+      "HOLE_5_DRIVE": {
+        "DisplayName": "Hole 5 Drive",
+        "Visible": false
+      },
+      "HOLE_5_PUTT": {
+        "DisplayName": "Hole 5 Putt",
+        "Visible": false
+      },
+      "HOLE_5_SHOTS": {
+        "DisplayName": "Hole 5 Shots",
+        "Visible": false
+      },
+      "HOLE_6_DRIVE": {
+        "DisplayName": "Hole 6 Drive",
+        "Visible": false
+      },
+      "HOLE_6_PUTT": {
+        "DisplayName": "Hole 6 Putt",
+        "Visible": false
+      },
+      "HOLE_6_SHOTS": {
+        "DisplayName": "Hole 6 Shots",
+        "Visible": false
+      },
+      "HOLE_7_DRIVE": {
+        "DisplayName": "Hole 7 Drive",
+        "Visible": false
+      },
+      "HOLE_7_PUTT": {
+        "DisplayName": "Hole 7 Putt",
+        "Visible": false
+      },
+      "HOLE_7_SHOTS": {
+        "DisplayName": "Hole 7 Shots",
+        "Visible": false
+      },
+      "HOLE_8_DRIVE": {
+        "DisplayName": "Hole 8 Drive",
+        "Visible": false
+      },
+      "HOLE_8_PUTT": {
+        "DisplayName": "Hole 8 Putt",
+        "Visible": false
+      },
+      "HOLE_8_SHOTS": {
+        "DisplayName": "Hole 8 Shots",
+        "Visible": false
+      },
+      "HOLE_9_DRIVE": {
+        "DisplayName": "Hole 9 Drive",
+        "Visible": false
+      },
+      "HOLE_9_PUTT": {
+        "DisplayName": "Hole 9 Putt",
+        "Visible": false
+      },
+      "HOLE_9_SHOTS": {
+        "DisplayName": "Hole 9 Shots",
+        "Visible": false
+      }
+    },
+    "Count": 10,
+    "MaxValue": 0,
+    "RankedColumn": "BEST_ROUND",
+    "Status": true,
+    "Total": 1340849,
+    "CrewId": 0,
+    "Ranks": [
+      {
+        "Rank": 275043,
+        "LevelRank": 0,
+        "Value": 0,
+        "Personal": false,
+        "FormattedValue": "0",
+        "PercentMax": -2147483648,
+        "Name": "ItsSweetNSour",
+        "Group": "GameType=MP",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 56772837,
+        "AvatarUrl": "n/itssweetnsour",
+        "GamerTag": "",
+        "LastUpdateTime": "1484512498",
+        "Values": [
+          {
+            "Key": "BEST_ROUND",
+            "Value": "37",
+            "BaseValue": "-37",
+            "Visible": true
+          },
+          {
+            "Key": "LONGEST_DRIVE",
+            "Value": "275",
+            "BaseValue": "275",
+            "Visible": true
+          },
+          {
+            "Key": "GAMES_PLAYED",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": true
+          },
+          {
+            "Key": "HOLE_1_DRIVE",
+            "Value": "242.00 yd",
+            "BaseValue": "242",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_PUTT",
+            "Value": "5.00 ft",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_DRIVE",
+            "Value": "267.00 yd",
+            "BaseValue": "267",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_DRIVE",
+            "Value": "5.00 ft",
+            "BaseValue": "4294967291",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_DRIVE",
+            "Value": "151.00 yd",
+            "BaseValue": "151",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_PUTT",
+            "Value": "2.00 ft",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_DRIVE",
+            "Value": "233.00 yd",
+            "BaseValue": "233",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_PUTT",
+            "Value": "4.00 ft",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_DRIVE",
+            "Value": "6.00 ft",
+            "BaseValue": "4294967290",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_DRIVE",
+            "Value": "248.00 yd",
+            "BaseValue": "248",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_DRIVE",
+            "Value": "275.00 yd",
+            "BaseValue": "275",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_DRIVE",
+            "Value": "230.00 yd",
+            "BaseValue": "230",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 275044,
+        "LevelRank": 0,
+        "Value": 0,
+        "Personal": false,
+        "FormattedValue": "0",
+        "PercentMax": -2147483648,
+        "Name": "lionelp666",
+        "Group": "GameType=MP",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 80769925,
+        "AvatarUrl": "n/lionelp666",
+        "GamerTag": "",
+        "LastUpdateTime": "1452944651",
+        "Values": [
+          {
+            "Key": "BEST_ROUND",
+            "Value": "37",
+            "BaseValue": "-37",
+            "Visible": true
+          },
+          {
+            "Key": "LONGEST_DRIVE",
+            "Value": "273",
+            "BaseValue": "273",
+            "Visible": true
+          },
+          {
+            "Key": "GAMES_PLAYED",
+            "Value": "1",
+            "BaseValue": "1",
+            "Visible": true
+          },
+          {
+            "Key": "HOLE_1_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_PUTT",
+            "Value": "3.00 ft",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_SHOTS",
+            "Value": "6",
+            "BaseValue": "6",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_DRIVE",
+            "Value": "273.00 yd",
+            "BaseValue": "273",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_PUTT",
+            "Value": "8.00 ft",
+            "BaseValue": "8",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_DRIVE",
+            "Value": "18.00 ft",
+            "BaseValue": "4294967278",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_PUTT",
+            "Value": "3.00 ft",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_DRIVE",
+            "Value": "228.00 yd",
+            "BaseValue": "228",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_DRIVE",
+            "Value": "8.00 ft",
+            "BaseValue": "4294967288",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_PUTT",
+            "Value": "8.00 ft",
+            "BaseValue": "8",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_SHOTS",
+            "Value": "2",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_PUTT",
+            "Value": "5.00 ft",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_PUTT",
+            "Value": "4.00 ft",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 275045,
+        "LevelRank": 0,
+        "Value": 0,
+        "Personal": false,
+        "FormattedValue": "0",
+        "PercentMax": -2147483648,
+        "Name": "Frankie_Rephlex",
+        "Group": "GameType=MP",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 33223536,
+        "AvatarUrl": "n/frankie_rephlex",
+        "GamerTag": "",
+        "LastUpdateTime": "1452944592",
+        "Values": [
+          {
+            "Key": "BEST_ROUND",
+            "Value": "37",
+            "BaseValue": "-37",
+            "Visible": true
+          },
+          {
+            "Key": "LONGEST_DRIVE",
+            "Value": "271",
+            "BaseValue": "271",
+            "Visible": true
+          },
+          {
+            "Key": "GAMES_PLAYED",
+            "Value": "1",
+            "BaseValue": "1",
+            "Visible": true
+          },
+          {
+            "Key": "HOLE_1_DRIVE",
+            "Value": "233.00 yd",
+            "BaseValue": "233",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_DRIVE",
+            "Value": "252.00 yd",
+            "BaseValue": "252",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_PUTT",
+            "Value": "11.00 ft",
+            "BaseValue": "11",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "4294966297",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_DRIVE",
+            "Value": "160.00 yd",
+            "BaseValue": "160",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_DRIVE",
+            "Value": "271.00 yd",
+            "BaseValue": "271",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_DRIVE",
+            "Value": "10.00 ft",
+            "BaseValue": "4294967286",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_DRIVE",
+            "Value": "268.00 yd",
+            "BaseValue": "268",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_DRIVE",
+            "Value": "268.00 yd",
+            "BaseValue": "268",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_PUTT",
+            "Value": "8.00 ft",
+            "BaseValue": "8",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_SHOTS",
+            "Value": "6",
+            "BaseValue": "6",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_DRIVE",
+            "Value": "239.00 yd",
+            "BaseValue": "239",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_PUTT",
+            "Value": "5.00 ft",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 275046,
+        "LevelRank": 0,
+        "Value": 0,
+        "Personal": false,
+        "FormattedValue": "0",
+        "PercentMax": -2147483648,
+        "Name": "biggggggggggggs",
+        "Group": "GameType=MP",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 31315647,
+        "AvatarUrl": "n/biggggggggggggs",
+        "GamerTag": "",
+        "LastUpdateTime": "1444956359",
+        "Values": [
+          {
+            "Key": "BEST_ROUND",
+            "Value": "37",
+            "BaseValue": "-37",
+            "Visible": true
+          },
+          {
+            "Key": "LONGEST_DRIVE",
+            "Value": "269",
+            "BaseValue": "269",
+            "Visible": true
+          },
+          {
+            "Key": "GAMES_PLAYED",
+            "Value": "1",
+            "BaseValue": "1",
+            "Visible": true
+          },
+          {
+            "Key": "HOLE_1_DRIVE",
+            "Value": "198.00 yd",
+            "BaseValue": "198",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_PUTT",
+            "Value": "3.00 ft",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_DRIVE",
+            "Value": "262.00 yd",
+            "BaseValue": "262",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_PUTT",
+            "Value": "2.00 ft",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_DRIVE",
+            "Value": "8.00 ft",
+            "BaseValue": "4294967288",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_DRIVE",
+            "Value": "229.00 yd",
+            "BaseValue": "229",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_DRIVE",
+            "Value": "8.00 ft",
+            "BaseValue": "4294967288",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_PUTT",
+            "Value": "8.00 ft",
+            "BaseValue": "8",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_SHOTS",
+            "Value": "2",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_DRIVE",
+            "Value": "252.00 yd",
+            "BaseValue": "252",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_DRIVE",
+            "Value": "269.00 yd",
+            "BaseValue": "269",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_SHOTS",
+            "Value": "7",
+            "BaseValue": "7",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_DRIVE",
+            "Value": "246.00 yd",
+            "BaseValue": "246",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 275047,
+        "LevelRank": 0,
+        "Value": 0,
+        "Personal": true,
+        "FormattedValue": "0",
+        "PercentMax": -2147483648,
+        "Name": "RestlessNarwhal",
+        "Group": "GameType=MP",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 47990204,
+        "AvatarUrl": "n/restlessnarwhal",
+        "GamerHandle": "XBL 901F50F04D046",
+        "GamerTag": "",
+        "LastUpdateTime": "1476048721",
+        "Values": [
+          {
+            "Key": "BEST_ROUND",
+            "Value": "37",
+            "BaseValue": "-37",
+            "Visible": true
+          },
+          {
+            "Key": "LONGEST_DRIVE",
+            "Value": "256",
+            "BaseValue": "256",
+            "Visible": true
+          },
+          {
+            "Key": "GAMES_PLAYED",
+            "Value": "1",
+            "BaseValue": "1",
+            "Visible": true
+          },
+          {
+            "Key": "HOLE_1_DRIVE",
+            "Value": "214.00 yd",
+            "BaseValue": "214",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_PUTT",
+            "Value": "10.00 ft",
+            "BaseValue": "10",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_SHOTS",
+            "Value": "7",
+            "BaseValue": "7",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_PUTT",
+            "Value": "10.00 ft",
+            "BaseValue": "10",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_SHOTS",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_DRIVE",
+            "Value": "1.00 ft",
+            "BaseValue": "4294967295",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_SHOTS",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_DRIVE",
+            "Value": "234.00 yd",
+            "BaseValue": "234",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_PUTT",
+            "Value": "2.00 ft",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_SHOTS",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_DRIVE",
+            "Value": "256.00 yd",
+            "BaseValue": "256",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_SHOTS",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_DRIVE",
+            "Value": "0.00 ft",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_PUTT",
+            "Value": "8.00 ft",
+            "BaseValue": "8",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_SHOTS",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_DRIVE",
+            "Value": "213.00 yd",
+            "BaseValue": "213",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_SHOTS",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_DRIVE",
+            "Value": "245.00 yd",
+            "BaseValue": "245",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_PUTT",
+            "Value": "2.00 ft",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_SHOTS",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_DRIVE",
+            "Value": "241.00 yd",
+            "BaseValue": "241",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_PUTT",
+            "Value": "11.00 ft",
+            "BaseValue": "11",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_SHOTS",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 275048,
+        "LevelRank": 0,
+        "Value": 0,
+        "Personal": false,
+        "FormattedValue": "0",
+        "PercentMax": -2147483648,
+        "Name": "Tormentor3599",
+        "Group": "GameType=MP",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 46754511,
+        "AvatarUrl": "n/tormentor3599",
+        "GamerTag": "",
+        "LastUpdateTime": "1436766102",
+        "Values": [
+          {
+            "Key": "BEST_ROUND",
+            "Value": "37",
+            "BaseValue": "-37",
+            "Visible": true
+          },
+          {
+            "Key": "LONGEST_DRIVE",
+            "Value": "268",
+            "BaseValue": "268",
+            "Visible": true
+          },
+          {
+            "Key": "GAMES_PLAYED",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": true
+          },
+          {
+            "Key": "HOLE_1_DRIVE",
+            "Value": "195.00 yd",
+            "BaseValue": "195",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_PUTT",
+            "Value": "3.00 ft",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_DRIVE",
+            "Value": "256.00 yd",
+            "BaseValue": "256",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_PUTT",
+            "Value": "4.00 ft",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_DRIVE",
+            "Value": "10.00 ft",
+            "BaseValue": "4294967286",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_DRIVE",
+            "Value": "178.00 yd",
+            "BaseValue": "178",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_DRIVE",
+            "Value": "204.00 yd",
+            "BaseValue": "204",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_PUTT",
+            "Value": "4.00 ft",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_DRIVE",
+            "Value": "5.00 ft",
+            "BaseValue": "4294967291",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_PUTT",
+            "Value": "5.00 ft",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_SHOTS",
+            "Value": "2",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_DRIVE",
+            "Value": "246.00 yd",
+            "BaseValue": "246",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_DRIVE",
+            "Value": "268.00 yd",
+            "BaseValue": "268",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_DRIVE",
+            "Value": "237.00 yd",
+            "BaseValue": "237",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_PUTT",
+            "Value": "4.00 ft",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 275049,
+        "LevelRank": 0,
+        "Value": 0,
+        "Personal": false,
+        "FormattedValue": "0",
+        "PercentMax": -2147483648,
+        "Name": "AZsniper71",
+        "Group": "GameType=MP",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 18766102,
+        "AvatarUrl": "n/azsniper71",
+        "GamerTag": "",
+        "LastUpdateTime": "1426741707",
+        "Values": [
+          {
+            "Key": "BEST_ROUND",
+            "Value": "37",
+            "BaseValue": "-37",
+            "Visible": true
+          },
+          {
+            "Key": "LONGEST_DRIVE",
+            "Value": "299",
+            "BaseValue": "299",
+            "Visible": true
+          },
+          {
+            "Key": "GAMES_PLAYED",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": true
+          },
+          {
+            "Key": "HOLE_1_DRIVE",
+            "Value": "255.00 yd",
+            "BaseValue": "255",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_PUTT",
+            "Value": "6.00 ft",
+            "BaseValue": "6",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_DRIVE",
+            "Value": "292.00 yd",
+            "BaseValue": "292",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_PUTT",
+            "Value": "7.00 ft",
+            "BaseValue": "7",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "4294966297",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_PUTT",
+            "Value": "2.00 ft",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_PUTT",
+            "Value": "3.00 ft",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_DRIVE",
+            "Value": "299.00 yd",
+            "BaseValue": "299",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_DRIVE",
+            "Value": "2.00 ft",
+            "BaseValue": "4294967294",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_PUTT",
+            "Value": "2.00 ft",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_SHOTS",
+            "Value": "2",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_DRIVE",
+            "Value": "255.00 yd",
+            "BaseValue": "255",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_DRIVE",
+            "Value": "295.00 yd",
+            "BaseValue": "295",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_PUTT",
+            "Value": "4.00 ft",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_DRIVE",
+            "Value": "239.00 yd",
+            "BaseValue": "239",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_PUTT",
+            "Value": "8.00 ft",
+            "BaseValue": "8",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 275050,
+        "LevelRank": 0,
+        "Value": 0,
+        "Personal": false,
+        "FormattedValue": "0",
+        "PercentMax": -2147483648,
+        "Name": "DopeGreenHaze420",
+        "Group": "GameType=MP",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 37109767,
+        "AvatarUrl": "n/dopegreenhaze420",
+        "GamerTag": "",
+        "LastUpdateTime": "1464749556",
+        "Values": [
+          {
+            "Key": "BEST_ROUND",
+            "Value": "37",
+            "BaseValue": "-37",
+            "Visible": true
+          },
+          {
+            "Key": "LONGEST_DRIVE",
+            "Value": "270",
+            "BaseValue": "270",
+            "Visible": true
+          },
+          {
+            "Key": "GAMES_PLAYED",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": true
+          },
+          {
+            "Key": "HOLE_1_DRIVE",
+            "Value": "198.00 yd",
+            "BaseValue": "198",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_DRIVE",
+            "Value": "262.00 yd",
+            "BaseValue": "262",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_PUTT",
+            "Value": "10.00 ft",
+            "BaseValue": "10",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_DRIVE",
+            "Value": "24.00 ft",
+            "BaseValue": "4294967272",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_PUTT",
+            "Value": "2.00 ft",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_DRIVE",
+            "Value": "245.00 yd",
+            "BaseValue": "245",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_PUTT",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_DRIVE",
+            "Value": "5.00 ft",
+            "BaseValue": "4294967291",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_PUTT",
+            "Value": "5.00 ft",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_SHOTS",
+            "Value": "2",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_DRIVE",
+            "Value": "243.00 yd",
+            "BaseValue": "243",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_DRIVE",
+            "Value": "270.00 yd",
+            "BaseValue": "270",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_DRIVE",
+            "Value": "247.00 yd",
+            "BaseValue": "247",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_PUTT",
+            "Value": "3.00 ft",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 275051,
+        "LevelRank": 0,
+        "Value": 0,
+        "Personal": false,
+        "FormattedValue": "0",
+        "PercentMax": -2147483648,
+        "Name": "blonde_gaming",
+        "Group": "GameType=MP",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 45980481,
+        "AvatarUrl": "n/blonde_gaming",
+        "GamerTag": "",
+        "LastUpdateTime": "1480911595",
+        "Values": [
+          {
+            "Key": "BEST_ROUND",
+            "Value": "37",
+            "BaseValue": "-37",
+            "Visible": true
+          },
+          {
+            "Key": "LONGEST_DRIVE",
+            "Value": "292",
+            "BaseValue": "292",
+            "Visible": true
+          },
+          {
+            "Key": "GAMES_PLAYED",
+            "Value": "11",
+            "BaseValue": "11",
+            "Visible": true
+          },
+          {
+            "Key": "HOLE_1_DRIVE",
+            "Value": "234.00 yd",
+            "BaseValue": "234",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_PUTT",
+            "Value": "11.00 ft",
+            "BaseValue": "11",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_DRIVE",
+            "Value": "273.00 yd",
+            "BaseValue": "273",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_PUTT",
+            "Value": "8.00 ft",
+            "BaseValue": "8",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_SHOTS",
+            "Value": "7",
+            "BaseValue": "7",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_DRIVE",
+            "Value": "8.00 ft",
+            "BaseValue": "4294967288",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_SHOTS",
+            "Value": "3",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_DRIVE",
+            "Value": "275.00 yd",
+            "BaseValue": "275",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_PUTT",
+            "Value": "7.00 ft",
+            "BaseValue": "7",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_DRIVE",
+            "Value": "292.00 yd",
+            "BaseValue": "292",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_PUTT",
+            "Value": "3.00 ft",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_DRIVE",
+            "Value": "8.00 ft",
+            "BaseValue": "4294967288",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_PUTT",
+            "Value": "11.00 ft",
+            "BaseValue": "11",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_SHOTS",
+            "Value": "2",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_DRIVE",
+            "Value": "N/A",
+            "BaseValue": "0",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_PUTT",
+            "Value": "3.00 ft",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_SHOTS",
+            "Value": "6",
+            "BaseValue": "6",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_DRIVE",
+            "Value": "285.00 yd",
+            "BaseValue": "285",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_PUTT",
+            "Value": "3.00 ft",
+            "BaseValue": "3",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_DRIVE",
+            "Value": "246.00 yd",
+            "BaseValue": "246",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_PUTT",
+            "Value": "14.00 ft",
+            "BaseValue": "14",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 275052,
+        "LevelRank": 0,
+        "Value": 0,
+        "Personal": false,
+        "FormattedValue": "0",
+        "PercentMax": -2147483648,
+        "Name": "DrBigJakeMcNasty",
+        "Group": "GameType=MP",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 301740,
+        "AvatarUrl": "n/drbigjakemcnasty",
+        "GamerTag": "",
+        "LastUpdateTime": "1424757859",
+        "Values": [
+          {
+            "Key": "BEST_ROUND",
+            "Value": "37",
+            "BaseValue": "-37",
+            "Visible": true
+          },
+          {
+            "Key": "LONGEST_DRIVE",
+            "Value": "258",
+            "BaseValue": "258",
+            "Visible": true
+          },
+          {
+            "Key": "GAMES_PLAYED",
+            "Value": "1",
+            "BaseValue": "1",
+            "Visible": true
+          },
+          {
+            "Key": "HOLE_1_DRIVE",
+            "Value": "234.00 yd",
+            "BaseValue": "234",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_PUTT",
+            "Value": "5.00 ft",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_1_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_DRIVE",
+            "Value": "258.00 yd",
+            "BaseValue": "258",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_PUTT",
+            "Value": "10.00 ft",
+            "BaseValue": "10",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_2_SHOTS",
+            "Value": "5",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_DRIVE",
+            "Value": "12.00 ft",
+            "BaseValue": "4294967284",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_3_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_DRIVE",
+            "Value": "183.00 yd",
+            "BaseValue": "183",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_PUTT",
+            "Value": "6.00 ft",
+            "BaseValue": "6",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_4_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_DRIVE",
+            "Value": "254.00 yd",
+            "BaseValue": "254",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_PUTT",
+            "Value": "5.00 ft",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_5_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_DRIVE",
+            "Value": "5.00 ft",
+            "BaseValue": "4294967291",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_PUTT",
+            "Value": "5.00 ft",
+            "BaseValue": "5",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_6_SHOTS",
+            "Value": "2",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_DRIVE",
+            "Value": "249.00 yd",
+            "BaseValue": "249",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_PUTT",
+            "Value": "2.00 ft",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_7_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_DRIVE",
+            "Value": "235.00 yd",
+            "BaseValue": "235",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_PUTT",
+            "Value": "2.00 ft",
+            "BaseValue": "2",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_8_SHOTS",
+            "Value": "6",
+            "BaseValue": "6",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_DRIVE",
+            "Value": "229.00 yd",
+            "BaseValue": "229",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_PUTT",
+            "Value": "1.00 ft",
+            "BaseValue": "1",
+            "Visible": false
+          },
+          {
+            "Key": "HOLE_9_SHOTS",
+            "Value": "4",
+            "BaseValue": "4",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      }
+    ],
+    "PagingInfo": {
+      "IsFirstPage": false,
+      "PrevAvailable": true,
+      "PrevPageNum": 27505,
+      "NextAvailable": true,
+      "NextPageNum": 27506,
+      "PersonalAvailable": false
+    },
+    "Platform": "XBoxOne",
+    "Game": "GTAV",
+    "LeaderboardId": 0,
+    "NextRank": 0,
+    "FirstRankValue": 0
+  },
+  "Minigames": {
+    "MinigameGroup": [
+      {
+        "Name": "Sport",
+        "Minigames": [
+          {
+            "Name": "darts",
+            "DisplayName": "Darts",
+            "LeaderboardId": "190",
+            "GameType": "both",
+            "Challenges": []
+          },
+          {
+            "Name": "golf",
+            "DisplayName": "Golf",
+            "LeaderboardId": "193",
+            "GameType": "both",
+            "Challenges": []
+          },
+          {
+            "Name": "tennis",
+            "DisplayName": "Tennis",
+            "LeaderboardId": "283",
+            "GameType": "both",
+            "Challenges": []
+          },
+          {
+            "Name": "armwrestling",
+            "DisplayName": "Arm Wrestling",
+            "LeaderboardId": "749",
+            "GameType": "mp",
+            "Challenges": []
+          }
+        ]
+      },
+      {
+        "Name": "Challenges",
+        "Minigames": [
+          {
+            "Name": "flightschool",
+            "DisplayName": "Flight School",
+            "GameType": "mp",
+            "Challenges": [
+              {
+                "Challenge": [
+                  {
+                    "Name": "MP_LESSON_01",
+                    "UrlName": "outsideloop",
+                    "Id": "965",
+                    "Image": "flightschool/DLC_Outside_Loop.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "00:58.000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "01:20.000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "02:00.000"
+                        }
+                      ]
+                    },
+                    "Description": "Learn how to do an outside loop.",
+                    "DisplayName": "Outside Loop"
+                  },
+                  {
+                    "Name": "MP_LESSON_02",
+                    "UrlName": "enginefailure",
+                    "Id": "969",
+                    "Image": "flightschool/DLC_Engine_Failure.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "10.00 m"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "30.00 m"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "finish"
+                        }
+                      ]
+                    },
+                    "Description": "Land the Miljet with an engine failure.",
+                    "DisplayName": "Engine Failure"
+                  },
+                  {
+                    "Name": "MP_LESSON_05",
+                    "UrlName": "chaseparachute",
+                    "Id": "970",
+                    "Image": "flightschool/DLC_Chase_Parachute.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "2.00 m"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "4.50 m"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "7.00 m"
+                        }
+                      ]
+                    },
+                    "Description": "Jump out of a military plane and catch your parachute on the way down.",
+                    "DisplayName": "Chase Parachute"
+                  },
+                  {
+                    "Name": "MP_LESSON_04",
+                    "UrlName": "citylanding",
+                    "Id": "973",
+                    "Image": "flightschool/DLC_City_Landing.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "10.00 m"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "30.00 m"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "finish"
+                        }
+                      ]
+                    },
+                    "Description": "Land a Titan in the city in bad weather.",
+                    "DisplayName": "City Landing"
+                  },
+                  {
+                    "Name": "MP_LESSON_06",
+                    "UrlName": "movinglanding",
+                    "Id": "967",
+                    "Image": "flightschool/DLC_Flatbed_Landing.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "00:19.000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "00:25.000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "01:00.000"
+                        }
+                      ]
+                    },
+                    "Description": "Land a helicopter on a moving truck.",
+                    "DisplayName": "Moving Landing"
+                  },
+                  {
+                    "Name": "MP_LESSON_07",
+                    "UrlName": "formationflight",
+                    "Id": "974",
+                    "Image": "flightschool/DLC_Lazer_Formation.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "600"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "450"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "300"
+                        }
+                      ]
+                    },
+                    "Description": "Fly as part of a formation.",
+                    "DisplayName": "Formation Flight"
+                  },
+                  {
+                    "Name": "MP_LESSON_03",
+                    "UrlName": "shootingrange",
+                    "Id": "972",
+                    "Image": "flightschool/DLC_Buzzard_Shooting_Range.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "25"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "15"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "10"
+                        }
+                      ]
+                    },
+                    "Description": "Complete a shooting range in a military helicopter.",
+                    "DisplayName": "Shooting Range"
+                  },
+                  {
+                    "Name": "MP_LESSON_08",
+                    "UrlName": "groundlevel",
+                    "Id": "971",
+                    "Image": "flightschool/DLC_Lazer_Fly_Low.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "1.00 m"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "3.00 m"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "10.00 m"
+                        }
+                      ]
+                    },
+                    "Description": "Navigate through the course while flying as close to each checkpoint as possible.",
+                    "DisplayName": "Ground Level"
+                  },
+                  {
+                    "Name": "MP_LESSON_09",
+                    "UrlName": "collectflags",
+                    "Id": "968",
+                    "Image": "flightschool/DLC_Collect_Flags.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "02:40.000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "03:00.000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "finish"
+                        }
+                      ]
+                    },
+                    "Description": "Collect flags placed around the map.",
+                    "DisplayName": "Collect Flags"
+                  },
+                  {
+                    "Name": "MP_LESSON_10",
+                    "UrlName": "followleader",
+                    "Id": "966",
+                    "Image": "flightschool/DLC_Follow_The_Leader.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "02:25.000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "02:40.000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "finish"
+                        }
+                      ]
+                    },
+                    "Description": "Follow Flight School instructor through an obstacle course around the city.",
+                    "DisplayName": "Follow Leader"
+                  }
+                ],
+                "Name": "",
+                "GameType": "mp",
+                "DLC": 0
+              }
+            ]
+          },
+          {
+            "Name": "shootingrange",
+            "DisplayName": "Shooting Range",
+            "GameType": "both",
+            "Challenges": [
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType0",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/HG1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "2800"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "2000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "1400"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple static targets. Targets exit after one hit.",
+                    "DisplayName": "Pistol: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType1",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/HG2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "20000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "10000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "2000"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple moving targets. Targets exit automatically.",
+                    "DisplayName": "Pistol: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType2",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/HG3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "15000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "3000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "650"
+                        }
+                      ]
+                    },
+                    "Description": "One moving target. Targets exit automatically.",
+                    "DisplayName": "Pistol: Challenge 3"
+                  }
+                ],
+                "Name": "pistol",
+                "DisplayName": "Hand Guns",
+                "GameType": "sp",
+                "Image": "Weapcat_HG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType3",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/SMG1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "12000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "6000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "4000"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple static targets with the ability to flip. Targets exit automatically.",
+                    "DisplayName": "SMG: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType4",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/SMG2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "7500"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "2500"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "1250"
+                        }
+                      ]
+                    },
+                    "Description": "Single line of moving and flipping targets. Targets exit automatically.",
+                    "DisplayName": "SMG: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType5",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/SMG3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "10000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "5000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "3000"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple moving targets with height variation. Targets exit automatically.",
+                    "DisplayName": "SMG: Challenge 3"
+                  }
+                ],
+                "Name": "smg",
+                "DisplayName": "Submachine Guns",
+                "GameType": "sp",
+                "Image": "Weapcat_SMG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType9",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/AR1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "7550"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "3550"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "2500"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple static targets. Targets exit after three hits.",
+                    "DisplayName": "Assault Rifle: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType10",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/AR2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "17500"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "7500"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "4750"
+                        }
+                      ]
+                    },
+                    "Description": "Single column of moving and flipping targets. Targets exit automatically.",
+                    "DisplayName": "Assault Rifle: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType11",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/AR3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "5000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "3000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "1000"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple targets of varying height and speed. Targets exit after three hits.",
+                    "DisplayName": "Assault Rifle: Challenge 3"
+                  }
+                ],
+                "Name": "assaultrifle",
+                "DisplayName": "Assault Rifles",
+                "GameType": "sp",
+                "Image": "Weapcat_AR.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType6",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/SG1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "46"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "32"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "22"
+                        }
+                      ]
+                    },
+                    "Description": "Static targets, each exits after one hit. Hit as many as possible.",
+                    "DisplayName": "Shotgun: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType7",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/SG2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "700"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "590"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "290"
+                        }
+                      ]
+                    },
+                    "Description": "Moving and static targets. Shoot closer targets to maximize score.",
+                    "DisplayName": "Shotgun: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType8",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/SG3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "23"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "18"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "14"
+                        }
+                      ]
+                    },
+                    "Description": "Moving targets, exits after one it. Use spread to maximize score.",
+                    "DisplayName": "Shotgun: Challenge 3"
+                  }
+                ],
+                "Name": "shotgun",
+                "DisplayName": "Shotguns",
+                "GameType": "sp",
+                "Image": "Weapcat_SG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType12",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/LMG1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "7500"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "5500"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "4500"
+                        }
+                      ]
+                    },
+                    "Description": "Targets take multiple hits to exit. Target moves and respawns.",
+                    "DisplayName": "LMG: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType13",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/LMG2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "40000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "12000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "5500"
+                        }
+                      ]
+                    },
+                    "Description": "A row of distant targets that flip individually and exit automatically.",
+                    "DisplayName": "LMG: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType14",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/LMG3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "32000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "19000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "7500"
+                        }
+                      ]
+                    },
+                    "Description": "Targets take multiple hits to exit. More targets spawn continually.",
+                    "DisplayName": "LMG: Challenge 3"
+                  }
+                ],
+                "Name": "lmg",
+                "DisplayName": "Light Machine Guns",
+                "GameType": "sp",
+                "Image": "Weapcat_LMG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType15",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/HVY1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "50000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "25000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "10000"
+                        }
+                      ]
+                    },
+                    "Description": "One row of targets that respawn. Continuous hits increase your multiplier.",
+                    "DisplayName": "Minigun: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType16",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/HVY2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "45000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "30000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "15000"
+                        }
+                      ]
+                    },
+                    "Description": "Targets that exit after multiple hits. Continuous hits increase your multiplier.",
+                    "DisplayName": "Minigun: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType17",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/HVY3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "70000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "40000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "20000"
+                        }
+                      ]
+                    },
+                    "Description": "Infinite respawning targets. Exit after multiple hits. Continuous hits increase your multiplier.",
+                    "DisplayName": "Minigun: Challenge 3"
+                  }
+                ],
+                "Name": "minigun",
+                "DisplayName": "Heavy",
+                "GameType": "sp",
+                "Image": "Weapcat_HVY.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType18",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/RG1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "24"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "22"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "20"
+                        }
+                      ]
+                    },
+                    "Description": "Stationary and moving targets. Destroy as many as possible with each shot.",
+                    "DisplayName": "Railgun: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType19",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/RG2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "24"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "20"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "16"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple moving targets. Destroy as many as possible with each shot.",
+                    "DisplayName": "Railgun: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType20",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/RG3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "32"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "26"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "20"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple moving targets of varying height and speed. Destroy as many as possible with each shot.",
+                    "DisplayName": "Railgun: Challenge 3"
+                  },
+                  {
+                    "Name": "RoundType21",
+                    "UrlName": "challenge4",
+                    "Id": "203",
+                    "Image": "shootingrange/RG4.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "35"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "31"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "26"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple quick moving targets of varying heights. Destroy as many as possible with each shot.",
+                    "DisplayName": "Railgun: Challenge 4"
+                  }
+                ],
+                "Name": "railgun",
+                "DisplayName": "Railgun",
+                "GameType": "sp",
+                "Image": "Weapcat_RG.png",
+                "DLC": 13
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/HG2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/HG1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/HG3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "pistols",
+                "DisplayName": "Hand Guns",
+                "GameType": "mp",
+                "Image": "Weapcat_HG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/SMG2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/SMG1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/SMG3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "smgs",
+                "DisplayName": "Submachine Guns",
+                "GameType": "mp",
+                "Image": "Weapcat_SMG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/AR2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/AR1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/AR3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "assaultrifles",
+                "DisplayName": "Assault Rifles",
+                "GameType": "mp",
+                "Image": "Weapcat_AR.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/SG2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/SG1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/SG3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "shotguns",
+                "DisplayName": "Shotguns",
+                "GameType": "mp",
+                "Image": "Weapcat_SG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/LMG2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/LMG1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/LMG3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "lmgs",
+                "DisplayName": "Light Machine Guns",
+                "GameType": "mp",
+                "Image": "Weapcat_LMG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/HVY2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/HVY1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/HVY3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "heavies",
+                "DisplayName": "Heavy",
+                "GameType": "mp",
+                "Image": "Weapcat_HVY.png",
+                "DLC": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Race",
+        "Minigames": []
+      }
+    ]
+  },
+  "GameType": "mp",
+  "SelectedChallengeUrl": "",
+  "SelectedChallengeRaceType": "",
+  "Slot": "Freemode",
+  "SelectList": [
+    {
+      "MinigameName": [
+        {
+          "Name": "armwrestling",
+          "DisplayName": "Arm Wrestling",
+          "Type": "Sport"
+        },
+        {
+          "Name": "darts",
+          "DisplayName": "Darts",
+          "Type": "Sport"
+        }
+      ]
+    },
+    {
+      "MinigameName": [
+        {
+          "Name": "flightschool",
+          "DisplayName": "Flight School",
+          "Type": "Challenges"
+        },
+        {
+          "Name": "golf",
+          "DisplayName": "Golf",
+          "Type": "Sport"
+        }
+      ]
+    },
+    {
+      "MinigameName": [
+        {
+          "Name": "shootingrange",
+          "DisplayName": "Shooting Range",
+          "Type": "Challenges"
+        },
+        {
+          "Name": "tennis",
+          "DisplayName": "Tennis",
+          "Type": "Sport"
+        }
+      ]
+    }
+  ]
+}
