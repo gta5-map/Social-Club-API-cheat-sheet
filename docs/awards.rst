@@ -1,7 +1,6 @@
 Awards
 ======
 
-
 .. http:get:: /games/gtav/career/AwardsAjax?(nickname=&category=&)slot=Freemode
 
   Gives you information about the earned awards and it's completion statuses.
