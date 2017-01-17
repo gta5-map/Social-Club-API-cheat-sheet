@@ -1,0 +1,1741 @@
+{
+  "sl_translate": "NameLocalised,DisplayName,Description,Value",
+  "sl_path_variant": "Minigames/MinigameGroup/1/Minigames/0/Challenges/0/Challenge/6/DisplayName|fsShootingRange",
+  "Leaderboard": {
+    "Id": 912,
+    "Name": "shootingrange",
+    "GroupName": "activity",
+    "StatGroups": [
+      {
+        "Stats": [
+          {
+            "Name": "TOTAL_SHOTS_FIRED",
+            "Value": "N/A",
+            "NameLocalised": "Total Shots Fired"
+          },
+          {
+            "Name": "TOTAL_SHOTS_HIT",
+            "Value": "N/A",
+            "NameLocalised": "Total Shots Hit"
+          },
+          {
+            "Name": "TOTAL_ACCURACY",
+            "Value": "N/A",
+            "NameLocalised": "Total Accuracy"
+          },
+          {
+            "Name": "MATCHES_WON",
+            "Value": "N/A",
+            "NameLocalised": "Matches won"
+          },
+          {
+            "Name": "SR_MATCHES_LOST",
+            "Value": "N/A",
+            "NameLocalised": "Matches lost"
+          }
+        ]
+      }
+    ],
+    "HasMedals": false
+  },
+  "lb": {
+    "Columns": {
+      "TOTAL_SHOTS_FIRED": {
+        "DisplayName": "Total Shots Fired",
+        "Visible": true
+      },
+      "TOTAL_SHOTS_HIT": {
+        "DisplayName": "Total Shots Hit",
+        "Visible": true
+      },
+      "TOTAL_ACCURACY": {
+        "DisplayName": "Total Accuracy",
+        "Visible": true
+      },
+      "MATCHES_WON": {
+        "DisplayName": "Matches Won",
+        "Visible": true
+      },
+      "SR_MATCHES_LOST": {
+        "DisplayName": "SR_MATCHES_LOST",
+        "Visible": false
+      }
+    },
+    "Count": 10,
+    "MaxValue": 0,
+    "RankedColumn": "TOTAL_SHOTS_FIRED",
+    "Status": true,
+    "Total": 362975,
+    "CrewId": 0,
+    "Ranks": [
+      {
+        "Rank": 1,
+        "LevelRank": 0,
+        "Value": 4648532852097417000,
+        "Personal": false,
+        "FormattedValue": "4,648,532,852,097,417,216",
+        "PercentMax": -2147483648,
+        "Name": "goku1790",
+        "Group": "Type=RANDOM,WeaponId=Heavies",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 58772932,
+        "AvatarUrl": "n/goku1790",
+        "GamerTag": "",
+        "LastUpdateTime": "1478319388",
+        "Values": [
+          {
+            "Key": "TOTAL_SHOTS_FIRED",
+            "Value": "947.2K",
+            "BaseValue": "947168",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_SHOTS_HIT",
+            "Value": "59K",
+            "BaseValue": "58966",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_ACCURACY",
+            "Value": "6.23%",
+            "BaseValue": "4.58913272061441E+18",
+            "Visible": true
+          },
+          {
+            "Key": "MATCHES_WON",
+            "Value": "605",
+            "BaseValue": "605",
+            "Visible": true
+          },
+          {
+            "Key": "SR_MATCHES_LOST",
+            "Value": "1",
+            "BaseValue": "1",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 2,
+        "LevelRank": 0,
+        "Value": 4644231562609558000,
+        "Personal": false,
+        "FormattedValue": "4,644,231,562,609,557,504",
+        "PercentMax": -2147483648,
+        "Name": "wiseguy96",
+        "Group": "Type=RANDOM,WeaponId=Heavies",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 32087515,
+        "AvatarUrl": "n/wiseguy96",
+        "GamerTag": "",
+        "LastUpdateTime": "1468733496",
+        "Values": [
+          {
+            "Key": "TOTAL_SHOTS_FIRED",
+            "Value": "543.7K",
+            "BaseValue": "543723",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_SHOTS_HIT",
+            "Value": "38.3K",
+            "BaseValue": "38281",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_ACCURACY",
+            "Value": "7.04%",
+            "BaseValue": "4.58973765971571E+18",
+            "Visible": true
+          },
+          {
+            "Key": "MATCHES_WON",
+            "Value": "314",
+            "BaseValue": "314",
+            "Visible": true
+          },
+          {
+            "Key": "SR_MATCHES_LOST",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 3,
+        "LevelRank": 0,
+        "Value": 4640994600377385000,
+        "Personal": false,
+        "FormattedValue": "4,640,994,600,377,384,960",
+        "PercentMax": -2147483648,
+        "Name": "Beast890",
+        "Group": "Type=RANDOM,WeaponId=Heavies",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 44534364,
+        "AvatarUrl": "n/beast890",
+        "GamerTag": "",
+        "LastUpdateTime": "1477139223",
+        "Values": [
+          {
+            "Key": "TOTAL_SHOTS_FIRED",
+            "Value": "282.2K",
+            "BaseValue": "282203",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_SHOTS_HIT",
+            "Value": "15.3K",
+            "BaseValue": "15342",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_ACCURACY",
+            "Value": "5.44%",
+            "BaseValue": "4.58799566055011E+18",
+            "Visible": true
+          },
+          {
+            "Key": "MATCHES_WON",
+            "Value": "193",
+            "BaseValue": "193",
+            "Visible": true
+          },
+          {
+            "Key": "SR_MATCHES_LOST",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 4,
+        "LevelRank": 0,
+        "Value": 4639798331726365000,
+        "Personal": false,
+        "FormattedValue": "4,639,798,331,726,364,672",
+        "PercentMax": -2147483648,
+        "Name": "SSxREAPERxSS",
+        "Group": "Type=RANDOM,WeaponId=Heavies",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 55760643,
+        "AvatarUrl": "n/ssxreaperxss",
+        "GamerTag": "",
+        "LastUpdateTime": "1445122351",
+        "Values": [
+          {
+            "Key": "TOTAL_SHOTS_FIRED",
+            "Value": "268.1K",
+            "BaseValue": "268111",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_SHOTS_HIT",
+            "Value": "18.9K",
+            "BaseValue": "18864",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_ACCURACY",
+            "Value": "7.04%",
+            "BaseValue": "4.58973431504994E+18",
+            "Visible": true
+          },
+          {
+            "Key": "MATCHES_WON",
+            "Value": "159",
+            "BaseValue": "159",
+            "Visible": true
+          },
+          {
+            "Key": "SR_MATCHES_LOST",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 5,
+        "LevelRank": 0,
+        "Value": 4639165013028766000,
+        "Personal": false,
+        "FormattedValue": "4,639,165,013,028,765,696",
+        "PercentMax": -2147483648,
+        "Name": "benjj11",
+        "Group": "Type=RANDOM,WeaponId=Heavies",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 86253672,
+        "AvatarUrl": "n/benjj11",
+        "GamerTag": "",
+        "LastUpdateTime": "1479289535",
+        "Values": [
+          {
+            "Key": "TOTAL_SHOTS_FIRED",
+            "Value": "243.9K",
+            "BaseValue": "243875",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_SHOTS_HIT",
+            "Value": "15K",
+            "BaseValue": "15034",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_ACCURACY",
+            "Value": "6.16%",
+            "BaseValue": "4.58904499422916E+18",
+            "Visible": true
+          },
+          {
+            "Key": "MATCHES_WON",
+            "Value": "141",
+            "BaseValue": "141",
+            "Visible": true
+          },
+          {
+            "Key": "SR_MATCHES_LOST",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 6,
+        "LevelRank": 0,
+        "Value": 4639094644284588000,
+        "Personal": false,
+        "FormattedValue": "4,639,094,644,284,588,032",
+        "PercentMax": -2147483648,
+        "Name": "gregenforce",
+        "Group": "Type=RANDOM,WeaponId=Heavies",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 33725799,
+        "AvatarUrl": "n/gregenforce",
+        "GamerTag": "",
+        "LastUpdateTime": "1478607201",
+        "Values": [
+          {
+            "Key": "TOTAL_SHOTS_FIRED",
+            "Value": "240.2K",
+            "BaseValue": "240199",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_SHOTS_HIT",
+            "Value": "11.1K",
+            "BaseValue": "11141",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_ACCURACY",
+            "Value": "4.64%",
+            "BaseValue": "4.58684522567675E+18",
+            "Visible": true
+          },
+          {
+            "Key": "MATCHES_WON",
+            "Value": "139",
+            "BaseValue": "139",
+            "Visible": true
+          },
+          {
+            "Key": "SR_MATCHES_LOST",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 7,
+        "LevelRank": 0,
+        "Value": 4638813169307877000,
+        "Personal": false,
+        "FormattedValue": "4,638,813,169,307,877,376",
+        "PercentMax": -2147483648,
+        "Name": "obeisantDadvan27",
+        "Group": "Type=RANDOM,WeaponId=Heavies",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 34904256,
+        "AvatarUrl": "n/obeisantdadvan27",
+        "GamerTag": "",
+        "LastUpdateTime": "1436381803",
+        "Values": [
+          {
+            "Key": "TOTAL_SHOTS_FIRED",
+            "Value": "228.4K",
+            "BaseValue": "228417",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_SHOTS_HIT",
+            "Value": "12.4K",
+            "BaseValue": "12355",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_ACCURACY",
+            "Value": "5.41%",
+            "BaseValue": "4.58795596390466E+18",
+            "Visible": true
+          },
+          {
+            "Key": "MATCHES_WON",
+            "Value": "131",
+            "BaseValue": "131",
+            "Visible": true
+          },
+          {
+            "Key": "SR_MATCHES_LOST",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 8,
+        "LevelRank": 0,
+        "Value": 4637229872563880000,
+        "Personal": false,
+        "FormattedValue": "4,637,229,872,563,879,936",
+        "PercentMax": -2147483648,
+        "Name": "jorgebarrosman",
+        "Group": "Type=RANDOM,WeaponId=Heavies",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 75025936,
+        "AvatarUrl": "n/jorgebarrosman",
+        "GamerTag": "",
+        "LastUpdateTime": "1479921968",
+        "Values": [
+          {
+            "Key": "TOTAL_SHOTS_FIRED",
+            "Value": "182.1K",
+            "BaseValue": "182064",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_SHOTS_HIT",
+            "Value": "10.5K",
+            "BaseValue": "10549",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_ACCURACY",
+            "Value": "5.79%",
+            "BaseValue": "4.58851102271769E+18",
+            "Visible": true
+          },
+          {
+            "Key": "MATCHES_WON",
+            "Value": "107",
+            "BaseValue": "107",
+            "Visible": true
+          },
+          {
+            "Key": "SR_MATCHES_LOST",
+            "Value": "1",
+            "BaseValue": "1",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 9,
+        "LevelRank": 0,
+        "Value": 4637018766331347000,
+        "Personal": false,
+        "FormattedValue": "4,637,018,766,331,346,944",
+        "PercentMax": -2147483648,
+        "Name": "LoeweExponent27",
+        "Group": "Type=RANDOM,WeaponId=Heavies",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 97525588,
+        "AvatarUrl": "n/loeweexponent27",
+        "GamerTag": "",
+        "LastUpdateTime": "1484062657",
+        "Values": [
+          {
+            "Key": "TOTAL_SHOTS_FIRED",
+            "Value": "176.2K",
+            "BaseValue": "176204",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_SHOTS_HIT",
+            "Value": "8,878",
+            "BaseValue": "8878",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_ACCURACY",
+            "Value": "5.04%",
+            "BaseValue": "4.58742203326558E+18",
+            "Visible": true
+          },
+          {
+            "Key": "MATCHES_WON",
+            "Value": "104",
+            "BaseValue": "104",
+            "Visible": true
+          },
+          {
+            "Key": "SR_MATCHES_LOST",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      },
+      {
+        "Rank": 10,
+        "LevelRank": 0,
+        "Value": 4636666922610459000,
+        "Personal": false,
+        "FormattedValue": "4,636,666,922,610,458,624",
+        "PercentMax": -2147483648,
+        "Name": "A11ALogic",
+        "Group": "Type=RANDOM,WeaponId=Heavies",
+        "CrewId": 0,
+        "CrewMemberCount": 0,
+        "CrewColour": "#F99D27",
+        "IsPrivate": true,
+        "RockstarId": 70031822,
+        "AvatarUrl": "n/a11alogic",
+        "GamerTag": "",
+        "LastUpdateTime": "1434325504",
+        "Values": [
+          {
+            "Key": "TOTAL_SHOTS_FIRED",
+            "Value": "142.7K",
+            "BaseValue": "142689",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_SHOTS_HIT",
+            "Value": "9,171",
+            "BaseValue": "9171",
+            "Visible": true
+          },
+          {
+            "Key": "TOTAL_ACCURACY",
+            "Value": "6.43%",
+            "BaseValue": "4.5892957531059E+18",
+            "Visible": true
+          },
+          {
+            "Key": "MATCHES_WON",
+            "Value": "99",
+            "BaseValue": "99",
+            "Visible": true
+          },
+          {
+            "Key": "SR_MATCHES_LOST",
+            "Value": "0",
+            "BaseValue": "0",
+            "Visible": false
+          }
+        ],
+        "ShowBarForXp": false
+      }
+    ],
+    "PagingInfo": {
+      "IsFirstPage": true,
+      "PrevAvailable": false,
+      "PrevPageNum": 0,
+      "NextAvailable": true,
+      "NextPageNum": 2,
+      "PersonalAvailable": false
+    },
+    "Platform": "XBoxOne",
+    "Game": "GTAV",
+    "LeaderboardId": 0,
+    "NextRank": 0,
+    "FirstRankValue": 0
+  },
+  "Minigames": {
+    "MinigameGroup": [
+      {
+        "Name": "Sport",
+        "Minigames": [
+          {
+            "Name": "darts",
+            "DisplayName": "Darts",
+            "LeaderboardId": "190",
+            "GameType": "both",
+            "Challenges": []
+          },
+          {
+            "Name": "golf",
+            "DisplayName": "Golf",
+            "LeaderboardId": "193",
+            "GameType": "both",
+            "Challenges": []
+          },
+          {
+            "Name": "tennis",
+            "DisplayName": "Tennis",
+            "LeaderboardId": "283",
+            "GameType": "both",
+            "Challenges": []
+          },
+          {
+            "Name": "armwrestling",
+            "DisplayName": "Arm Wrestling",
+            "LeaderboardId": "749",
+            "GameType": "mp",
+            "Challenges": []
+          }
+        ]
+      },
+      {
+        "Name": "Challenges",
+        "Minigames": [
+          {
+            "Name": "flightschool",
+            "DisplayName": "Flight School",
+            "GameType": "mp",
+            "Challenges": [
+              {
+                "Challenge": [
+                  {
+                    "Name": "MP_LESSON_01",
+                    "UrlName": "outsideloop",
+                    "Id": "965",
+                    "Image": "flightschool/DLC_Outside_Loop.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "00:58.000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "01:20.000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "02:00.000"
+                        }
+                      ]
+                    },
+                    "Description": "Learn how to do an outside loop.",
+                    "DisplayName": "Outside Loop"
+                  },
+                  {
+                    "Name": "MP_LESSON_02",
+                    "UrlName": "enginefailure",
+                    "Id": "969",
+                    "Image": "flightschool/DLC_Engine_Failure.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "10.00 m"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "30.00 m"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "finish"
+                        }
+                      ]
+                    },
+                    "Description": "Land the Miljet with an engine failure.",
+                    "DisplayName": "Engine Failure"
+                  },
+                  {
+                    "Name": "MP_LESSON_05",
+                    "UrlName": "chaseparachute",
+                    "Id": "970",
+                    "Image": "flightschool/DLC_Chase_Parachute.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "2.00 m"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "4.50 m"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "7.00 m"
+                        }
+                      ]
+                    },
+                    "Description": "Jump out of a military plane and catch your parachute on the way down.",
+                    "DisplayName": "Chase Parachute"
+                  },
+                  {
+                    "Name": "MP_LESSON_04",
+                    "UrlName": "citylanding",
+                    "Id": "973",
+                    "Image": "flightschool/DLC_City_Landing.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "10.00 m"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "30.00 m"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "finish"
+                        }
+                      ]
+                    },
+                    "Description": "Land a Titan in the city in bad weather.",
+                    "DisplayName": "City Landing"
+                  },
+                  {
+                    "Name": "MP_LESSON_06",
+                    "UrlName": "movinglanding",
+                    "Id": "967",
+                    "Image": "flightschool/DLC_Flatbed_Landing.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "00:19.000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "00:25.000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "01:00.000"
+                        }
+                      ]
+                    },
+                    "Description": "Land a helicopter on a moving truck.",
+                    "DisplayName": "Moving Landing"
+                  },
+                  {
+                    "Name": "MP_LESSON_07",
+                    "UrlName": "formationflight",
+                    "Id": "974",
+                    "Image": "flightschool/DLC_Lazer_Formation.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "600"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "450"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "300"
+                        }
+                      ]
+                    },
+                    "Description": "Fly as part of a formation.",
+                    "DisplayName": "Formation Flight"
+                  },
+                  {
+                    "Name": "MP_LESSON_03",
+                    "UrlName": "shootingrange",
+                    "Id": "972",
+                    "Image": "flightschool/DLC_Buzzard_Shooting_Range.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "25"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "15"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "10"
+                        }
+                      ]
+                    },
+                    "Description": "Complete a shooting range in a military helicopter.",
+                    "DisplayName": "Shooting Range"
+                  },
+                  {
+                    "Name": "MP_LESSON_08",
+                    "UrlName": "groundlevel",
+                    "Id": "971",
+                    "Image": "flightschool/DLC_Lazer_Fly_Low.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "1.00 m"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "3.00 m"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "10.00 m"
+                        }
+                      ]
+                    },
+                    "Description": "Navigate through the course while flying as close to each checkpoint as possible.",
+                    "DisplayName": "Ground Level"
+                  },
+                  {
+                    "Name": "MP_LESSON_09",
+                    "UrlName": "collectflags",
+                    "Id": "968",
+                    "Image": "flightschool/DLC_Collect_Flags.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "02:40.000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "03:00.000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "finish"
+                        }
+                      ]
+                    },
+                    "Description": "Collect flags placed around the map.",
+                    "DisplayName": "Collect Flags"
+                  },
+                  {
+                    "Name": "MP_LESSON_10",
+                    "UrlName": "followleader",
+                    "Id": "966",
+                    "Image": "flightschool/DLC_Follow_The_Leader.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "02:25.000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "02:40.000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "finish"
+                        }
+                      ]
+                    },
+                    "Description": "Follow Flight School instructor through an obstacle course around the city.",
+                    "DisplayName": "Follow Leader"
+                  }
+                ],
+                "Name": "",
+                "GameType": "mp",
+                "DLC": 0
+              }
+            ]
+          },
+          {
+            "Name": "shootingrange",
+            "DisplayName": "Shooting Range",
+            "GameType": "both",
+            "Challenges": [
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType0",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/HG1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "2800"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "2000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "1400"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple static targets. Targets exit after one hit.",
+                    "DisplayName": "Pistol: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType1",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/HG2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "20000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "10000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "2000"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple moving targets. Targets exit automatically.",
+                    "DisplayName": "Pistol: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType2",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/HG3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "15000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "3000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "650"
+                        }
+                      ]
+                    },
+                    "Description": "One moving target. Targets exit automatically.",
+                    "DisplayName": "Pistol: Challenge 3"
+                  }
+                ],
+                "Name": "pistol",
+                "DisplayName": "Hand Guns",
+                "GameType": "sp",
+                "Image": "Weapcat_HG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType3",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/SMG1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "12000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "6000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "4000"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple static targets with the ability to flip. Targets exit automatically.",
+                    "DisplayName": "SMG: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType4",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/SMG2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "7500"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "2500"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "1250"
+                        }
+                      ]
+                    },
+                    "Description": "Single line of moving and flipping targets. Targets exit automatically.",
+                    "DisplayName": "SMG: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType5",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/SMG3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "10000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "5000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "3000"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple moving targets with height variation. Targets exit automatically.",
+                    "DisplayName": "SMG: Challenge 3"
+                  }
+                ],
+                "Name": "smg",
+                "DisplayName": "Submachine Guns",
+                "GameType": "sp",
+                "Image": "Weapcat_SMG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType9",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/AR1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "7550"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "3550"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "2500"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple static targets. Targets exit after three hits.",
+                    "DisplayName": "Assault Rifle: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType10",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/AR2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "17500"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "7500"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "4750"
+                        }
+                      ]
+                    },
+                    "Description": "Single column of moving and flipping targets. Targets exit automatically.",
+                    "DisplayName": "Assault Rifle: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType11",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/AR3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "5000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "3000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "1000"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple targets of varying height and speed. Targets exit after three hits.",
+                    "DisplayName": "Assault Rifle: Challenge 3"
+                  }
+                ],
+                "Name": "assaultrifle",
+                "DisplayName": "Assault Rifles",
+                "GameType": "sp",
+                "Image": "Weapcat_AR.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType6",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/SG1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "46"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "32"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "22"
+                        }
+                      ]
+                    },
+                    "Description": "Static targets, each exits after one hit. Hit as many as possible.",
+                    "DisplayName": "Shotgun: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType7",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/SG2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "700"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "590"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "290"
+                        }
+                      ]
+                    },
+                    "Description": "Moving and static targets. Shoot closer targets to maximize score.",
+                    "DisplayName": "Shotgun: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType8",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/SG3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "23"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "18"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "14"
+                        }
+                      ]
+                    },
+                    "Description": "Moving targets, exits after one it. Use spread to maximize score.",
+                    "DisplayName": "Shotgun: Challenge 3"
+                  }
+                ],
+                "Name": "shotgun",
+                "DisplayName": "Shotguns",
+                "GameType": "sp",
+                "Image": "Weapcat_SG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType12",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/LMG1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "7500"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "5500"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "4500"
+                        }
+                      ]
+                    },
+                    "Description": "Targets take multiple hits to exit. Target moves and respawns.",
+                    "DisplayName": "LMG: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType13",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/LMG2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "40000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "12000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "5500"
+                        }
+                      ]
+                    },
+                    "Description": "A row of distant targets that flip individually and exit automatically.",
+                    "DisplayName": "LMG: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType14",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/LMG3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "32000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "19000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "7500"
+                        }
+                      ]
+                    },
+                    "Description": "Targets take multiple hits to exit. More targets spawn continually.",
+                    "DisplayName": "LMG: Challenge 3"
+                  }
+                ],
+                "Name": "lmg",
+                "DisplayName": "Light Machine Guns",
+                "GameType": "sp",
+                "Image": "Weapcat_LMG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType15",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/HVY1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "50000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "25000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "10000"
+                        }
+                      ]
+                    },
+                    "Description": "One row of targets that respawn. Continuous hits increase your multiplier.",
+                    "DisplayName": "Minigun: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType16",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/HVY2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "45000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "30000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "15000"
+                        }
+                      ]
+                    },
+                    "Description": "Targets that exit after multiple hits. Continuous hits increase your multiplier.",
+                    "DisplayName": "Minigun: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType17",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/HVY3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "70000"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "40000"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "20000"
+                        }
+                      ]
+                    },
+                    "Description": "Infinite respawning targets. Exit after multiple hits. Continuous hits increase your multiplier.",
+                    "DisplayName": "Minigun: Challenge 3"
+                  }
+                ],
+                "Name": "minigun",
+                "DisplayName": "Heavy",
+                "GameType": "sp",
+                "Image": "Weapcat_HVY.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "RoundType18",
+                    "UrlName": "challenge1",
+                    "Id": "203",
+                    "Image": "shootingrange/RG1.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "24"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "22"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "20"
+                        }
+                      ]
+                    },
+                    "Description": "Stationary and moving targets. Destroy as many as possible with each shot.",
+                    "DisplayName": "Railgun: Challenge 1"
+                  },
+                  {
+                    "Name": "RoundType19",
+                    "UrlName": "challenge2",
+                    "Id": "203",
+                    "Image": "shootingrange/RG2.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "24"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "20"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "16"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple moving targets. Destroy as many as possible with each shot.",
+                    "DisplayName": "Railgun: Challenge 2"
+                  },
+                  {
+                    "Name": "RoundType20",
+                    "UrlName": "challenge3",
+                    "Id": "203",
+                    "Image": "shootingrange/RG3.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "32"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "26"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "20"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple moving targets of varying height and speed. Destroy as many as possible with each shot.",
+                    "DisplayName": "Railgun: Challenge 3"
+                  },
+                  {
+                    "Name": "RoundType21",
+                    "UrlName": "challenge4",
+                    "Id": "203",
+                    "Image": "shootingrange/RG4.png",
+                    "Medals": {
+                      "Medal": [
+                        {
+                          "Type": "gold",
+                          "Value": "35"
+                        },
+                        {
+                          "Type": "silver",
+                          "Value": "31"
+                        },
+                        {
+                          "Type": "bronze",
+                          "Value": "26"
+                        }
+                      ]
+                    },
+                    "Description": "Multiple quick moving targets of varying heights. Destroy as many as possible with each shot.",
+                    "DisplayName": "Railgun: Challenge 4"
+                  }
+                ],
+                "Name": "railgun",
+                "DisplayName": "Railgun",
+                "GameType": "sp",
+                "Image": "Weapcat_RG.png",
+                "DLC": 13
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/HG2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/HG1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/HG3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "pistols",
+                "DisplayName": "Hand Guns",
+                "GameType": "mp",
+                "Image": "Weapcat_HG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/SMG2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/SMG1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/SMG3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "smgs",
+                "DisplayName": "Submachine Guns",
+                "GameType": "mp",
+                "Image": "Weapcat_SMG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/AR2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/AR1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/AR3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "assaultrifles",
+                "DisplayName": "Assault Rifles",
+                "GameType": "mp",
+                "Image": "Weapcat_AR.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/SG2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/SG1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/SG3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "shotguns",
+                "DisplayName": "Shotguns",
+                "GameType": "mp",
+                "Image": "Weapcat_SG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/LMG2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/LMG1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/LMG3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "lmgs",
+                "DisplayName": "Light Machine Guns",
+                "GameType": "mp",
+                "Image": "Weapcat_LMG.png",
+                "DLC": 0
+              },
+              {
+                "Challenge": [
+                  {
+                    "Name": "random",
+                    "UrlName": "random",
+                    "Id": "912",
+                    "Image": "shootingrange/HVY2.png",
+                    "Description": "Shoot targets of your color to win points; lose points by hitting others. Highest score wins. Best of 3, wins!",
+                    "DisplayName": "Random Targets"
+                  },
+                  {
+                    "Name": "grid",
+                    "UrlName": "grid",
+                    "Id": "912",
+                    "Image": "shootingrange/HVY1.png",
+                    "Description": "Shoot a target to turn it your color. Win by having the most turned your color. Best of 3, wins!",
+                    "DisplayName": "Target Grid"
+                  },
+                  {
+                    "Name": "covered",
+                    "UrlName": "covered",
+                    "Id": "912",
+                    "Image": "shootingrange/HVY3.png",
+                    "Description": "Win by clearing targets of your color, shoot control targets to block the opponent. Best of 3, wins!",
+                    "DisplayName": "Covered Targets"
+                  }
+                ],
+                "Name": "heavies",
+                "DisplayName": "Heavy",
+                "GameType": "mp",
+                "Image": "Weapcat_HVY.png",
+                "DLC": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Race",
+        "Minigames": []
+      }
+    ]
+  },
+  "GameType": "mp",
+  "SelectedChallenge": "random",
+  "SelectedChallengeUrl": "random",
+  "SelectedChallengeRaceType": "",
+  "Slot": "Freemode",
+  "SelectList": [
+    {
+      "MinigameName": [
+        {
+          "Name": "armwrestling",
+          "DisplayName": "Arm Wrestling",
+          "Type": "Sport"
+        },
+        {
+          "Name": "darts",
+          "DisplayName": "Darts",
+          "Type": "Sport"
+        }
+      ]
+    },
+    {
+      "MinigameName": [
+        {
+          "Name": "flightschool",
+          "DisplayName": "Flight School",
+          "Type": "Challenges"
+        },
+        {
+          "Name": "golf",
+          "DisplayName": "Golf",
+          "Type": "Sport"
+        }
+      ]
+    },
+    {
+      "MinigameName": [
+        {
+          "Name": "shootingrange",
+          "DisplayName": "Shooting Range",
+          "Type": "Challenges"
+        },
+        {
+          "Name": "tennis",
+          "DisplayName": "Tennis",
+          "Type": "Sport"
+        }
+      ]
+    }
+  ]
+}
