@@ -41,6 +41,6 @@ In this guide I will try to describe and collect as many useful knowledge about 
 .. toctree::
    :caption: Snapmatic
 
-   player
-   crew
+   player-snaps
+   crew-snaps
    global-filters
