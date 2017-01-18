@@ -3,7 +3,7 @@
 
 .. http:get:: /games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&Page=(page_number)
 
-  Returns 20 of the "most recent" snapmatic photos. Make sure to increase ``page_number`` to browse through the pagination.
+  Returns 12 of the "most recent" snapmatic photos. Make sure to increase ``page_number`` to browse through the pagination.
 
   **Example request**:
 
