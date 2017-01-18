@@ -3,7 +3,7 @@ Player
 
 .. http:get:: /member/(nickname)/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=(page_number)
 
-  Returns 20 photos of the given player. Make sure to increase ``page`` to browse through the pagination.
+  Returns 20 photos of the given player. Make sure to increase ``page_number`` to browse through the pagination.
 
   **Example request**:
 
