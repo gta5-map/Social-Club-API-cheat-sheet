@@ -40,9 +40,9 @@ Overview
 Player name to player ID
 ------------------------
 
-For some requests you need to know the player ID instead of the (human readable) player name.
-
 .. http:get:: /member/(socialclub_username)
+
+  For some requests you need to know the player ID instead of the (human readable) player name.
 
   **Example request**:
 
