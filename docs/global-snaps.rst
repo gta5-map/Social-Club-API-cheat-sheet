@@ -1,5 +1,5 @@
-Global filters
-==============
+Global snaps
+============
 
 .. http:get:: /games/gtav/snapmatic/ajax/search?[SearchQuery=(search_query)&]Filter=(filter)&Page=(page_number)
 

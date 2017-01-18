@@ -43,4 +43,4 @@ In this guide I will try to describe and collect as many useful knowledge about 
 
    player-snaps
    crew-snaps
-   global-filters
+   global-snaps
