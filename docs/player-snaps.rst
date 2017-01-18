@@ -1,9 +1,9 @@
 Player snaps
 ============
 
-.. http:get:: /member/(nickname)/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=(page_number)
+.. http:get:: /member/(nickname)/games/gtav/snapmatic/ajax/search?[SearchQuery=(search_query)&]Filter=(filter)&page=(page_number)
 
-  Returns 20 photos of the given player. Make sure to increase ``page_number`` to browse through the pagination.
+  Returns 12 snapmatic pictures of the specific player. Make sure to increase ``page_number`` to browse through the pagination.
 
   **Example request**:
 
@@ -20,4 +20,6 @@ Player snaps
     :end-line: 30
 
   :query nickname: target player
+  :query filter: allowed values: ``mostrecent``, ``trending``, ``popular`` (all-time), ``myfriends``, ``myphotos``, ``mythumbsup``
   :query page_number: page number, starting with ``1``
+  :query optional search_query: a specific term to search for

@@ -1,9 +1,9 @@
 Crew snaps
 ==========
 
-.. http:get:: /crew/(crew_name)/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=(page_number)
+.. http:get:: /crew/(crew_name)/games/gtav/snapmatic/ajax/search?[SearchQuery=(search_query)&]Filter=(filter)&page=(page_number)
 
-  Returns 20 snapmatic photos. Make sure to increase ``page_number`` to browse through the pagination.
+  Lists 12 snaps from a specific crew. Make sure to increase ``page_number`` to browse through the pagination.
 
   **Example request**:
 
@@ -20,4 +20,6 @@ Crew snaps
     :end-line: 30
 
   :query crew_name: target crew
+  :query filter: allowed values: ``mostrecent``, ``trending``, ``popular`` (all-time), ``myfriends``, ``myphotos``, ``mythumbsup``
   :query page_number: page number, starting with ``1``
+  :query optional search_query: a specific term to search for
