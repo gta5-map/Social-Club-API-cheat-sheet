@@ -1,13 +1,22 @@
 "My friends"
 ============
 
-::
+.. http:get:: /games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MyFriends&Page=(page_number)
 
-    GET /games/gtav/snapmatic/ajax/search?SearchQuery=<SEARCH_TERM>&Filter=myfriends&Page=[X]&_=1419780913185
+  Returns 12 snaps of the "My friends" category. Make sure to increase ``page_number`` to browse through the pagination.
 
-Returns 20 snapshots of the "My friends" category. Make sure to increase
-``page`` to browse through the pagination.
+  **Example request**:
 
--  ``[X]`` is a number starting from 1
--  ``<SEARCH_TERM>`` is an optional search term, leave empty if you
-   don't want to filter
+  .. sourcecode:: http
+
+    GET /games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MyFriends&Page=1 HTTP/1.1
+    Host: socialclub.rockstargames.com
+
+  **Example response** `(full) <_static/responses/snapmatic_friends.txt>`_:
+
+  .. include:: _static/responses/snapmatic_friends.txt
+    :literal:
+    :code: json
+    :end-line: 30
+
+  :query page_number: page number, starting with ``1``
