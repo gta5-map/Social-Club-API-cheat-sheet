@@ -9,7 +9,7 @@ Player snaps
 
   .. sourcecode:: http
 
-    GET /member/restlessnarwhal/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=1 HTTP/1.1
+    GET /member/restlessnarwhal/games/gtav/snapmatic/ajax/search?Filter=MostRecent&page=1 HTTP/1.1
     Host: socialclub.rockstargames.com
 
   **Example response** `(full) <_static/responses/snapmatic_player.txt>`_:
