@@ -18,7 +18,7 @@ In this guide I will try to describe and collect as many useful knowledge about 
 .. toctree::
    :caption: Public player stats
 
-   player-overview
+   public-general
    statistics
    weapons
    garage
@@ -28,7 +28,7 @@ In this guide I will try to describe and collect as many useful knowledge about 
 .. toctree::
    :caption: Private player stats
 
-   general
+   private-general
    minigames
    shooting-range
 

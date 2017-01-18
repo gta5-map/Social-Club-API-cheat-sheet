@@ -1,0 +1,517 @@
+<!doctype html>
+
+
+
+<html class="no-js" lang="en">
+
+<head data-template-set="html5-reset">
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rockstar Games Social Club - Member : restlessnarwhal</title>
+    <meta name="title" content="Rockstar Games Social Club Member : restlessnarwhal">
+    <meta name="keywords" content="Rockstar Games, Social Club, Rockstar">
+    <meta name="description" content="Rockstar Games Social Club">
+    <meta name="google-site-verification" content="">
+    <meta name="author" content="Rockstar North">
+    <meta name="copyright" content="Rockstar Games 2017. All Rights Reserved.">
+    <meta name="msapplication-config" content="none">
+
+
+    <meta name="DC.title" content="Rockstar Games Social Club">
+    <meta name="DC.subject" content="Rockstar Games, Social Club, Rockstar">
+    <meta name="DC.creator" content="Rockstar North">
+
+
+    <meta http-equiv="cleartype" content="on">
+
+
+        <meta name="robots" content="all">
+
+
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"                 href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-57x57-precomposed.png">
+    <link rel="shortcut icon"                                href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon"                                href="https://cdn.sc.rockstargames.com/favicon.ico">
+
+
+    <link rel="canonical" href="http://socialclub.rockstargames.com/">
+
+
+
+    <link id='coreCSS' href="https://cdn.sc.rockstargames.com/css/20170104dbaB/core.manifest.css" rel="stylesheet">
+
+
+
+    <!--[if IE 9]>
+        <style type="text/css">
+            html * { filter: none !important; }
+        </style>
+    <![endif]-->
+
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+
+    <script>
+        WebFont.load({
+            custom: {
+                families: ['HelveticaNeueW02-67MdCn 694060', 'HelveticaNeueW10-67MdCn 777270', 'DroidSansMonoW02-Bold', 'scicon-font'],
+                urls: ['https://cdn.sc.rockstargames.com/css/20170104dbaB/base/fonts/fonts-common.css']
+            }
+        });
+    </script>
+
+
+
+
+    <link href="https://cdn.sc.rockstargames.com/css/20170104dbaB/pages/profile.manifest.css" rel="stylesheet">
+
+
+
+
+        <script src="//www.google-analytics.com/cx/api.js?experiment=dE2AtC31RCGidk9AXEbd3g"></script>
+
+
+    <script>
+
+        window.smallMobileSize = 568;
+        //window.mobileSize = 768;
+        window.desktopSize = 1024;
+
+
+
+    </script>
+
+
+<script>
+
+
+        window.sl_tr_start = function(){}; window.sl_tr_end = function(){}; window.sl_notr_start = function(){}; window.sl_notr_end = function(){}; window.sl_tr_json_start = function(){}; window.sl_tr_json_end = function(){};
+
+    var siteMaster = {
+        cdnBase: 'https://cdn.sc.rockstargames.com',
+        jsBase: 'https://cdn.sc.rockstargames.com/js/20170104dbaB',
+        cssBase: 'https://cdn.sc.rockstargames.com/css/20170104dbaB',
+        cloudBase: 'https://prod.cloud.rockstargames.com',
+        ugcCloudBase: 'http://prod.ros.rockstargames.com/cloud/11/cloudservices',
+        avatarBase: 'https://cdn.sc.rockstargames.com/images/avatars/',
+        avatarDefault: 'https://cdn.sc.rockstargames.com/images/avatars/default.png',
+        emblemBase: 'https://prod.cloud.rockstargames.com/crews/sc/{0}/{1}/publish/emblem/emblem_{2}.png',
+        emblemDefault: 'https://cdn.sc.rockstargames.com/images/emblems/128x128/rockstar1.png',
+        thirdPartyV2: true, // can be removed?
+        isLoggedIn: true,
+        googleAuth: true,
+        fbSharing: true,
+        twitterSharing: true,
+        googleSharing: true,
+        act: true,
+        actInt: 360,
+        actCnt: 0,
+        liEnabled: true,
+        liBaseUrl: 'http://www.lifeinvader.com',
+        gtavEnabled: true,
+        locale: 'en',
+        legalCulture: 'us',
+        supportCulture: 'en-us',
+        default4Culture: 'en-us',
+        support4Culture: 'en-us',
+        support4NewsCulture: 'en_us',
+        timeAgoLocale: 'en',
+
+        captchaCulture: 'en',
+
+        crewsCommunity: true,
+        newsHost: 'http://www.rockstargames.com/',
+
+        sslOnly: true,
+
+        avatarCloudBase: 'https://a.rsg.sc/',
+
+        loginTracker: false,
+        setCookies: [{"SetAuthUrl":"https://www.lifeinvader.com/auth/Home/SetCookie?token=","Name":"li"},{"SetAuthUrl":"https://www.rockstarwarehouse.com/store/tk2rstar/SetCookie?token=","Name":"warehouse"},{"SetAuthUrl":"https://support.rockstargames.com/access/jwt?jwt=","Name":"support"},{"SetAuthUrl":"https://www.rockstargames.com/auth/users/login.json?token=","Name":"www"}],
+        destCookies: ["https://www.lifeinvader.com/auth/Home/DestroyCookie?","https://www.rockstarwarehouse.com/store/tk2rstar/DestroyCookie","https://www.rockstargames.com/auth/users/logout.json?"],
+        ssoEnabled: true,
+        stsChkNm: 'statuschk.v2',
+        stsChkDm: '.socialclub.rockstargames.com',
+        stsChkSc: true,
+
+        liThemeEnabled: true,
+        loc: true,
+        authUserNickName: 'RestlessNarwhal',
+        authUserId: 47990204,
+        authUserAvatar: 'n/restlessnarwhal',
+        isEnabledAnalytics: true,
+        isEnabledAnalyticsCD: true,
+        gaTimeout: 30,
+        gcx:
+        {
+            userId: 47990204,
+            id: 'dE2AtC31RCGidk9AXEbd3g',
+            variation: null
+        },
+        //0: Basic alerts
+        //1: Responsive alerts
+        alertType: 0,
+
+        gtavBannerData:
+        {
+            banner: '',
+            display: false
+        },
+
+        isGtavPc: true,
+
+        webpack: true,
+
+        showRecaptcha: false,
+        aft: '<input name="__RequestVerificationToken" type="hidden" value="qOXA21e93WqJZp_4TGx1wYpdofqDMAp4cVGpTR6qio6jxbSeETqYyVFg8hqUbAo4hh8yfkCRwJByAwouoISGVFFj0sw1" />'
+    },
+    require = {
+        baseUrl: siteMaster.jsBase,
+
+    };
+</script>
+
+
+
+    <script>window.webpackPublicPath = "https://cdn.sc.rockstargames.com/js/20170104dbaB/build/" </script>
+    <script src="https://cdn.sc.rockstargames.com/js/20170104dbaB/build/common.js"></script>
+
+
+</head>
+
+
+
+<body class="bg_home_member   twoCol">
+
+    <div id="fb-root"></div>
+
+
+
+    <div id="wrapper" class="bgDefault bg_home_member">
+
+
+
+
+
+        <div id="pageWrapper">
+
+            <div id="pageMask"></div>
+
+
+
+<header>
+
+    <div id="headerInner">
+
+
+
+        <h1 id="headerTitle"><a href="/" class="GA_Track" data-ga="menu_logo">Rockstar Games Social Club</a></h1>
+
+        <nav class="main-nav">
+
+            <ul>
+
+
+                        <li><a href="/myprofile" data-ga="menu_features_clickthru" data-ga-label="Profile"  class="GA_Track" >Profile</a></li>
+
+
+                <li class="has-mega" data-mega-menu-type="games">
+
+                    <a href="/games" data-ga="menu_features_clickthru" data-ga-label="Games"  class="GA_Track" >Games</a>
+
+                </li>
+
+                <li class="has-mega" data-mega-menu-type="crews">
+
+                    <a href="/crews" data-ga="menu_features_clickthru" data-ga-label="Crews"  class="GA_Track" >Crews</a>
+
+                </li>
+
+                <li><a href="/events" data-ga="menu_features_clickthru" data-ga-label="Online Events"  class="GA_Track" >Online Events</a></li>
+
+
+
+                <li class="has-mega" data-mega-menu-type="news">
+
+                    <a href="/news" data-ga="menu_features_clickthru" data-ga-label="News"  class="GA_Track" >News</a>
+
+                </li>
+
+
+
+            </ul>
+
+        </nav>
+
+        <div id="headerInfo">
+                  <div id="loggedIn" class="clearfix">
+            <ul class="nav secondary-nav">
+          <li class="dropdown" data-dropdown="dropdown">
+            <a class="dropdown-toggle GA_Track" href="#" data-ga="menu_dropdown"><i class="scicon-settings"></i></a>
+            <ul class="dropdown-menu">
+
+              <li><a href="https://socialclub.rockstargames.com/settings/index" class="GA_Track" data-ga="menu_dropdown_settings"><i class="scicon-nav_settings"></i>Settings</a></li>
+
+              <li><a href="https://socialclub.rockstargames.com/message/index" class="GA_Track" data-ga="menu_dropdown_messages"><i class="scicon-nav_messages"></i>Messages</a></li>
+
+                        <li><a href="https://socialclub.rockstargames.com/notifications/unread" class="GA_Track" data-ga="menu_dropdown_notifications"><i class="scicon-nav_notifications"></i>Notifications</a></li>
+
+              <li><a href="https://socialclub.rockstargames.com/friends/index" class="GA_Track" data-ga="menu_dropdown_friends"><i class="scicon-nav_friends"></i>Friends</a></li>
+
+                        <li><a href="https://socialclub.rockstargames.com/Emblems/New" class="GA_Track" data-ga="menu_dropdown_emblems"><i class="scicon-nav_emblem"></i>Emblems</a></li>
+
+                        <li><a href="https://socialclub.rockstargames.com/activate" class="GA_Track" data-ga="menu_dropdown_game_downloads"><i class="scicon-download"></i>Game Downloads</a></li>
+
+              <li><a id="logoutlink" href="https://socialclub.rockstargames.com/profile/signout" title="Sign Out" class="logoutlink"><i class="scicon-nav_logout"></i>Sign Out</a></li>
+
+            </ul>
+          </li>
+        </ul>
+            <a id="headerUsernameLink" href="/myprofile">
+                <div id="headerUsername">
+                    <img src="https://a.rsg.sc/n/restlessnarwhal/s" alt=""/>
+                    <p>RestlessNarwhal</p>
+                </div>
+            </a>
+        <div id="headerSearch">
+            <a href="#" class="activate"><i class="scicon-search"></i></a>
+            <div id="headerSearchMenu">
+                <div id="headerSearchMenuInner"></div>
+            </div>
+        </div>
+            <div class="headerActivity" style="display: none;">
+                <a href="#" class="activate hide small" data-original-title="Since you last signed in :">
+
+                     <span class="act-count small"></span>
+                </a>
+          <div class="activityMenu">
+            <div class="activityMenuInner">
+              <ul>
+                  <li class="last"><span class="loading">Loading...</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+        </div>
+
+    </div>
+
+</header>
+
+        <div class="mega-menu-blanket"></div>
+
+
+            <div id="page" class="clearfix">
+
+
+
+    <div id="head">
+
+        <div id="head0" class="head"></div>
+
+    </div>
+
+    <div id="backbonePage" class="gridRow profile-page">
+
+
+
+        <div id="col0" class="span3col"></div>
+        <div id="col1" class="spanDoubleCol"></div>
+        <div id="col2" class="span3col"></div>
+
+    </div>
+
+    <div id="privacyModal" class="modal fade" style="display:none;">
+        <div class="modal-header">
+            <a class="close" href="#">&times;</a>
+            <h3>Confirm Settings</h3>
+        </div>
+        <div class="modal-body">
+            <p>Your privacy settings are restricting anyone from viewing the content that you just published to your Wall.</p>
+        </div>
+        <div class="modal-footer">
+            <a class="btn btmMedium btnGold btnRounded" href="/settings/privacy">Update Privacy Settings</a>
+        </div>
+    </div>
+
+
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+    <div id="footerInner" class="clearfix">
+        <a href="http://www.rockstargames.com" target="_blank" class="GA_Track" data-ga="footer_RSG"><h3>Rockstar Games</h3></a>
+        <ul id="footerNav">
+            <li class="first">&copy; 2017 Rockstar Games</li>
+            <li class="about"><a href="/about" title="About Rockstar Games" class="GA_Track" data-ga="footer_about">About</a></li>
+            <li><a target="_blank" href="/legal/?locale=us" title="All things legal" class="GA_Track" data-ga="footer_legal">Legal</a></li>
+            <li><a target="_blank" href="/privacy/?locale=us" title="Our privacy policy" class="GA_Track" data-ga="footer_privacy">Privacy</a></li>
+
+            <li class="last"><a target="_blank" href="http://support.rockstargames.com/hc/en-us" title="Support" class="GA_Track" data-ga="footer_support">Support</a></li>
+        </ul>
+
+
+
+        <select id="languageSelect" class="notranslate languageSelect" data-dropdown="dropdown">
+
+
+
+                <option  value="de" data-lang="Deutsch" class="GA_Track" data-ga="footer_selectlanguage_de">Deutsch</option>
+
+
+
+                <option selected value="en" data-lang="English" class="GA_Track" data-ga="footer_selectlanguage_en">English</option>
+
+
+
+                <option  value="es" data-lang="Español" class="GA_Track" data-ga="footer_selectlanguage_es">Español</option>
+
+
+
+                <option  value="es-mx" data-lang="Español Latinoamérica" class="GA_Track" data-ga="footer_selectlanguage_es-mx">Español Latinoamérica</option>
+
+
+
+                <option  value="fr" data-lang="Français" class="GA_Track" data-ga="footer_selectlanguage_fr">Français</option>
+
+
+
+                <option  value="it" data-lang="Italiano" class="GA_Track" data-ga="footer_selectlanguage_it">Italiano</option>
+
+
+
+                <option  value="ja" data-lang="日本語" class="GA_Track" data-ga="footer_selectlanguage_ja">日本語</option>
+
+
+
+                <option  value="ko" data-lang="한국어" class="GA_Track" data-ga="footer_selectlanguage_ko">한국어</option>
+
+
+
+                <option  value="pl" data-lang="Polski" class="GA_Track" data-ga="footer_selectlanguage_pl">Polski</option>
+
+
+
+                <option  value="pt" data-lang="Português do Brasil" class="GA_Track" data-ga="footer_selectlanguage_pt">Português do Brasil</option>
+
+
+
+                <option  value="ru" data-lang="Русский" class="GA_Track" data-ga="footer_selectlanguage_ru">Русский</option>
+
+
+
+                <option  value="zh" data-lang="繁體中文" class="GA_Track" data-ga="footer_selectlanguage_zh">繁體中文</option>
+
+
+
+        </select>
+
+
+
+
+    </div>
+</footer><input name="__RequestVerificationToken" type="hidden" value="yXFroCTrjAbCBiabJI1rDNsRUHLUa5A6LM-RQFUJPaCiYCjmLM53H4f0uHLH9m4R9YF1EFEOB0x4fw4yY34XDt1Mdng1" />
+
+
+
+
+    <script>
+    var root = '/',
+        SCSettings = {
+            root: root,
+            dataHead: /*<sl:translate_json>*/{"sl_translate":"pnls,tplc,founded,createdDate,countryName","pid":"member_head","ish":true,"cols":[{"col":[{"id":"playercard","order":0}],"order":0}],"mobile":[],"pnls":[{"id":"playercard","pid":"member_head","cid":0,"ttl":"Bearhunter12","sty":"","ishs":false,"issa":true,"istc":false,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":0,"ihdn":false,"ga":null,"uid":36222077,"nick":"Bearhunter12","crewname":null,"ttc":0,"token":null,"uri":null,"tpl":"tmplStd","tpln":"tmplPlayerCard","tplc":"{\"id\":\"36222077\",\"country\":\"US\",\"countryName\":\"United States\",\"nick\":\"Bearhunter12\",\"createdDate\":\"October 28, 2013\",\"aurl\":\"n/restlessnarwhal\",\"allowAddFriend\":true,\"relation\":\"\",\"allowSendMsg\":true,\"allowReport\":true,\"allowBlock\":true,\"edit\":false,\"games\":[{\"id\":\"gtav\",\"name\":\"Grand Theft Auto V\",\"url\":\"/member/restlessnarwhal/games/gtav/ps3/career/overview\",\"platform\":\"Ps3\"},{\"id\":\"rdr\",\"name\":\"Red Dead Redemption\",\"url\":\"/games/rdr/index\",\"platform\":\"Ps3\"}],\"allowRecruit\":true,\"crews\":[{\"id\":11254752, \"name\":\"THE-YEAHWH-AT\"}],\"aft\":\"AFT\", \"inviteMsg\":\"\", \"crew\": {\"crewTag\":\"rubb\",\"crewName\":\"Street badgers\",\"crewId\":\"5489265\",\"IsFounderCrew\":false,\"IsPrivate\":true,\"RankOrder\":0,\"rankName\":\"Muscle\",\"rankOrder\":4,\"crewColor\":\"#339900\"},\"gtavplat\":\"ps3\",\"isGtavNextGen\":\"false\"}","isa":false,"cnt":null}],"ioe":true}/*</sl:translate_json>*/,
+            dataBody: /*<sl:translate_json>*/{"sl_translate":"Desc,Title,tplc,ttl,tlt,DateUnlocked,accounts,longplat,relation","pid":"member_body","ish":false,"cols":[{"col":[{"id":"friends","order":1},{"id":"crews","order":2},{"id":"games","order":3},{"id":"accounts","order":4}],"order":0},{"col":[{"id":"feed","order":0}],"order":0}],"mobile":[{"col":[{"id":"feed","order":0}],"order":1},{"col":[{"id":"games","order":0}],"order":1},{"col":[{"id":"crews","order":0}],"order":3},{"col":[{"id":"accounts","order":0}],"order":4},{"col":[{"id":"friends","order":0}],"order":4}],"pnls":[{"id":"games","pid":"member_body","cid":0,"ttl":"Games","sty":"panel314","ishs":false,"issa":true,"istc":true,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":1,"ihdn":false,"ga":null,"uid":36222077,"nick":"Bearhunter12","crewname":null,"ttc":2,"token":null,"uri":null,"tpl":"tmplStd","tpln":"tmplGamesTab","tplc":"{\"games\":[{\"id\":\"gtav\",\"name\":\"Grand Theft Auto V\",\"url\":\"/member/restlessnarwhal/games/gtav/ps3/career/overview\",\"platform\":\"Ps3\"},{\"id\":\"rdr\",\"name\":\"Red Dead Redemption\",\"url\":\"/games/rdr/index\",\"platform\":\"Ps3\"}]}","isa":false,"cnt":null},{"id":"friends","pid":"member_body","cid":0,"ttl":"Friends","sty":"panel314","ishs":true,"issa":false,"istc":true,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":2,"ihdn":false,"ga":"profile_friends_show_all","uid":36222077,"nick":"Bearhunter12","crewname":null,"ttc":0,"token":null,"uri":null,"tpl":"tmplStd","tpln":"tmplFriends","tplc":"{\"ttc\":0,\"isme\":false,\"allowAddFriend\":true,\"relation\":\"None\",\"rockstarId\":36222077,\"friends\":{\"TotalCount\":0,\"Count\":0,\"ForRockstarId\":36222077,\"ViewerRockstarId\":47990204,\"PageIndex\":0,\"PageSize\":12,\"RockstarAccounts\":[],\"sl_translate\":\"ErrorText,MessageText\",\"Status\":true,\"ErrorText\":null,\"ErrorCode\":null,\"MessageText\":null},\"epcwgpc\":true}","isa":false,"cnt":null},{"id":"crews","pid":"member_body","cid":0,"ttl":"Crews","sty":"panel314","ishs":true,"issa":false,"istc":true,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":3,"ihdn":false,"ga":null,"uid":36222077,"nick":"Bearhunter12","crewname":null,"ttc":5,"token":null,"uri":null,"tpl":"tmplStd","tpln":"tmplCrews","tplc":"{\"isme\":false,\"numcrews\":5,\"crews\":[{\"sl_translate\":null,\"MemberId\":0,\"CrewId\":5489265,\"CrewName\":\"Street badgers\",\"NameStripped\":\"street_badgers\",\"CrewTag\":\"rubb\",\"CrewMotto\":\"We live to drive.\",\"CrewUrl\":\"/crew/street_badgers\",\"MemberCount\":4,\"FormattedMemberCount\":\"4\",\"IsPrivate\":true,\"IsPrimary\":true,\"RankOrder\":4,\"RankName\":null,\"CrewType\":\"thrillSeekers\",\"IsFounderCrew\":false,\"FriendCount\":0,\"IsSystemPrivate\":false,\"IsOpen\":false,\"Dev\":false,\"RankTitle1\":null,\"RankTitle2\":null,\"RankTitle3\":null,\"RankTitle4\":null,\"RankTitle5\":null,\"RankTitle6\":null,\"RankTitle7\":null,\"RankTitle8\":null,\"RankTitle9\":null,\"RankTitle10\":null,\"Animations\":null,\"CrewAnimation\":null,\"CrewColour\":\"#339900\",\"Division\":\"1-5\",\"HasMembers\":false,\"HasBannedPlayers\":false,\"HasJoinRequests\":false,\"CanViewManagePage\":false,\"CanEditCrewSettings\":false,\"CanInvite\":false,\"CanLeave\":false,\"Hierarchy\":null,\"ShowActions\":false,\"CanJoin\":false,\"IsLoggedIn\":false,\"CanRequestInvite\":false,\"IsJoinRequestPending\":false,\"ShowMaxExceededBtn\":false,\"IsMember\":false,\"CanInviteOthers\":false},{\"sl_translate\":null,\"MemberId\":0,\"CrewId\":2760424,\"CrewName\":\"the Natives MC\",\"NameStripped\":\"the_natives_mc\",\"CrewTag\":\"tnmc\",\"CrewMotto\":\"live wild or die.\",\"CrewUrl\":\"/crew/the_natives_mc\",\"MemberCount\":17,\"FormattedMemberCount\":\"17\",\"IsPrivate\":true,\"IsPrimary\":false,\"RankOrder\":4,\"RankName\":null,\"CrewType\":\"thrillSeekers\",\"IsFounderCrew\":false,\"FriendCount\":0,\"IsSystemPrivate\":false,\"IsOpen\":true,\"Dev\":false,\"RankTitle1\":null,\"RankTitle2\":null,\"RankTitle3\":null,\"RankTitle4\":null,\"RankTitle5\":null,\"RankTitle6\":null,\"RankTitle7\":null,\"RankTitle8\":null,\"RankTitle9\":null,\"RankTitle10\":null,\"Animations\":null,\"CrewAnimation\":null,\"CrewColour\":\"#cc0202\",\"Division\":\"6-20\",\"HasMembers\":false,\"HasBannedPlayers\":false,\"HasJoinRequests\":false,\"CanViewManagePage\":false,\"CanEditCrewSettings\":false,\"CanInvite\":false,\"CanLeave\":false,\"Hierarchy\":null,\"ShowActions\":false,\"CanJoin\":false,\"IsLoggedIn\":false,\"CanRequestInvite\":false,\"IsJoinRequestPending\":false,\"ShowMaxExceededBtn\":false,\"IsMember\":false,\"CanInviteOthers\":false},{\"sl_translate\":null,\"MemberId\":0,\"CrewId\":8888523,\"CrewName\":\"the Purple Kush MC\",\"NameStripped\":\"the_purple_kush_mc\",\"CrewTag\":\"kush\",\"CrewMotto\":\"DO WORK!!!!!!\",\"CrewUrl\":\"/crew/the_purple_kush_mc\",\"MemberCount\":7,\"FormattedMemberCount\":\"7\",\"IsPrivate\":true,\"IsPrimary\":false,\"RankOrder\":4,\"RankName\":null,\"CrewType\":\"thrillSeekers\",\"IsFounderCrew\":false,\"FriendCount\":0,\"IsSystemPrivate\":false,\"IsOpen\":false,\"Dev\":false,\"RankTitle1\":null,\"RankTitle2\":null,\"RankTitle3\":null,\"RankTitle4\":null,\"RankTitle5\":null,\"RankTitle6\":null,\"RankTitle7\":null,\"RankTitle8\":null,\"RankTitle9\":null,\"RankTitle10\":null,\"Animations\":null,\"CrewAnimation\":null,\"CrewColour\":\"#6803ff\",\"Division\":\"6-20\",\"HasMembers\":false,\"HasBannedPlayers\":false,\"HasJoinRequests\":false,\"CanViewManagePage\":false,\"CanEditCrewSettings\":false,\"CanInvite\":false,\"CanLeave\":false,\"Hierarchy\":null,\"ShowActions\":false,\"CanJoin\":false,\"IsLoggedIn\":false,\"CanRequestInvite\":false,\"IsJoinRequestPending\":false,\"ShowMaxExceededBtn\":false,\"IsMember\":false,\"CanInviteOthers\":false},{\"sl_translate\":null,\"MemberId\":0,\"CrewId\":73420,\"CrewName\":\"Master Assassins\",\"NameStripped\":\"master_assassins\",\"CrewTag\":\"MASS\",\"CrewMotto\":\"We'll sending you home, crying for your momma\",\"CrewUrl\":\"/crew/master_assassins\",\"MemberCount\":34,\"FormattedMemberCount\":\"34\",\"IsPrivate\":true,\"IsPrimary\":false,\"RankOrder\":3,\"RankName\":null,\"CrewType\":\"allStars\",\"IsFounderCrew\":false,\"FriendCount\":0,\"IsSystemPrivate\":false,\"IsOpen\":false,\"Dev\":false,\"RankTitle1\":null,\"RankTitle2\":null,\"RankTitle3\":null,\"RankTitle4\":null,\"RankTitle5\":null,\"RankTitle6\":null,\"RankTitle7\":null,\"RankTitle8\":null,\"RankTitle9\":null,\"RankTitle10\":null,\"Animations\":null,\"CrewAnimation\":null,\"CrewColour\":\"#e31c22\",\"Division\":\"21-50\",\"HasMembers\":false,\"HasBannedPlayers\":false,\"HasJoinRequests\":false,\"CanViewManagePage\":false,\"CanEditCrewSettings\":false,\"CanInvite\":false,\"CanLeave\":false,\"Hierarchy\":null,\"ShowActions\":false,\"CanJoin\":false,\"IsLoggedIn\":false,\"CanRequestInvite\":false,\"IsJoinRequestPending\":false,\"ShowMaxExceededBtn\":false,\"IsMember\":false,\"CanInviteOthers\":false},{\"sl_translate\":null,\"MemberId\":0,\"CrewId\":10029797,\"CrewName\":\"Afflictionx   \",\"NameStripped\":\"afflictionx___\",\"CrewTag\":\"STNs\",\"CrewMotto\":\"Do work.....\",\"CrewUrl\":\"/crew/afflictionx_\",\"MemberCount\":4,\"FormattedMemberCount\":\"4\",\"IsPrivate\":true,\"IsPrimary\":false,\"RankOrder\":4,\"RankName\":null,\"CrewType\":\"soldiers\",\"IsFounderCrew\":false,\"FriendCount\":0,\"IsSystemPrivate\":false,\"IsOpen\":true,\"Dev\":false,\"RankTitle1\":null,\"RankTitle2\":null,\"RankTitle3\":null,\"RankTitle4\":null,\"RankTitle5\":null,\"RankTitle6\":null,\"RankTitle7\":null,\"RankTitle8\":null,\"RankTitle9\":null,\"RankTitle10\":null,\"Animations\":null,\"CrewAnimation\":null,\"CrewColour\":\"#36eeff\",\"Division\":\"1-5\",\"HasMembers\":false,\"HasBannedPlayers\":false,\"HasJoinRequests\":false,\"CanViewManagePage\":false,\"CanEditCrewSettings\":false,\"CanInvite\":false,\"CanLeave\":false,\"Hierarchy\":null,\"ShowActions\":false,\"CanJoin\":false,\"IsLoggedIn\":false,\"CanRequestInvite\":false,\"IsJoinRequestPending\":false,\"ShowMaxExceededBtn\":false,\"IsMember\":false,\"CanInviteOthers\":false}]}","isa":false,"cnt":null},{"id":"feed","pid":"member_body","cid":0,"ttl":"Wall","sty":"panel314","ishs":true,"issa":false,"istc":false,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":4,"ihdn":false,"ga":null,"uid":36222077,"nick":"Bearhunter12","crewname":null,"ttc":0,"token":null,"uri":"","tpl":"tmplFeed","tpln":"","tplc":"","isa":false,"cnt":null},{"id":"accounts","pid":"member_body","cid":0,"ttl":"About Me","sty":"panel314","ishs":true,"issa":false,"istc":false,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":5,"ihdn":false,"ga":null,"uid":36222077,"nick":"Bearhunter12","crewname":null,"ttc":0,"token":null,"uri":null,"tpl":"tmplStd","tpln":"tmplAccounts","tplc":"{\"accounts\":[],\"islc\":false,\"islctwit\":false,\"islcfb\":false,\"islgm\":false,\"isMyPlayerCard\":false,\"status\":\"\"}","isa":false,"cnt":null}],"ioe":true}/*</sl:translate_json>*/,
+            urlSavePage: root + 'savepage',
+            urlResetPage: root + 'resetpage/',
+            urlLoadPanel: root + 'panelsjson/',
+            urlRootPanel: root + 'panel',
+          id: 47990204,
+          avatar: 'n/restlessnarwhal',
+          userToken: '',
+          channelToken: '',
+          aft: '<input name="__RequestVerificationToken" type="hidden" value="9_BM2Nv8gGWKGixF72ixPmEW5VVGU35-htcBXdamR-AZ5Gb63GaBI6NHe0tPvby33adBTRv6bm_OPZW5KtFMm8Dxbls1" />',
+          post: true,
+          comment: true,
+            wall: true,
+            profile: true,
+            ownProfilePage: false,
+            isMinor: false,
+            forceShowProfileFeed: false,
+            beaconPushUrl: '',
+          beaconPushPort: '',
+            feed:
+            {
+                feedId: 36222077,
+                feedName: 'Bearhunter12',
+                feedDefaultLength: parseInt(''),
+                username: 'Bearhunter12',
+                enabled: false,
+            log: true,
+            unCommentable: 'GTAV_PHOTO_LIKED,GTAV_VIDEO_LIKED,GTAV_UGC_COMMENTED,PHOTO_PUBLISHED,VIDEO_PUBLISHED,YOUTUBE_PUBLISHED,LIFEINVADER_PROFILEPOST_UPDATE,BECAME_FRIENDS,CREW_INVITE,FRIEND_INVITE_SENT,USER_WAS_REGISTERED,NEWSWIRE_LIKED,NEWSWIRE_LIKED_V2',
+            unLikeable: 'GTAV_PHOTO_LIKED,GTAV_VIDEO_LIKED,GTAV_UGC_COMMENTED,PHOTO_PUBLISHED,VIDEO_PUBLISHED,YOUTUBE_PUBLISHED,BECAME_FRIENDS,NEWSWIRE_POSTED_TO,FRIEND_INVITE_SENT,CREW_DEMOTE,USER_WAS_REGISTERED,NEWSWIRE_LIKED,NEWSWIRE_LIKED_V2',
+            unSharable: 'GTAV_PHOTO_LIKED,GTAV_VIDEO_LIKED,GTAV_UGC_COMMENTED,PHOTO_PUBLISHED,VIDEO_PUBLISHED,YOUTUBE_PUBLISHED,LIFEINVADER_PROFILEPOST_UPDATE,USER_WAS_REGISTERED,NEWSWIRE_LIKED,NEWSWIRE_LIKED_V2',
+              unReportable: 'MISSION_PUBLISHED,CREATE_MP_CHARACTER,SHARE_MISSION_PLAYED,GTAV_PHOTO_LIKED,GTAV_VIDEO_LIKED,GTAV_UGC_COMMENTED,SHARE_SPOTIFY_SONG,PHOTO_PUBLISHED,VIDEO_PUBLISHED,YOUTUBE_PUBLISHED,LIFEINVADER_STALK,LIFEINVADER_PROFILEPOST_UPDATE,HIGH_SCORE_GAME,BECAME_FRIENDS,NEWSWIRE_POSTED_TO,NEWSWIRE_POSTED_TO_V2,RDR_OBTAIN_CHEATS,USER_POST_STARRED,BEATERATOR_SONG_RATE,MCLA_OBTAIN_LICENSE,WATCHED_EVENT,CREW_JOINED,CREW_ACCOMPLISHMENT_ACHIEVED,GAME_ACCOMPLISHMENT_ACHIEVED,CREW_INVITE,ENTERED_CONTEST,CREW_DEMOTE,CREW_PROMOTE,CREW_WAS_FEATURED,USER_WAS_REGISTERED,NEWSWIRE_LIKED,NEWSWIRE_LIKED_V2',
+                restr: '',
+                enable2ColumnProfile: true,
+
+                welcomePostData: {"Photos":[{"photoId":"03dy4uzlBUKLZP174W0c2A","index":1},{"photoId":"xj8TB-r4j02I0obhku9Qsg","index":2},{"photoId":"KVyp4EDf2UuLwBR5hD-6Yw","index":3}],"Videos":[{"videoId":"UA3vWNa_vk-KG5qs6_VDjA","index":1},{"videoId":"GfoRJU_83UWAhAVbWz1hMw","index":2},{"videoId":"ltMrrl_7k0KgFc9Ccl5V_g","index":3}]},
+
+                mp3Achievements: [{"Id":"6","PsnId":"1","Hidden":false,"Platform":0,"Title":"Feel The Payne","Description":"Story Complete [MEDIUM].","DLC":0,"ID2Digit":"06","ID2":"6","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"7","PsnId":"2","Hidden":false,"Platform":0,"Title":"Serious Payne","Description":"Story Complete [HARD].","DLC":0,"ID2Digit":"07","ID2":"7","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"8","PsnId":"3","Hidden":false,"Platform":0,"Title":"Maximum Payne","Description":"Story Complete [OLD SCHOOL].","DLC":0,"ID2Digit":"08","ID2":"8","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"9","PsnId":"4","Hidden":false,"Platform":0,"Title":"Payne In The Ass","Description":"Story Complete [HARDCORE].","DLC":0,"ID2Digit":"09","ID2":"9","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"12","PsnId":"5","Hidden":false,"Platform":0,"Title":"Part I Complete","Description":"Complete Part I Of The Story.","DLC":0,"ID2Digit":"12","ID2":"12","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"13","PsnId":"6","Hidden":false,"Platform":0,"Title":"Part II Complete","Description":"Complete Part II Of The Story.","DLC":0,"ID2Digit":"13","ID2":"13","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"19","PsnId":"7","Hidden":false,"Platform":0,"Title":"Part III Complete","Description":"Complete Part III Of The Story.","DLC":0,"ID2Digit":"19","ID2":"19","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"22","PsnId":"8","Hidden":false,"Platform":0,"Title":"A New York Minute","Description":"Finish In A New York Minute.","DLC":0,"ID2Digit":"22","ID2":"22","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"23","PsnId":"9","Hidden":false,"Platform":0,"Title":"The Shadows Rushed Me","Description":"Unlock And Complete New York Minute Hardcore.","DLC":0,"ID2Digit":"23","ID2":"23","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"25","PsnId":"10","Hidden":false,"Platform":0,"Title":"Out The Window","Description":"Get 6 Kills While Diving Through The VIP Window [FREE AIM].","DLC":0,"ID2Digit":"25","ID2":"25","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"26","PsnId":"11","Hidden":false,"Platform":0,"Title":"The One Eyed Man Is King","Description":"Cover Passos With Perfect Aim.","DLC":0,"ID2Digit":"26","ID2":"26","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"27","PsnId":"12","Hidden":false,"Platform":0,"Title":"Something Wicked This Way Comes","Description":"Get 7 Kills While Jumping From The Rickety Boat [FREE AIM].","DLC":0,"ID2Digit":"27","ID2":"27","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"28","PsnId":"13","Hidden":false,"Platform":0,"Title":"That Old Familiar Feeling","Description":"Clear The Hallway Of Lasers.","DLC":0,"ID2Digit":"28","ID2":"28","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"29","PsnId":"14","Hidden":false,"Platform":0,"Title":"Amidst The Wreckage","Description":"Destroy All The Models In The Boardroom.","DLC":0,"ID2Digit":"29","ID2":"29","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"30","PsnId":"15","Hidden":false,"Platform":0,"Title":"So Much For Being Subtle","Description":"Get 9 Kills While Being Pulled By A Chain [FREE AIM].","DLC":0,"ID2Digit":"30","ID2":"30","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"31","PsnId":"16","Hidden":false,"Platform":0,"Title":"The Only Choice Given","Description":"Get 8 Kills While Dangling From A Chain [FREE AIM].","DLC":0,"ID2Digit":"31","ID2":"31","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"33","PsnId":"17","Hidden":false,"Platform":0,"Title":"Trouble Had Come To Me","Description":"Clear Everyone On The Bus Ride.","DLC":0,"ID2Digit":"33","ID2":"33","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"34","PsnId":"18","Hidden":false,"Platform":0,"Title":"Along For The Ride","Description":"Trigger A Bullet Cam On The Zipline [FREE AIM].","DLC":0,"ID2Digit":"34","ID2":"34","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"36","PsnId":"19","Hidden":false,"Platform":0,"Title":"Sometimes You Get Lucky","Description":"Get A Headshot During The Rooftop Tremors.","DLC":0,"ID2Digit":"36","ID2":"36","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"37","PsnId":"20","Hidden":false,"Platform":0,"Title":"It Was Chaos And Luck","Description":"Get 6 Kills While Riding The Push Cart [FREE AIM].","DLC":0,"ID2Digit":"37","ID2":"37","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"38","PsnId":"21","Hidden":false,"Platform":0,"Title":"The Road-Kill Behind Me","Description":"Total Everything On The Runway.","DLC":0,"ID2Digit":"38","ID2":"38","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"39","PsnId":"22","Hidden":true,"Platform":0,"Title":"You Push A Man Too Far","Description":"Don't Shoot The Dis-Armed Man.","DLC":0,"ID2Digit":"39","ID2":"39","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"40","PsnId":"23","Hidden":false,"Platform":0,"Title":"The Fear Of Losing It","Description":"Survive A Level Without Painkillers.","DLC":0,"ID2Digit":"40","ID2":"40","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"41","PsnId":"24","Hidden":false,"Platform":0,"Title":"It's Fear That Gives Men Wings","Description":"10 Bullet Time&#174; Kills In A Row.","DLC":0,"ID2Digit":"41","ID2":"41","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"55","PsnId":"25","Hidden":false,"Platform":0,"Title":"You Might Hurt Someone With That","Description":"Shoot 10 Airborne Grenades.","DLC":0,"ID2Digit":"55","ID2":"55","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"56","PsnId":"26","Hidden":false,"Platform":0,"Title":"One Bullet At A Time","Description":"300 Headshots.","DLC":0,"ID2Digit":"56","ID2":"56","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"57","PsnId":"27","Hidden":false,"Platform":0,"Title":"You Play, You Pay, You Bastard","Description":"100 Kills With Melee .","DLC":0,"ID2Digit":"57","ID2":"57","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"67","PsnId":"28","Hidden":false,"Platform":0,"Title":"With Practiced Bravado","Description":"100 Kills During Shootdodge.","DLC":0,"ID2Digit":"67","ID2":"67","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"68","PsnId":"29","Hidden":false,"Platform":0,"Title":"Colder Than The Devil's Heart","Description":"Kill 30 Enemies In 2 Minutes.","DLC":0,"ID2Digit":"68","ID2":"68","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"69","PsnId":"30","Hidden":false,"Platform":0,"Title":"A Few Hundred Bullets Back","Description":"Use Every Weapon In The Game.","DLC":0,"ID2Digit":"69","ID2":"69","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"70","PsnId":"31","Hidden":false,"Platform":0,"Title":"Past The Point Of No Return","Description":"Take 100 Painkillers.","DLC":0,"ID2Digit":"70","ID2":"70","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"71","PsnId":"32","Hidden":false,"Platform":0,"Title":"An Echo Of The Past","Description":"Find All Clues.","DLC":0,"ID2Digit":"71","ID2":"71","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"73","PsnId":"33","Hidden":false,"Platform":1,"Title":"Sure Know How To Pick A Place","Description":"Discover All Tourist Locations.","DLC":0,"ID2Digit":"73","ID2":"73","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"73","PsnId":"33","Hidden":false,"Platform":2,"Title":"You Sure Know How To Pick A Place","Description":"Discover All Tourist Locations.","DLC":0,"ID2Digit":"73","ID2":"73","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"73","PsnId":"33","Hidden":false,"Platform":8,"Title":"You Sure Know How To Pick A Place","Description":"Discover All Tourist Locations.","DLC":0,"ID2Digit":"73","ID2":"73","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"75","PsnId":"34","Hidden":false,"Platform":0,"Title":"A License To Kill","Description":"Collect All Golden Guns.","DLC":0,"ID2Digit":"75","ID2":"75","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"76","PsnId":"35","Hidden":false,"Platform":0,"Title":"All Of The Above","Description":"Finish All Single Player Grinds.","DLC":0,"ID2Digit":"76","ID2":"76","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"77","PsnId":"36","Hidden":false,"Platform":0,"Title":"Full Monty","Description":"Complete One Of Each Game Mode Including All Gang Wars.","DLC":0,"ID2Digit":"77","ID2":"77","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"78","PsnId":"37","Hidden":false,"Platform":0,"Title":"Payne Bringer","Description":"Kill 100 Other Players.","DLC":0,"ID2Digit":"78","ID2":"78","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"79","PsnId":"38","Hidden":false,"Platform":0,"Title":"Max Payne Invitational","Description":"You Invited Someone To Play.","DLC":0,"ID2Digit":"79","ID2":"79","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"81","PsnId":"39","Hidden":false,"Platform":0,"Title":"Man Of Many Weapons","Description":"Unlock All Weapons.","DLC":0,"ID2Digit":"81","ID2":"81","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"82","PsnId":"40","Hidden":false,"Platform":0,"Title":"Man Of Many Faces","Description":"Unlock All Faction Characters.","DLC":0,"ID2Digit":"82","ID2":"82","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"83","PsnId":"41","Hidden":false,"Platform":0,"Title":"Deathmatch Challenge","Description":"Winner In Any Public Deathmatch.","DLC":0,"ID2Digit":"83","ID2":"83","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"84","PsnId":"42","Hidden":false,"Platform":0,"Title":"Grave Robber ","Description":"Looted A Body.","DLC":0,"ID2Digit":"84","ID2":"84","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"85","PsnId":"43","Hidden":false,"Platform":0,"Title":"The Gambler","Description":"Won A Wager.","DLC":0,"ID2Digit":"85","ID2":"85","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"86","PsnId":"44","Hidden":true,"Platform":0,"Title":"Sweep","Description":"Flawless Team Gang Wars Victory.","DLC":0,"ID2Digit":"86","ID2":"86","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"87","PsnId":"45","Hidden":false,"Platform":0,"Title":"Training Complete","Description":"Achieve Level Rank 50.","DLC":0,"ID2Digit":"87","ID2":"87","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"89","PsnId":"46","Hidden":false,"Platform":0,"Title":"Dearest Of All My Friends","Description":"Kill Someone On Your Friends List.","DLC":0,"ID2Digit":"89","ID2":"89","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"0","Hidden":false,"Platform":2,"Title":"Platinum Trophy","Description":"Unlock All Max Payne 3 Trophies.","DLC":0,"ID2Digit":"00","ID2":"0","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"90","PsnId":"47","Hidden":false,"Platform":0,"Title":"Air Ace","Description":"Get 2 kills in a single Shootdodge in the Departure Lounge.","DLC":0,"ID2Digit":"90","ID2":"90","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"91","PsnId":"48","Hidden":false,"Platform":0,"Title":"Express Checkout","Description":"Kill 4 players within 3 seconds in the Imperial Palace.","DLC":0,"ID2Digit":"91","ID2":"91","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"92","PsnId":"49","Hidden":false,"Platform":0,"Title":"Long Arm of the Law","Description":"Win 20 Vendettas in the 55th Battalion HQ.","DLC":0,"ID2Digit":"92","ID2":"92","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"93","PsnId":"50","Hidden":false,"Platform":0,"Title":"M4 Murder","Description":"Level up your M4 Assault all the way to level 10.","DLC":0,"ID2Digit":"93","ID2":"93","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"94","PsnId":"51","Hidden":false,"Platform":0,"Title":"Keep Your Nose Clean","Description":"Get 100 Kills as a member of the SPP.","DLC":0,"ID2Digit":"94","ID2":"94","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"95","PsnId":"52","Hidden":false,"Platform":0,"Title":"Old School Moves","Description":"Perform a 720 spin while prone in Nightclub.","DLC":0,"ID2Digit":"95","ID2":"95","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"97","PsnId":"53","Hidden":false,"Platform":0,"Title":"Early Adopter","Description":"In a single game, kill the same player with both the M24 and the IA2 AR.","DLC":0,"ID2Digit":"97","ID2":"97","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"99","PsnId":"54","Hidden":false,"Platform":0,"Title":"WMD","Description":"Get 3 kills from a single use of the level 3 explosives burst.","DLC":0,"ID2Digit":"99","ID2":"99","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"100","PsnId":"55","Hidden":false,"Platform":0,"Title":"60 Seconds of Intimidation","Description":"Grind 60 Seconds of Intimidation on enemy players.","DLC":0,"ID2Digit":"100","ID2":"100","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"103","PsnId":"56","Hidden":false,"Platform":0,"Title":"Long Arm of the Lawless","Description":"Kill Max Payne in Panamá as one of the De Marcos.","DLC":0,"ID2Digit":"103","ID2":"103","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"104","PsnId":"57","Hidden":false,"Platform":0,"Title":"Bar Brawler","Description":"Kill someone with a melee strike in the bar area of Marty’s Bar.","DLC":0,"ID2Digit":"104","ID2":"104","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"105","PsnId":"58","Hidden":false,"Platform":0,"Title":"Ouch My Head","Description":"Register a headshot on an enemy affected by the Hangover burst.","DLC":0,"ID2Digit":"105","ID2":"105","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"106","PsnId":"59","Hidden":false,"Platform":0,"Title":"Welcome Ashore","Description":"Kill a player on the yacht from the observation platform of the Panamá Canal.","DLC":0,"ID2Digit":"106","ID2":"106","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"107","PsnId":"60","Hidden":false,"Platform":0,"Title":"Drinkers Revenge","Description":"Kill the sniper who broke your Hip Flask Loadout Item in the same life.","DLC":0,"ID2Digit":"107","ID2":"107","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"108","PsnId":"61","Hidden":false,"Platform":0,"Title":"3 Blind Mice","Description":"Blind 3 players simultaneously with the Pepper Spray.","DLC":0,"ID2Digit":"108","ID2":"108","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"109","PsnId":"64","Hidden":false,"Platform":0,"Title":"Sweaty Betty","Description":"Trigger and avoid a Bouncing Betty by Shootdodging.","DLC":0,"ID2Digit":"109","ID2":"109","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"110","PsnId":"63","Hidden":false,"Platform":0,"Title":"Betty Confetti","Description":"Kill a player with the Bouncing Betty.","DLC":0,"ID2Digit":"110","ID2":"110","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"111","PsnId":"62","Hidden":false,"Platform":0,"Title":"Resisting Arrest","Description":"Stun 10 players with either the Cattle Prod or Stun Gun.","DLC":0,"ID2Digit":"111","ID2":"111","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"112","PsnId":"65","Hidden":false,"Platform":0,"Title":"Breaking and Entering","Description":"Open 15 containers or doors in Dead Men Walking.","DLC":0,"ID2Digit":"112","ID2":"112","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"113","PsnId":"66","Hidden":false,"Platform":0,"Title":"It Looked Easy Enough","Description":"Complete the Challenge Mode.","DLC":0,"ID2Digit":"113","ID2":"113","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"},{"Id":"114","PsnId":"67","Hidden":false,"Platform":0,"Title":"Breaking the 4th","Description":"Earn a x4 multiplier in Challenge Mode.","DLC":0,"ID2Digit":"114","ID2":"114","ProfileStatId":0,"IsLocked":true,"DateUnlocked":"0001-01-01T00:00:00.0000000"}]
+          },
+            mailingListAlert:
+            {
+                rockstarId: 47990204,
+                showMailingListAlert: false,
+                mailingListAlertNotNowCount: 0
+            },
+
+            canShowProfilePrivacySettingsAlert: true,
+            canShowWallVisibilityPrivacySettingsAlert: true
+        },
+        ugcContentTypePlural = '',
+        ugcContentTypeSingular = '',
+        config = {};
+    </script>
+
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {parsetags: 'explicit'}
+</script>
+
+
+
+    <script src="https://cdn.sc.rockstargames.com/js/20170104dbaB/build/profile_profile.js"></script>
+
+
+
+
+
+    <script type="text/javascript">
+        var MTIProjectId='bb97f612-ac86-4ab1-9c29-80d577a6fc8a';
+        (function() {
+            var mtiTracking = document.createElement('script');
+            mtiTracking.type='text/javascript';
+            mtiTracking.async='true';
+            mtiTracking.src=('https:'==document.location.protocol?'https:':'http:')+'//fast.fonts.net/t/trackingCode.js';
+            (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+        })();
+    </script>
+
+</body>
+</html>
