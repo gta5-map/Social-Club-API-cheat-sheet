@@ -1,5 +1,5 @@
-Crew
-====
+Crew snaps
+==========
 
 .. http:get:: /crew/(crew_name)/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=(page_number)
 

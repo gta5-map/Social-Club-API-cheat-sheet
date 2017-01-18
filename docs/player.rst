@@ -1,5 +1,5 @@
-Player
-======
+Player snaps
+============
 
 .. http:get:: /member/(nickname)/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=(page_number)
 
