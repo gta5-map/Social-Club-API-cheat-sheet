@@ -3,7 +3,7 @@ Global filters
 
 .. http:get:: /games/gtav/snapmatic/ajax/search?[SearchQuery=(search_query)&]Filter=(filter)&Page=(page_number)
 
-  Returns 12 snapmatic photos out of a specific filter group. Make sure to increase ``page_number`` to browse through the pagination.
+  You can use this endpoint in case you want to browse through popular snapsmatics or search for a specific term. It'll returns 12 snaps per page. Make sure to increase ``page_number`` to browse through the pagination.
 
   **Example request**:
 
@@ -12,9 +12,9 @@ Global filters
     GET /games/gtav/snapmatic/ajax/search?Filter=MostRecent&Page=1 HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/snapmatic_recent.txt>`_:
+  **Example response** `(full) <_static/responses/snapmatic_filters.txt>`_:
 
-  .. include:: _static/responses/snapmatic_recent.txt
+  .. include:: _static/responses/snapmatic_filters.txt
     :literal:
     :code: json
     :end-line: 30
