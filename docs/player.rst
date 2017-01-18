@@ -1,14 +1,23 @@
 Player
 ======
 
-::
+.. http:get:: /member/(nickname)/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=(page_number)
 
-    GET /member/[SOCIALCLUB_NAME]/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=[X]&_=1419780751971
+  Returns 20 photos of the given player. Make sure to increase ``page`` to browse through the pagination.
 
-Returns 20 photos of the given player. Make sure to increase ``page`` to
-browse through the pagination.
+  **Example request**:
 
--  ``[CREW_NAME]`` is the name of the crew
--  ``[X]`` is a number starting from 1
--  ``<SEARCH_TERM>`` is an optional search term, leave empty if you
-   don't want to filter
+  .. sourcecode:: http
+
+    GET /gmember/restlessnarwhal/games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&page=1 HTTP/1.1
+    Host: socialclub.rockstargames.com
+
+  **Example response** `(full) <_static/responses/snapmatic_player.txt>`_:
+
+  .. include:: _static/responses/snapmatic_player.txt
+    :literal:
+    :code: json
+    :end-line: 30
+
+  :query nickname: target player
+  :query page_number: page number, starting with ``1``
