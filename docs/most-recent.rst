@@ -1,13 +1,22 @@
 "Most recent"
 =============
 
-::
+.. http:get:: /games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&Page=(page_number)
 
-    GET /games/gtav/snapmatic/ajax/search?SearchQuery=<SEARCH_TERM>&Filter=MostRecent&page=[X]&_=1419780660083
+  Returns 20 of the "most recent" snapmatic photos. Make sure to increase ``page_number`` to browse through the pagination.
 
-Returns 20 of the "most recent" snapmatic photos. Make sure to increase
-``page`` to browse through the pagination.
+  **Example request**:
 
--  ``[X]`` is a number starting from 1
--  ``<SEARCH_TERM>`` is an optional search term, leave empty if you
-   don't want to filter
+  .. sourcecode:: http
+
+    GET /games/gtav/snapmatic/ajax/search?SearchQuery=&Filter=MostRecent&Page=1 HTTP/1.1
+    Host: socialclub.rockstargames.com
+
+  **Example response** `(full) <_static/responses/snapmatic_recent.txt>`_:
+
+  .. include:: _static/responses/snapmatic_recent.txt
+    :literal:
+    :code: json
+    :end-line: 30
+
+  :query page_number: page number, starting with ``1``
