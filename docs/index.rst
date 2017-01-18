@@ -36,7 +36,6 @@ In this guide I will try to describe and collect as many useful knowledge about 
    :caption: Crew statistics
 
    overview
-   members-list
    hierarchy
 
 .. toctree::
