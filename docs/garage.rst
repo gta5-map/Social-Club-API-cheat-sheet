@@ -4,7 +4,7 @@ Garage
 General information
 -------------------
 
-.. http:get:: /gtav/GarageAjax?(nickname=&)slot=Freemode
+.. http:get:: /gtav/GarageAjax?[nickname=(socialclub_username)&]slot=Freemode
 
   Shows stats (name, primary color, secondary color, etc.) of the vehicles in your main (?) garage. Note: The info is hidden in a ``<script></script>``-tag that stored the information as JSON. If you need more information you can also use the per-car requests.
 
@@ -25,8 +25,8 @@ General information
   Note: Look out for the ``settings.VehiclesJson`` JavaScript object that holds the information!
 
   :query slot: needs to be ``Freeroam``
-  :query optional nickname: target (Social Club name) to query
-                            defaults to logged in Social Club player
+  :query optional socialclub_username: target (Social Club username) to query
+                                       defaults to logged in Social Club player
 
 Detailed information per car
 ----------------------------

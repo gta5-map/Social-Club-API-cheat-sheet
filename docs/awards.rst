@@ -1,7 +1,7 @@
 Awards
 ======
 
-.. http:get:: /games/gtav/career/AwardsAjax?(nickname=&category=&)slot=Freemode
+.. http:get:: /games/gtav/career/AwardsAjax?[nickname=(socialclub_username)&category=(category)&]slot=Freemode
 
   Gives you information about the earned awards and it's completion statuses.
 
@@ -20,6 +20,6 @@ Awards
     :end-line: 30
 
   :query slot: needs to be ``Freeroam``
-  :query optional nickname: target (Social Club name) to query
-                            defaults to logged in Social Club player
+  :query optional socialclub_username: target (Social Club username) to query
+                                       defaults to logged in Social Club player
   :query optional category: vehicle category, defaults to ``victory``, allowed categories: ``victory``, ``general``, ``crimes``, ``vehicles``, ``heists``, ``rewards``

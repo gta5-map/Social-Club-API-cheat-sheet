@@ -4,7 +4,7 @@ Weapons
 General statistics
 ------------------
 
-.. http:get:: /gtav/WeaponsAjax?(nickname=&)slot=Freemode
+.. http:get:: /gtav/WeaponsAjax?[nickname=(socialclub_username)&]slot=Freemode
 
   Contains information about kill death ratio, headshots, shots fired, drive-by kills and overall accuracy. For detailed information per weapon checkout the detailed information requests below.
 
@@ -25,7 +25,7 @@ General statistics
   Note: Look out for the ``settings.WeaponsJson`` JavaScript object that holds the information!
 
   :query slot: needs to be ``Freeroam``
-  :query optional nickname: target (Social Club name) to query
+  :query optional socialclub_username: target (Social Club username) to query
                             defaults to logged in Social Club player
 
 

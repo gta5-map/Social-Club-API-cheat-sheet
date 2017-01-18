@@ -1,7 +1,7 @@
 Statistics
 ==========
 
-.. http:get:: /games/gtav/StatsAjax?(nickname=&)slot=Freemode
+.. http:get:: /games/gtav/StatsAjax?[nickname=(socialclub_username)&]slot=Freemode
 
   More detailed statistics of general stuff such as:
 
@@ -29,5 +29,5 @@ Statistics
     :end-line: 30
 
   :query slot: needs to be ``Freeroam``
-  :query optional nickname: target (Social Club name) to query
-                            defaults to logged in Social Club player
+  :query optional socialclub_username: target (Social Club username) to query
+                                       defaults to logged in Social Club player

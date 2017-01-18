@@ -4,7 +4,7 @@ Vehicles
 General information
 -------------------
 
-.. http:get:: /gtav/VehiclesAjax?(nickname=&category=)slot=Freemode
+.. http:get:: /gtav/VehiclesAjax?[nickname=(socialclub_username)&category=(category)&]slot=Freemode
 
   General information about driven vehicles ingame: fastest speed, amount of stolen vehicles, farthest jump, and more.
 
@@ -25,8 +25,8 @@ General information
   Note: Look out for the ``settings.VehiclesJson`` JavaScript object that holds the information!
 
   :query slot: needs to be ``Freeroam``
-  :query optional nickname: target (Social Club name) to query
-                            defaults to logged in Social Club player
+  :query optional socialclub_username: target (Social Club username) to query
+                                       defaults to logged in Social Club player
   :query optional category: vehicle category, defaults to ``sports``, allowed categories: ``boats``, ``commercial``, ``compacts``, ``coupes``, ``cycles``, ``helicopters``, ``industrial``, ``military``, ``motorcycles``, ``muscle``, ``off-road``, ``planes``, ``sedans``, ``service``, ``sports``, ``sports-classic``, ``super``, ``suvs``, ``utility``, ``vans``
 
 Per vehicle
