@@ -15,7 +15,7 @@ General information
     GET /gtav/GarageAjax HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/garage_general.txt>`_:
+  **Example response** `(full) <_static/responses/garage_general.txt>`__:
 
   .. include:: _static/responses/garage_general.txt
     :literal:
@@ -42,7 +42,7 @@ Detailed information per car
     GET /member/restlessnarwhal/games/gtav/api/garage/gtaonline/0 HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/garage_per-car.txt>`_:
+  **Example response** `(full) <_static/responses/garage_per-car.txt>`__:
 
   .. include:: _static/responses/garage_per-car.txt
     :literal:

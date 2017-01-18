@@ -12,7 +12,7 @@ Awards
     GET /games/gtav/career/AwardsAjax?slot=Freemode&nickname=restlessnarwhal HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/awards.txt>`_:
+  **Example response** `(full) <_static/responses/awards.txt>`__:
 
   .. include:: _static/responses/awards.txt
     :literal:

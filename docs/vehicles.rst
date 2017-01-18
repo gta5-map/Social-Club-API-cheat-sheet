@@ -15,7 +15,7 @@ General information
     GET /gtav/VehiclesAjax HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/vehicles_general.txt>`_:
+  **Example response** `(full) <_static/responses/vehicles_general.txt>`__:
 
   .. include:: _static/responses/vehicles_general.txt
     :literal:
@@ -45,7 +45,7 @@ Per vehicle
     GET /member/restlessnarwhal/games/gtav/api/gtaonline/sports/9f HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/vehicles_per-vehicle.txt>`_:
+  **Example response** `(full) <_static/responses/vehicles_per-vehicle.txt>`__:
 
   .. include:: _static/responses/vehicles_per-vehicle.txt
     :literal:

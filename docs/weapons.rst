@@ -15,7 +15,7 @@ General statistics
     GET /gtav/WeaponsAjax HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/weapons_general.txt>`_:
+  **Example response** `(full) <_static/responses/weapons_general.txt>`__:
 
   .. include:: _static/responses/weapons_general.txt
     :literal:
@@ -46,7 +46,7 @@ Per weapon statistics
     GET /member/restlessnarwhal/games/gtav/api/mp/gun/1/pistol HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/weapons_per-weapon.txt>`_:
+  **Example response** `(full) <_static/responses/weapons_per-weapon.txt>`__:
 
   .. include:: _static/responses/weapons_per-weapon.txt
     :literal:

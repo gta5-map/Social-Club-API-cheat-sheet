@@ -12,7 +12,7 @@ Hierarchy
     GET /crewapi/rebl_xb1/hierarchy/false?pageSize=999&pageIndex=0&onlineService=sc HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/crew_hierarchy.txt>`_:
+  **Example response** `(full) <_static/responses/crew_hierarchy.txt>`__:
 
   .. include:: _static/responses/crew_hierarchy.txt
     :literal:

@@ -15,7 +15,7 @@ Hand Guns
     GET /games/gtav/api/minigames/challenges?minigame=shootingrange&slot=Freemode&weapon=pistols&challenge=random HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/shooting-range_pistols.txt>`_:
+  **Example response** `(full) <_static/responses/shooting-range_pistols.txt>`__:
 
   .. include:: _static/responses/shooting-range_pistols.txt
     :literal:
@@ -40,7 +40,7 @@ Submachine Guns
     GET /games/gtav/api/minigames/challenges?minigame=shootingrange&slot=Freemode&weapon=smgs&challenge=random HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/shooting-range_smgs.txt>`_:
+  **Example response** `(full) <_static/responses/shooting-range_smgs.txt>`__:
 
   .. include:: _static/responses/shooting-range_smgs.txt
     :literal:
@@ -65,7 +65,7 @@ Assault Rifles
     GET /games/gtav/api/minigames/challenges?minigame=shootingrange&slot=Freemode&weapon=assaultrifles&challenge=random HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/shooting-range_assaultrifles.txt>`_:
+  **Example response** `(full) <_static/responses/shooting-range_assaultrifles.txt>`__:
 
   .. include:: _static/responses/shooting-range_assaultrifles.txt
     :literal:
@@ -90,7 +90,7 @@ Shotguns
     GET /games/gtav/api/minigames/challenges?minigame=shootingrange&slot=Freemode&weapon=shotguns&challenge=random HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/shooting-range_shotguns.txt>`_:
+  **Example response** `(full) <_static/responses/shooting-range_shotguns.txt>`__:
 
   .. include:: _static/responses/shooting-range_shotguns.txt
     :literal:
@@ -115,7 +115,7 @@ Light Machine Guns
     GET /games/gtav/api/minigames/challenges?minigame=shootingrange&slot=Freemode&weapon=lmgs&challenge=random HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/shooting-range_lmgs.txt>`_:
+  **Example response** `(full) <_static/responses/shooting-range_lmgs.txt>`__:
 
   .. include:: _static/responses/shooting-range_lmgs.txt
     :literal:
@@ -139,7 +139,7 @@ Light Machine Guns
     GET /games/gtav/api/minigames/challenges?minigame=shootingrange&slot=Freemode&weapon=heavies&challenge=random HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/shooting-range_heavies.txt>`_:
+  **Example response** `(full) <_static/responses/shooting-range_heavies.txt>`__:
 
   .. include:: _static/responses/shooting-range_heavies.txt
     :literal:

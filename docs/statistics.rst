@@ -21,7 +21,7 @@ Statistics
     GET /games/gtav/StatsAjax?nickname=RestlessNarwhal&slot=Freemode HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/player-overview.txt>`_:
+  **Example response** `(full) <_static/responses/player-overview.txt>`__:
 
   .. include:: _static/responses/statistics.txt
     :literal:

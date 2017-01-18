@@ -15,7 +15,7 @@ General information
     GET /crew/rebl_xb1 HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/crew_overview.txt>`_:
+  **Example response** `(full) <_static/responses/crew_overview.txt>`__:
 
   .. include:: _static/responses/crew_overview.txt
     :literal:
@@ -40,7 +40,7 @@ Emblems
     GET /crew/rebl_xb1 HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/crew_overview.txt>`_:
+  **Example response** `(full) <_static/responses/crew_overview.txt>`__:
 
   .. include:: _static/responses/crew_overview.txt
     :literal:
@@ -63,7 +63,7 @@ Crew feed
     GET /reference/crewfeed/20242331 HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/crew_feed.txt>`_:
+  **Example response** `(full) <_static/responses/crew_feed.txt>`__:
 
   .. include:: _static/responses/crew_feed.txt
     :literal:
@@ -86,7 +86,7 @@ Snapmatic pictures
     GET /crewapi/rebl_xb1/gtav/photo HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/crew_photo.txt>`_:
+  **Example response** `(full) <_static/responses/crew_photo.txt>`__:
 
   .. include:: _static/responses/crew_photo.txt
     :literal:
@@ -109,7 +109,7 @@ Content creator jobs
     GET /crewapi/rebl_xb1/gtav/job HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/crew_job.txt>`_:
+  **Example response** `(full) <_static/responses/crew_job.txt>`__:
 
   .. include:: _static/responses/crew_job.txt
     :literal:
