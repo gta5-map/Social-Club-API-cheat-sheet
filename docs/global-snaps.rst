@@ -3,7 +3,7 @@ Global snaps
 
 .. http:get:: /games/gtav/snapmatic/ajax/search?[SearchQuery=(search_query)&]Filter=(filter)&Page=(page_number)
 
-  You can use this endpoint in case you want to browse through popular snapsmatics or search for a specific term. It'll returns 12 snaps per page. Make sure to increase ``page_number`` to browse through the pagination.
+  You can use this endpoint in case you want to browse through global snapsmatics rather than specific crew or player ones. It'll returns 12 snaps per page. Make sure to increase ``page_number`` to browse through the pagination.
 
   **Example request**:
 
