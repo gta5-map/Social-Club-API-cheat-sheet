@@ -1,0 +1,549 @@
+<!doctype html>
+
+
+
+<html class="no-js" lang="en">
+
+<head data-template-set="html5-reset">
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rockstar Games Social Club - Crew : REBL XB1</title>
+    <meta name="title" content="Rockstar Games Social Club Crew : REBL XB1">
+    <meta name="keywords" content="Rockstar Games, Social Club, Rockstar">
+    <meta name="description" content="Rockstar Games Social Club">
+    <meta name="google-site-verification" content="">
+    <meta name="author" content="Rockstar North">
+    <meta name="copyright" content="Rockstar Games 2017. All Rights Reserved.">
+    <meta name="msapplication-config" content="none">
+
+
+    <meta name="DC.title" content="Rockstar Games Social Club">
+    <meta name="DC.subject" content="Rockstar Games, Social Club, Rockstar">
+    <meta name="DC.creator" content="Rockstar North">
+
+
+    <meta http-equiv="cleartype" content="on">
+
+
+        <meta name="robots" content="all">
+
+
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"                 href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-57x57-precomposed.png">
+    <link rel="shortcut icon"                                href="https://cdn.sc.rockstargames.com/images/icons/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon"                                href="https://cdn.sc.rockstargames.com/favicon.ico">
+
+
+    <link rel="canonical" href="http://socialclub.rockstargames.com/">
+
+
+
+    <link id='coreCSS' href="https://cdn.sc.rockstargames.com/css/20170104dbaB/core.manifest.css" rel="stylesheet">
+
+
+
+    <!--[if IE 9]>
+        <style type="text/css">
+            html * { filter: none !important; }
+        </style>
+    <![endif]-->
+
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+
+    <script>
+        WebFont.load({
+            custom: {
+                families: ['HelveticaNeueW02-67MdCn 694060', 'HelveticaNeueW10-67MdCn 777270', 'DroidSansMonoW02-Bold', 'scicon-font'],
+                urls: ['https://cdn.sc.rockstargames.com/css/20170104dbaB/base/fonts/fonts-common.css']
+            }
+        });
+    </script>
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.sc.rockstargames.com/css/20170104dbaB/pages/crew-profile.manifest.css" type="text/css" media="screen" />
+
+
+
+    <script type="text/javascript">
+        var gError = '', gLoginString = '';
+        var gLoginDirect = true;
+    </script>
+
+
+
+
+        <script src="//www.google-analytics.com/cx/api.js?experiment=dE2AtC31RCGidk9AXEbd3g"></script>
+
+
+    <script>
+
+        window.smallMobileSize = 568;
+        //window.mobileSize = 768;
+        window.desktopSize = 1024;
+
+
+
+    </script>
+
+
+<script>
+
+
+        window.sl_tr_start = function(){}; window.sl_tr_end = function(){}; window.sl_notr_start = function(){}; window.sl_notr_end = function(){}; window.sl_tr_json_start = function(){}; window.sl_tr_json_end = function(){};
+
+    var siteMaster = {
+        cdnBase: 'https://cdn.sc.rockstargames.com',
+        jsBase: 'https://cdn.sc.rockstargames.com/js/20170104dbaB',
+        cssBase: 'https://cdn.sc.rockstargames.com/css/20170104dbaB',
+        cloudBase: 'https://prod.cloud.rockstargames.com',
+        ugcCloudBase: 'http://prod.ros.rockstargames.com/cloud/11/cloudservices',
+        avatarBase: 'https://cdn.sc.rockstargames.com/images/avatars/',
+        avatarDefault: 'https://cdn.sc.rockstargames.com/images/avatars/default.png',
+        emblemBase: 'https://prod.cloud.rockstargames.com/crews/sc/{0}/{1}/publish/emblem/emblem_{2}.png',
+        emblemDefault: 'https://cdn.sc.rockstargames.com/images/emblems/128x128/rockstar1.png',
+        thirdPartyV2: true, // can be removed?
+        isLoggedIn: true,
+        googleAuth: true,
+        fbSharing: true,
+        twitterSharing: true,
+        googleSharing: true,
+        act: true,
+        actInt: 360,
+        actCnt: 0,
+        liEnabled: true,
+        liBaseUrl: 'http://www.lifeinvader.com',
+        gtavEnabled: true,
+        locale: 'en',
+        legalCulture: 'us',
+        supportCulture: 'en-us',
+        default4Culture: 'en-us',
+        support4Culture: 'en-us',
+        support4NewsCulture: 'en_us',
+        timeAgoLocale: 'en',
+
+        captchaCulture: 'en',
+
+        crewsCommunity: true,
+        newsHost: 'http://www.rockstargames.com/',
+
+        sslOnly: true,
+
+        avatarCloudBase: 'https://a.rsg.sc/',
+
+        loginTracker: false,
+        setCookies: [{"SetAuthUrl":"https://www.lifeinvader.com/auth/Home/SetCookie?token=","Name":"li"},{"SetAuthUrl":"https://www.rockstarwarehouse.com/store/tk2rstar/SetCookie?token=","Name":"warehouse"},{"SetAuthUrl":"https://support.rockstargames.com/access/jwt?jwt=","Name":"support"},{"SetAuthUrl":"https://www.rockstargames.com/auth/users/login.json?token=","Name":"www"}],
+        destCookies: ["https://www.lifeinvader.com/auth/Home/DestroyCookie?","https://www.rockstarwarehouse.com/store/tk2rstar/DestroyCookie","https://www.rockstargames.com/auth/users/logout.json?"],
+        ssoEnabled: true,
+        stsChkNm: 'statuschk.v2',
+        stsChkDm: '.socialclub.rockstargames.com',
+        stsChkSc: true,
+
+        liThemeEnabled: true,
+        loc: true,
+        authUserNickName: 'RestlessNarwhal',
+        authUserId: 47990204,
+        authUserAvatar: 'n/restlessnarwhal',
+        isEnabledAnalytics: true,
+        isEnabledAnalyticsCD: true,
+        gaTimeout: 30,
+        gcx:
+        {
+            userId: 47990204,
+            id: 'dE2AtC31RCGidk9AXEbd3g',
+            variation: null
+        },
+        //0: Basic alerts
+        //1: Responsive alerts
+        alertType: 0,
+
+        gtavBannerData:
+        {
+            banner: '',
+            display: false
+        },
+
+        isGtavPc: true,
+
+        webpack: true,
+
+        showRecaptcha: false,
+        aft: '<input name="__RequestVerificationToken" type="hidden" value="h0FH0GO5dIWoeLWxdy0lpRkDpMCmOmgzCQjFRUnqRqT8xJTzbwyraj3TczNKMHu-5j_ZKgjoxiWvCmJO_QLg2TliKO81" />'
+    },
+    require = {
+        baseUrl: siteMaster.jsBase,
+
+    };
+</script>
+
+
+
+    <script>window.webpackPublicPath = "https://cdn.sc.rockstargames.com/js/20170104dbaB/build/" </script>
+    <script src="https://cdn.sc.rockstargames.com/js/20170104dbaB/build/common.js"></script>
+
+
+</head>
+
+
+
+<body class="bg_crews_viewprofile   twoCol">
+
+    <div id="fb-root"></div>
+
+
+
+    <div id="wrapper" class="bgDefault bg_crews_viewprofile">
+
+
+
+
+
+        <div id="pageWrapper">
+
+            <div id="pageMask"></div>
+
+
+
+<header>
+
+    <div id="headerInner">
+
+
+
+        <h1 id="headerTitle"><a href="/" class="GA_Track" data-ga="menu_logo">Rockstar Games Social Club</a></h1>
+
+        <nav class="main-nav">
+
+            <ul>
+
+
+                        <li><a href="/myprofile" data-ga="menu_features_clickthru" data-ga-label="Profile"  class="GA_Track" >Profile</a></li>
+
+
+                <li class="has-mega" data-mega-menu-type="games">
+
+                    <a href="/games" data-ga="menu_features_clickthru" data-ga-label="Games"  class="GA_Track" >Games</a>
+
+                </li>
+
+                <li class="has-mega" data-mega-menu-type="crews">
+
+                    <a href="/crews" data-ga="menu_features_clickthru" data-ga-label="Crews" class="active GA_Track">Crews</a>
+
+                </li>
+
+                <li><a href="/events" data-ga="menu_features_clickthru" data-ga-label="Online Events"  class="GA_Track" >Online Events</a></li>
+
+
+
+                <li class="has-mega" data-mega-menu-type="news">
+
+                    <a href="/news" data-ga="menu_features_clickthru" data-ga-label="News"  class="GA_Track" >News</a>
+
+                </li>
+
+
+
+            </ul>
+
+        </nav>
+
+        <div id="headerInfo">
+                  <div id="loggedIn" class="clearfix">
+            <ul class="nav secondary-nav">
+          <li class="dropdown" data-dropdown="dropdown">
+            <a class="dropdown-toggle GA_Track" href="#" data-ga="menu_dropdown"><i class="scicon-settings"></i></a>
+            <ul class="dropdown-menu">
+
+              <li><a href="https://socialclub.rockstargames.com/settings/index" class="GA_Track" data-ga="menu_dropdown_settings"><i class="scicon-nav_settings"></i>Settings</a></li>
+
+              <li><a href="https://socialclub.rockstargames.com/message/index" class="GA_Track" data-ga="menu_dropdown_messages"><i class="scicon-nav_messages"></i>Messages</a></li>
+
+                        <li><a href="https://socialclub.rockstargames.com/notifications/unread" class="GA_Track" data-ga="menu_dropdown_notifications"><i class="scicon-nav_notifications"></i>Notifications</a></li>
+
+              <li><a href="https://socialclub.rockstargames.com/friends/index" class="GA_Track" data-ga="menu_dropdown_friends"><i class="scicon-nav_friends"></i>Friends</a></li>
+
+                        <li><a href="https://socialclub.rockstargames.com/Emblems/New" class="GA_Track" data-ga="menu_dropdown_emblems"><i class="scicon-nav_emblem"></i>Emblems</a></li>
+
+                        <li><a href="https://socialclub.rockstargames.com/activate" class="GA_Track" data-ga="menu_dropdown_game_downloads"><i class="scicon-download"></i>Game Downloads</a></li>
+
+              <li><a id="logoutlink" href="https://socialclub.rockstargames.com/profile/signout" title="Sign Out" class="logoutlink"><i class="scicon-nav_logout"></i>Sign Out</a></li>
+
+            </ul>
+          </li>
+        </ul>
+            <a id="headerUsernameLink" href="/myprofile">
+                <div id="headerUsername">
+                    <img src="https://a.rsg.sc/n/restlessnarwhal/s" alt=""/>
+                    <p>RestlessNarwhal</p>
+                </div>
+            </a>
+        <div id="headerSearch">
+            <a href="#" class="activate"><i class="scicon-search"></i></a>
+            <div id="headerSearchMenu">
+                <div id="headerSearchMenuInner"></div>
+            </div>
+        </div>
+            <div class="headerActivity" style="display: none;">
+                <a href="#" class="activate hide small" data-original-title="Since you last signed in :">
+
+                     <span class="act-count small"></span>
+                </a>
+          <div class="activityMenu">
+            <div class="activityMenuInner">
+              <ul>
+                  <li class="last"><span class="loading">Loading...</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+        </div>
+
+    </div>
+
+</header>
+
+        <div class="mega-menu-blanket"></div>
+
+
+            <div id="page" class="clearfix">
+
+
+
+<div id="head">
+  <div id="head0" class="head"></div>
+</div>
+
+<div id="backbonePage" class="gridRow profile-page">
+  <div id="col0" class="span3col"></div>
+  <div id="col1" class="span3col"></div>
+  <div id="col2" class="span3col"></div>
+</div>
+
+<div id="crewJoinPrivacyModal" class="modal fade" style="display:none;" data-showing="true">
+    <div class="modal-header">
+        <a class="close" href="#">×</a>
+        <h3>Confirm Settings</h3>
+    </div>
+    <div class="modal-body">
+        <p>This Crew cannot view your Profile or Wall due to your privacy settings. Opening your visibility up to Everyone can increase your chances of being accepted.</p>
+    </div>
+    <div class="modal-footer">
+        <a class="btn btmMedium btnGold btnRounded" href="/settings/privacy">Update Privacy Settings</a>
+    </div>
+</div>
+
+<div id="gameStatsModal" class="modal fade" style="display:none;" data-showing="true">
+    <div class="modal-header">
+        <a class="close" href="#">×</a>
+        <h3>Notification</h3>
+    </div>
+    <div class="modal-body">
+        <p>When your privacy settings are set to "Friends & Crews", Crew members will be able to see information about you.  You can manage your <a href="/settings/privacy">privacy settings</a> to change this.</p>
+    </div>
+    <div class="modal-footer">
+        <a class="btn btmMedium btnGold btnRounded" href="#">OK</a>
+    </div>
+</div>
+
+
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+    <div id="footerInner" class="clearfix">
+        <a href="http://www.rockstargames.com" target="_blank" class="GA_Track" data-ga="footer_RSG"><h3>Rockstar Games</h3></a>
+        <ul id="footerNav">
+            <li class="first">&copy; 2017 Rockstar Games</li>
+            <li class="about"><a href="/about" title="About Rockstar Games" class="GA_Track" data-ga="footer_about">About</a></li>
+            <li><a target="_blank" href="/legal/?locale=us" title="All things legal" class="GA_Track" data-ga="footer_legal">Legal</a></li>
+            <li><a target="_blank" href="/privacy/?locale=us" title="Our privacy policy" class="GA_Track" data-ga="footer_privacy">Privacy</a></li>
+
+            <li class="last"><a target="_blank" href="http://support.rockstargames.com/hc/en-us" title="Support" class="GA_Track" data-ga="footer_support">Support</a></li>
+        </ul>
+
+
+
+        <select id="languageSelect" class="notranslate languageSelect" data-dropdown="dropdown">
+
+
+
+                <option  value="de" data-lang="Deutsch" class="GA_Track" data-ga="footer_selectlanguage_de">Deutsch</option>
+
+
+
+                <option selected value="en" data-lang="English" class="GA_Track" data-ga="footer_selectlanguage_en">English</option>
+
+
+
+                <option  value="es" data-lang="Español" class="GA_Track" data-ga="footer_selectlanguage_es">Español</option>
+
+
+
+                <option  value="es-mx" data-lang="Español Latinoamérica" class="GA_Track" data-ga="footer_selectlanguage_es-mx">Español Latinoamérica</option>
+
+
+
+                <option  value="fr" data-lang="Français" class="GA_Track" data-ga="footer_selectlanguage_fr">Français</option>
+
+
+
+                <option  value="it" data-lang="Italiano" class="GA_Track" data-ga="footer_selectlanguage_it">Italiano</option>
+
+
+
+                <option  value="ja" data-lang="日本語" class="GA_Track" data-ga="footer_selectlanguage_ja">日本語</option>
+
+
+
+                <option  value="ko" data-lang="한국어" class="GA_Track" data-ga="footer_selectlanguage_ko">한국어</option>
+
+
+
+                <option  value="pl" data-lang="Polski" class="GA_Track" data-ga="footer_selectlanguage_pl">Polski</option>
+
+
+
+                <option  value="pt" data-lang="Português do Brasil" class="GA_Track" data-ga="footer_selectlanguage_pt">Português do Brasil</option>
+
+
+
+                <option  value="ru" data-lang="Русский" class="GA_Track" data-ga="footer_selectlanguage_ru">Русский</option>
+
+
+
+                <option  value="zh" data-lang="繁體中文" class="GA_Track" data-ga="footer_selectlanguage_zh">繁體中文</option>
+
+
+
+        </select>
+
+
+
+
+    </div>
+</footer><input name="__RequestVerificationToken" type="hidden" value="FB7M-UfMzsRZ5DeBFtuw9UIbw4WbZb7rzjIXFAiJbXMSkdAI0q40pmPSktyQliFaU0wMG43ZaNfqlhiM_2w7htb45z41" />
+
+
+
+
+
+
+    <script>
+        var root = '/';
+        var SCSettings =
+        {
+            filters:
+            {
+
+                onlineService: 'sc',
+                nickname: '',
+
+                pageSize: 999,
+                pageIndex: 0
+            },
+
+            epcwgpc: true,
+            defaultOnlineService: 'sc',
+
+            root: root,
+            dataHead: /*<sl:translate_json>*/{"sl_translate":"tplc,ttl,founded,pnls,cols,countryname","pid":"crew_head","ish":true,"cols":[{"col":[{"id":"crewcard","order":0},{"id":"crewtabs","order":0}],"order":0}],"mobile":[],"pnls":[{"id":"crewcard","pid":"crew_head","cid":0,"ttl":"Crew Members","sty":"","ishs":false,"issa":true,"istc":false,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":0,"ihdn":false,"ga":null,"uid":0,"nick":null,"crewname":"rebl_xb1","ttc":0,"token":null,"uri":null,"tpl":"tmplStd","tpln":"tmplCrewCard","tplc":"{\"id\":20242331,\"crewname\":\"REBL XB1\",\"myRank\":4,\"myRankName\":\"Muscle\",\"founded\":\"Jul 13, 2015\",\"motto\":\"XB1 Division of REBL - Sessions every Thu-Sat at 8pm ET\",\"status\":\"The XB1 Branch of the REBL GTA Community from reddit.To join, go to http://reddit.com/r/rebl\",\"tag\":\"REBL\",\"mCount\":643,\"formattedmCount\":\"643\",\"active\":true,\"isLeader\":false,\"isMember\":true,\"isPrivate\":true,\"tooManyCrews\":true,\"tooManyMembers\":false,\"showActions\":true,\"showAcceptInvite\":false,\"showInvite\":false,\"emblemId\":\"SiRJWxKk\",\"join\":false,\"crewType\":\"rebels\",\"leader\":\"ThePhantomMoose\",\"leaderId\":18713665,\"leaderAvatarUrl\":\"n/thephantommoose\",\"canEditCrewStatus\":false,\"reqtojoinpending\":false,\"reqtojoin\":false,\"canViewCrewManagePage\":false,\"aft\":\"AFT\",\"crewColor\":\"#0047AB\",\"canMessageCrew\":false,\"canInviteOthers\":false,\"isSystemPrivate\":false,\"maxCrewMemberships\":5,\"hasMaxCrewMemberships\":true}","isa":false,"cnt":null},{"id":"crewtabs","pid":"crew_tabs","cid":0,"ttl":"","sty":"","ishs":false,"issa":false,"istc":false,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":0,"ihdn":false,"ga":null,"uid":0,"nick":null,"crewname":"rebl_xb1","ttc":0,"token":null,"uri":null,"tpl":"tmplStd","tpln":"tmplCrewTabs","tplc":"{\"crewname\":\"REBL XB1\",\"showHierarchy\":true,\"games\":[{\"game\":\"GTAV\",\"url\":\"gtav\",\"platform\":\"xboxone\",\"desc\":\"GTA Online\"},{\"game\":\"MP3\",\"url\":\"maxpayne3\",\"platform\":\"xbox\",\"desc\":\"Max Payne 3\"}]}","isa":false,"cnt":null}],"ioe":true}/*</sl:translate_json>*/,
+            dataBody: /*<sl:translate_json>*/{"sl_translate":"ttl,tplc,tlt,EventName,EventDateStr,Text,EventStartDateStr,EventEndDateStr","pid":"crew_body","ish":false,"cols":[{"col":[{"id":"feed","order":0}],"order":0},{"col":[{"id":"gtavphotos","order":0},{"id":"onlinemissions","order":0},{"id":"mp3feuds","order":0},{"id":"emblems","order":0}],"order":0}],"mobile":[{"col":[{"id":"feed","order":0}],"order":0},{"col":[{"id":"emblems","order":0}],"order":0},{"col":[{"id":"gtavphotos","order":0}],"order":0},{"col":[{"id":"onlinemissions","order":0}],"order":0},{"col":[{"id":"mp3feuds","order":0}],"order":0}],"pnls":[{"id":"gtavphotos","pid":"crew_body","cid":0,"ttl":"Snapmatic","sty":"","ishs":true,"issa":false,"istc":false,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":0,"ihdn":false,"ga":null,"uid":0,"nick":null,"crewname":"rebl_xb1","ttc":0,"token":null,"uri":"/panelsjsoncrew","tpl":"tmplStd","tpln":"tmplGTAVPhotos","tplc":"","isa":false,"cnt":null},{"id":"onlinemissions","pid":"crew_body","cid":0,"ttl":"Jobs","sty":"","ishs":true,"issa":false,"istc":false,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":0,"ihdn":false,"ga":null,"uid":0,"nick":null,"crewname":"rebl_xb1","ttc":0,"token":null,"uri":"/panelsjsoncrew","tpl":"tmplStd","tpln":"tmplGTAVMissions","tplc":"","isa":false,"cnt":null},{"id":"mp3feuds","pid":"crew_body","cid":0,"ttl":"MP3","sty":"","ishs":true,"issa":false,"istc":false,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":0,"ihdn":false,"ga":null,"uid":0,"nick":null,"crewname":"rebl_xb1","ttc":0,"token":null,"uri":"/panelsjsoncrew","tpl":"tmplStd","tpln":"tmplCrewMP3","tplc":"{\"TotalFeuds\":0,\"OverallWinPercent\":0,\"MyCrewStats\":{\"Crew\":{\"sl_translate\":null,\"MemberId\":20242331,\"CrewId\":20242331,\"CrewName\":\"REBL XB1\",\"NameStripped\":\"rebl_xb1\",\"CrewTag\":\"REBL\",\"CrewMotto\":\"XB1 Division of REBL - Sessions every Thu-Sat at 8pm ET\",\"CrewUrl\":\"/crew/rebl_xb1/maxpayne3\",\"MemberCount\":643,\"FormattedMemberCount\":null,\"IsPrivate\":true,\"IsPrimary\":false,\"RankOrder\":0,\"RankName\":null,\"CrewType\":\"rebels\",\"IsFounderCrew\":false,\"FriendCount\":0,\"IsSystemPrivate\":false,\"IsOpen\":false,\"Dev\":false,\"RankTitle1\":null,\"RankTitle2\":null,\"RankTitle3\":null,\"RankTitle4\":null,\"RankTitle5\":null,\"RankTitle6\":null,\"RankTitle7\":null,\"RankTitle8\":null,\"RankTitle9\":null,\"RankTitle10\":null,\"Animations\":null,\"CrewAnimation\":null,\"CrewColour\":\"#0047AB\",\"Division\":\"601-1000\",\"HasMembers\":false,\"HasBannedPlayers\":false,\"HasJoinRequests\":false,\"CanViewManagePage\":false,\"CanEditCrewSettings\":false,\"CanInvite\":false,\"CanLeave\":false,\"Hierarchy\":null,\"ShowActions\":false,\"CanJoin\":false,\"IsLoggedIn\":false,\"CanRequestInvite\":false,\"IsJoinRequestPending\":false,\"ShowMaxExceededBtn\":false,\"IsMember\":false,\"CanInviteOthers\":false},\"Wins\":0,\"Kills\":0,\"WinPercentage\":0},\"RivalStats\":{\"Crew\":{\"sl_translate\":null,\"MemberId\":0,\"CrewId\":0,\"CrewName\":null,\"NameStripped\":null,\"CrewTag\":\"\",\"CrewMotto\":null,\"CrewUrl\":null,\"MemberCount\":0,\"FormattedMemberCount\":null,\"IsPrivate\":false,\"IsPrimary\":false,\"RankOrder\":0,\"RankName\":null,\"CrewType\":null,\"IsFounderCrew\":false,\"FriendCount\":0,\"IsSystemPrivate\":false,\"IsOpen\":false,\"Dev\":false,\"RankTitle1\":null,\"RankTitle2\":null,\"RankTitle3\":null,\"RankTitle4\":null,\"RankTitle5\":null,\"RankTitle6\":null,\"RankTitle7\":null,\"RankTitle8\":null,\"RankTitle9\":null,\"RankTitle10\":null,\"Animations\":null,\"CrewAnimation\":null,\"CrewColour\":null,\"Division\":\"1-5\",\"HasMembers\":false,\"HasBannedPlayers\":false,\"HasJoinRequests\":false,\"CanViewManagePage\":false,\"CanEditCrewSettings\":false,\"CanInvite\":false,\"CanLeave\":false,\"Hierarchy\":null,\"ShowActions\":false,\"CanJoin\":false,\"IsLoggedIn\":false,\"CanRequestInvite\":false,\"IsJoinRequestPending\":false,\"ShowMaxExceededBtn\":false,\"IsMember\":false,\"CanInviteOthers\":false},\"Wins\":0,\"Kills\":0,\"WinPercentage\":0},\"Needle\":50,\"FeudResultClass\":\"neutral\",\"PlatformName\":\"Xbox 360\"}","isa":false,"cnt":null},{"id":"emblems","pid":"crew_body","cid":0,"ttl":"Emblem Gallery","sty":"","ishs":true,"issa":false,"istc":false,"htl":true,"tlc":"createEmblem","tlt":"Create","tlh":"#","iso":false,"cmng":false,"order":0,"ihdn":false,"ga":null,"uid":0,"nick":null,"crewname":"rebl_xb1","ttc":0,"token":null,"uri":"/panelsjsoncrew","tpl":"tmplStd","tpln":"tmplEmblemsWide","tplc":"{\"Total\":0,\"CrewId\":20242331,\"Emblems\":null,\"sl_translate\":\"ErrorText,MessageText\",\"Status\":true,\"ErrorText\":null,\"ErrorCode\":null,\"MessageText\":null}","isa":false,"cnt":null},{"id":"feed","pid":"crew_body","cid":0,"ttl":"Feed","sty":"panel314","ishs":true,"issa":false,"istc":false,"htl":false,"tlc":null,"tlt":null,"tlh":null,"iso":false,"cmng":false,"order":0,"ihdn":false,"ga":null,"uid":0,"nick":null,"crewname":"rebl_xb1","ttc":0,"token":null,"uri":"","tpl":"tmplFeed","tpln":"","tplc":"","isa":false,"cnt":null}],"ioe":true}/*</sl:translate_json>*/,
+            urlSavePage: root + 'savepage',
+            urlResetPage: root + 'resetpage/',
+            urlLoadPanel: root + 'panelsjsoncrew/',
+            urlRootPanel: root + 'panel',
+            id: 47990204,
+            avatar: 'n/restlessnarwhal',
+            userToken: '1484916473;381fdadd8294573a3518fc7cbfc3ebca557be4db',
+            channelToken: '1484916473;8461c71e71fadf85cd684b7cdce5c16992147a8d*CREW_20242331',
+            aft: '<input name="__RequestVerificationToken" type="hidden" value="wFHHtQW6QhU2MOqn5BnyKGrVNAxiMpjXb7VhCeBGZsBxNmvaENuvsvceYe88TK58XT2AfdEpdOAu0uwvzLWM85ERHUw1" />',
+            post: true,
+            comment: true,
+            wall: true,
+            profile: true,
+            beaconPushUrl: 'prod2.bp.rockstargames.com',
+            beaconPushPort: 'secure-443',
+            canDeleteFromWall: false,
+            feed: {
+                enabled: true,
+                isCrewLeader: false,
+                feedType: 'CREW',
+                feedId: 20242331,
+                feedName: 'REBL XB1',
+                feedUrl: '/reference/crewfeed/20242331',
+                log: true,
+                unSharable: 'GTAV_PHOTO_LIKED,GTAV_VIDEO_LIKED,GTAV_UGC_COMMENTED,PHOTO_PUBLISHED,VIDEO_PUBLISHED,YOUTUBE_PUBLISHED,LIFEINVADER_PROFILEPOST_UPDATE,USER_WAS_REGISTERED,NEWSWIRE_LIKED,NEWSWIRE_LIKED_V2',
+                unReportable: 'MISSION_PUBLISHED,CREATE_MP_CHARACTER,SHARE_MISSION_PLAYED,GTAV_PHOTO_LIKED,GTAV_VIDEO_LIKED,GTAV_UGC_COMMENTED,SHARE_SPOTIFY_SONG,PHOTO_PUBLISHED,VIDEO_PUBLISHED,YOUTUBE_PUBLISHED,LIFEINVADER_STALK,LIFEINVADER_PROFILEPOST_UPDATE,HIGH_SCORE_GAME,BECAME_FRIENDS,NEWSWIRE_POSTED_TO,NEWSWIRE_POSTED_TO_V2,RDR_OBTAIN_CHEATS,USER_POST_STARRED,BEATERATOR_SONG_RATE,MCLA_OBTAIN_LICENSE,WATCHED_EVENT,CREW_JOINED,CREW_ACCOMPLISHMENT_ACHIEVED,GAME_ACCOMPLISHMENT_ACHIEVED,CREW_INVITE,ENTERED_CONTEST,CREW_DEMOTE,CREW_PROMOTE,CREW_WAS_FEATURED,USER_WAS_REGISTERED,NEWSWIRE_LIKED,NEWSWIRE_LIKED_V2',
+                unCommentable: 'GTAV_PHOTO_LIKED,GTAV_VIDEO_LIKED,GTAV_UGC_COMMENTED,PHOTO_PUBLISHED,VIDEO_PUBLISHED,YOUTUBE_PUBLISHED,LIFEINVADER_PROFILEPOST_UPDATE,BECAME_FRIENDS,CREW_INVITE,FRIEND_INVITE_SENT,USER_WAS_REGISTERED,NEWSWIRE_LIKED,NEWSWIRE_LIKED_V2',
+                unLikeable: 'GTAV_PHOTO_LIKED,GTAV_VIDEO_LIKED,GTAV_UGC_COMMENTED,PHOTO_PUBLISHED,VIDEO_PUBLISHED,YOUTUBE_PUBLISHED,BECAME_FRIENDS,NEWSWIRE_POSTED_TO,FRIEND_INVITE_SENT,CREW_DEMOTE,USER_WAS_REGISTERED,NEWSWIRE_LIKED,NEWSWIRE_LIKED_V2',
+                unSharable: 'GTAV_PHOTO_LIKED,GTAV_VIDEO_LIKED,GTAV_UGC_COMMENTED,PHOTO_PUBLISHED,VIDEO_PUBLISHED,YOUTUBE_PUBLISHED,LIFEINVADER_PROFILEPOST_UPDATE,USER_WAS_REGISTERED,NEWSWIRE_LIKED,NEWSWIRE_LIKED_V2',
+                unReportable: 'MISSION_PUBLISHED,CREATE_MP_CHARACTER,SHARE_MISSION_PLAYED,GTAV_PHOTO_LIKED,GTAV_VIDEO_LIKED,GTAV_UGC_COMMENTED,SHARE_SPOTIFY_SONG,PHOTO_PUBLISHED,VIDEO_PUBLISHED,YOUTUBE_PUBLISHED,LIFEINVADER_STALK,LIFEINVADER_PROFILEPOST_UPDATE,HIGH_SCORE_GAME,BECAME_FRIENDS,NEWSWIRE_POSTED_TO,NEWSWIRE_POSTED_TO_V2,RDR_OBTAIN_CHEATS,USER_POST_STARRED,BEATERATOR_SONG_RATE,MCLA_OBTAIN_LICENSE,WATCHED_EVENT,CREW_JOINED,CREW_ACCOMPLISHMENT_ACHIEVED,GAME_ACCOMPLISHMENT_ACHIEVED,CREW_INVITE,ENTERED_CONTEST,CREW_DEMOTE,CREW_PROMOTE,CREW_WAS_FEATURED,USER_WAS_REGISTERED,NEWSWIRE_LIKED,NEWSWIRE_LIKED_V2',
+                restr: '',
+                fbSharing: true,
+                twitterSharing: true,
+                googleSharing: true
+            },
+            npLogin: true,
+            xblaLogin: true,
+            googleLogin: true
+        },
+        config = {
+            useTransforms: true
+        };
+    </script>
+
+    <script type="text/javascript">
+
+        WebFont.load({
+            custom: {
+                families: ['Slate W02 Black', 'Chalet-NewYorkSixty', 'Chalet-LondonSixty']
+            }
+        });
+
+    </script>
+
+        <script src="https://apis.google.com/js/platform.js" async defer>
+        {parsetags: 'explicit'}
+    </script>
+
+
+
+    <script src="https://cdn.sc.rockstargames.com/js/20170104dbaB/build/profile_crewprofile.js"></script>
+
+
+
+
+
+    <script type="text/javascript">
+        var MTIProjectId='bb97f612-ac86-4ab1-9c29-80d577a6fc8a';
+        (function() {
+            var mtiTracking = document.createElement('script');
+            mtiTracking.type='text/javascript';
+            mtiTracking.async='true';
+            mtiTracking.src=('https:'==document.location.protocol?'https:':'http:')+'//fast.fonts.net/t/trackingCode.js';
+            (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+        })();
+    </script>
+
+</body>
+</html>
