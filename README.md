@@ -14,25 +14,25 @@ In [this guide](http://rockstar-api.rtfd.io) I will try to describe and collect 
 
     ```
     git clone https://github.com/gta5-map/Social-Club-API-cheat-sheet
+    cd Social-Club-API-cheat-sheet
     ```
 
 2. Make sure you've installed all requirements:
 
     ```
-    pip install -r docs/requirements.txt
+    pip install -r requirements.txt
     ```
 
 3. Build the docs/HTML using `make`:
     
     ```
-    cd docs
     make clean html
     ```
 
 4. Open the built HTML using your browser:
 
     ```
-    open _build/html/index.html
+    open docs/_build/html/index.html
     ```
 
 ## Contributing
