@@ -84,3 +84,27 @@ Profile feed
     :end-line: 30
 
   :query socialclub_userid: target (Social Club ID) to query
+
+Friends list
+------------
+
+.. http:get:: /friends/GetFriendsJson?nickname=(socialclub_name)&pageNumber=(page_number)
+
+  List all friends of a given Social Club username. Lists 12 entries per page.
+
+  **Example request**:
+
+  .. sourcecode:: http
+
+    GET /friends/GetFriendsJson?nickname=restlessnarwhal&pageNumber=0 HTTP/1.1
+    Host: socialclub.rockstargames.com
+
+  **Example response** `(full) <_static/responses/public-general_friends-list.txt>`__:
+
+  .. include:: _static/responses/public-general_friends-list.txt
+    :literal:
+    :code: json
+    :end-line: 30
+
+  :query socialclub_name: target (Social Club username) to query
+  :query page_number: page number, starting with ``0``
