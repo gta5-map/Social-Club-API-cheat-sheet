@@ -15,9 +15,9 @@ Activity counts
     GET /jsonp/activitycounts HTTP/1.1
     Host: socialclub.rockstargames.com
 
-  **Example response** `(full) <_static/responses/general_activity.txt>`__:
+  **Example response** `(full) <_static/responses/private-general_activity.txt>`__:
 
-  .. include:: _static/responses/general_activity.txt
+  .. include:: _static/responses/private-general_activity.txt
     :literal:
     :code: json
     :end-line: 30
