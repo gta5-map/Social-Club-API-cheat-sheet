@@ -57,3 +57,24 @@ Search crews
   :query system_filter: display only Rockstar crews, allowed values:
                       ``-1`` for false (only official Rockstar crews),
                       ``1`` for true (also player created crews)
+
+Display allies
+--------------
+
+.. http:get:: /crewsapi/GetCrewsWithFriends
+
+  List all ally crews (crews of your friends).
+
+  **Example request**:
+
+  .. sourcecode:: http
+
+    GET /crewsapi/GetCrewsWithFriends HTTP/1.1
+    Host: socialclub.rockstargames.com
+
+  **Example response** `(full) <_static/responses/explore-crews_display-allies.txt>`__:
+
+  .. include:: _static/responses/explore-crews_display-allies.txt
+    :literal:
+    :code: json
+    :end-line: 30
