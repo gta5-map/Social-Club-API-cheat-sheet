@@ -108,3 +108,26 @@ Friends list
 
   :query socialclub_name: target (Social Club username) to query
   :query page_number: page number, starting with ``0``
+
+Search for player
+-----------------
+
+.. http:get:: /friends/MemberSearch?searchTerm=(search_term)
+
+  Search for a specific player/username.
+
+  **Example request**:
+
+  .. sourcecode:: http
+
+    GET /friends/MemberSearch?searchTerm=restless HTTP/1.1
+    Host: socialclub.rockstargames.com
+
+  **Example response** `(full) <_static/responses/public-general_friends-list.txt>`__:
+
+  .. include:: _static/responses/public-general_search-players.txt
+    :literal:
+    :code: json
+    :end-line: 30
+
+  :query search_term: the term you want to search for
