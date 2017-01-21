@@ -61,3 +61,26 @@ Player name to player ID
   :query socialclub_username: target (Social Club name) to query
 
   Note: Data is hidden somewhere in a ``<script>`` tag (``"uid":36222077``)
+
+Profile feed
+------------
+
+.. http:get:: /reference/profilefeed/(socialclub_userid)
+
+  Extract the profile feed from a certain Social Club user. Make sure to find out the ID first.
+
+  **Example request**:
+
+  .. sourcecode:: http
+
+    GET /reference/profilefeed/47990204 HTTP/1.1
+    Host: socialclub.rockstargames.com
+
+  **Example response** `(full) <_static/responses/public-general_profile-feed.txt>`__:
+
+  .. include:: _static/responses/public-general_profile-feed.txt
+    :literal:
+    :code: json
+    :end-line: 30
+
+  :query socialclub_userid: target (Social Club ID) to query
