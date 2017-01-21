@@ -22,7 +22,7 @@ General information
     :code: html
     :end-line: 30
 
-  :query crew_name: target crew
+  :param crew_name: target crew
 
 Emblems
 -------
@@ -47,7 +47,7 @@ Emblems
     :code: html
     :end-line: 30
 
-  :query crew_name: target crew
+  :param crew_name: target crew
 
 Crew feed
 ---------
@@ -70,7 +70,7 @@ Crew feed
     :code: json
     :end-line: 30
 
-  :query crew_id: target crew ID
+  :param crew_id: target crew ID
 
 Snapmatic pictures
 ------------------
@@ -93,7 +93,7 @@ Snapmatic pictures
     :code: html
     :end-line: 30
 
-  :query crew_name: target crew
+  :param crew_name: target crew
 
 Content creator jobs
 --------------------
@@ -116,4 +116,4 @@ Content creator jobs
     :code: html
     :end-line: 30
 
-  :query crew_name: target crew
+  :param crew_name: target crew

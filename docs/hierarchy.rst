@@ -19,6 +19,6 @@ Hierarchy
     :code: json
     :end-line: 30
 
-  :query crew_name: target crew name
+  :param crew_name: target crew name
   :query items_per_page: number of items per page
   :query page_number: page number, starts with ``0``

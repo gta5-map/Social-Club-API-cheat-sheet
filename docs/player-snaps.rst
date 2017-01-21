@@ -19,7 +19,7 @@ Player snaps
     :code: json
     :end-line: 30
 
-  :query nickname: target player
+  :param nickname: target player
+  :query optional search_query: a specific term to search for
   :query filter: allowed values: ``mostrecent``, ``trending``, ``popular`` (all-time), ``myfriends``, ``myphotos``, ``mythumbsup``
   :query page_number: page number, starting with ``1``
-  :query optional search_query: a specific term to search for

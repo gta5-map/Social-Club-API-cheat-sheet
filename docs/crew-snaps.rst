@@ -19,7 +19,7 @@ Crew snaps
     :code: json
     :end-line: 30
 
-  :query crew_name: target crew
+  :param crew_name: target crew
+  :query optional search_query: a specific term to search for
   :query filter: allowed values: ``mostrecent``, ``trending``, ``popular`` (all-time), ``myfriends``, ``myphotos``, ``mythumbsup``
   :query page_number: page number, starting with ``1``
-  :query optional search_query: a specific term to search for

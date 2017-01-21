@@ -49,5 +49,5 @@ Detailed information per car
     :code: json
     :end-line: 30
 
-  :query socialclub_name: your Social Club account username
-  :query car_id: id of the car, can be ``0-9``
+  :param socialclub_name: your Social Club account username
+  :param car_id: id of the car, can be ``0-9``

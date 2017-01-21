@@ -4,7 +4,7 @@ General
 Overview
 --------
 
-.. http:get:: /games/gtav/career/overviewAjax?(nickname=&)slot=Freemode
+.. http:get:: /games/gtav/career/overviewAjax?[nickname=(socialclub_name)&]slot=Freemode
 
   Display general information of online character:
 
@@ -58,7 +58,7 @@ Player name to player ID
     :code: html
     :end-line: 30
 
-  :query socialclub_username: target (Social Club name) to query
+  :param socialclub_username: target (Social Club name) to query
 
   Note: Data is hidden somewhere in a ``<script>`` tag (``"uid":36222077``)
 
@@ -83,7 +83,7 @@ Profile feed
     :code: json
     :end-line: 30
 
-  :query socialclub_userid: target (Social Club ID) to query
+  :param socialclub_userid: target (Social Club ID) to query
 
 Friends list
 ------------

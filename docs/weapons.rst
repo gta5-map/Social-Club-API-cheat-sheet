@@ -53,15 +53,14 @@ Per weapon statistics
     :code: json
     :end-line: 30
 
-  :query socialclub_name: your Social Club account username
-  :query weapon_category: name of the weapon category, see list below
-  :query weapon_name: name of the weapon, see list below
+  :param socialclub_name: your Social Club account username
+  :param weapon_category: name of the weapon category, see list below
+  :param weapon_name: name of the weapon, see list below
 
 Weapon category/names
 ~~~~~~~~~~~~~~~~~~~~~
 
-To find out the corresponding ``[WEAPON_CATEGORY]`` and
-``[WEAPON_NAME]`` you can check the list below:
+To find out the corresponding ``[WEAPON_CATEGORY]`` and ``[WEAPON_NAME]`` you can check the list below:
 
 Gun
 ^^^
