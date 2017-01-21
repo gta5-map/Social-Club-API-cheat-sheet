@@ -44,3 +44,13 @@ In this guide I will try to describe and collect as many useful knowledge about 
    player-snaps
    crew-snaps
    global-snaps
+
+------
+
+Contributors
+------------
+
+Special thanks for all the people who had helped this project so far:
+
+* @\ `frdmn <https://github.com/frdmn>`_
+* @\ `hkors <https://github.com/hkors>`_
